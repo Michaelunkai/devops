@@ -1,0 +1,1390 @@
+(Gathering writer metadata...)
+(Waiting for the asynchronous operation to finish...)
+Initialize writer metadata ...
+- Get exclude files
+- Enumerate components
+- Get file list descriptors
+- Get database descriptors
+- Get log descriptors
+- Get exclude files
+- Enumerate components
+- Get file list descriptors
+- Get database descriptors
+- Get log descriptors
+- Get exclude files
+- Enumerate components
+- Get file list descriptors
+- Get database descriptors
+- Get log descriptors
+- Get exclude files
+- Enumerate components
+- Get file list descriptors
+- Get database descriptors
+- Get log descriptors
+- Get exclude files
+- Enumerate components
+- Get file list descriptors
+- Get database descriptors
+- Get log descriptors
+- Get exclude files
+- Enumerate components
+- Get file list descriptors
+- Get database descriptors
+- Get log descriptors
+- Get exclude files
+- Enumerate components
+- Get exclude files
+- Enumerate components
+- Get file list descriptors
+- Get database descriptors
+- Get log descriptors
+- Get exclude files
+- Enumerate components
+- Get file list descriptors
+- Get database descriptors
+- Get log descriptors
+- Get exclude files
+- Enumerate components
+Discover directly excluded components ...
+- Excluding writer '' since it has no selected components for restore.
+- Excluding writer '' since it has no selected components for restore.
+- Excluding writer 'BITS Writer' since it has no selected components for restore.
+- Excluding writer 'Shadow Copy Optimization Writer' since it has no selected components for restore.
+Discover components that reside outside the shadow set ...
+Discover all excluded components ...
+Discover excluded writers ...
+Discover explicitly included components ...
+Verifying explicitly specified writers/components ...
+Select explicitly included components ...
+ * Writer 'Task Scheduler Writer':
+   - Add component \TasksStore
+ * Writer 'VSS Metadata Store Writer':
+   - Add component \WriterMetadataStore
+ * Writer 'Performance Counters Writer':
+   - Add component \PerformanceCounters
+ * Writer 'IIS Config Writer':
+   - Add component \IISCONFIG
+ * Writer 'Registry Writer':
+   - Add component \Registry
+ * Writer 'IIS Metabase Writer':
+   - Add component \IISMETABASE
+ * Writer 'COM+ REGDB Writer':
+   - Add component \COM+ REGDB
+ * Writer 'WMI Writer':
+   - Add component \WMI
+Creating shadow set {397b91d7-53ed-4451-ac40-40b70631cbd3} ...
+- Adding volume \\?\Volume{55cfa735-ac3f-4c8b-beef-b3b8c2f92e89}\ [C:\] to the shadow set...
+Preparing for backup ... 
+(Waiting for the asynchronous operation to finish...)
+(Waiting for the asynchronous operation to finish...)
+Creating the shadow (DoSnapshotSet) ... 
+(Waiting for the asynchronous operation to finish...)
+(Waiting for the asynchronous operation to finish...)
+Shadow copy set successfully created.
+Saving the backup components document ... 
+
+List of created shadow copies: 
+
+
+Querying all shadow copies with the SnapshotSetID {397b91d7-53ed-4451-ac40-40b70631cbd3} ...
+
+* SNAPSHOT ID = {93bafff7-57bf-4602-8713-d05d050e66c1} ...
+   - Shadow copy Set: {397b91d7-53ed-4451-ac40-40b70631cbd3}
+   - Original count of shadow copies = 1
+   - Original Volume name: \\?\Volume{55cfa735-ac3f-4c8b-beef-b3b8c2f92e89}\ [C:\]
+   - Creation Time: 17/04/2026 16:58:03
+   - Shadow copy device name: \\?\GLOBALROOT\Device\HarddiskVolumeShadowCopy1
+   - Originating machine: user
+   - Service machine: user
+   - Not Exposed
+   - Provider id: {b5946137-7b9f-4925-af80-51abd60b20d5}
+   - Attributes:  Auto_Release Differential
+
+
+Windows Events
+*****************************
+Date:    17/04/2026 16:58:04
+Type:    Error
+Event:    8193
+Source:    VSS
+
+Volume Shadow Copy Service error: Unexpected error calling routine RegSetValueExW(0x00000390,(null),0,REG_BINARY,00000083F867D210.72).  hr = 0x800703fa, Illegal operation attempted on a registry key that has been marked for deletion.
+. 
+
+Operation:
+   Gather writers' status
+
+Context:
+   Writer Class Id: {59b1f0cf-90ef-465f-9609-6ca8b2938366}
+   Writer Name: IIS Metabase Writer
+   Writer Instance ID: {0c017a92-6483-4a7d-90a9-c021609404d7}
+
+*****************************
+Date:    17/04/2026 16:58:04
+Type:    Error
+Event:    8193
+Source:    VSS
+
+Volume Shadow Copy Service error: Unexpected error calling routine RegSetValueExW(0x00000234,(null),0,REG_BINARY,00000083C73FD230.72).  hr = 0x800703fa, Illegal operation attempted on a registry key that has been marked for deletion.
+. 
+
+Operation:
+   Gather writers' status
+
+Context:
+   Writer Class Id: {2a40fd15-dfca-4aa8-a654-1f8c654603f6}
+   Writer Name: IIS Config Writer
+   Writer Instance ID: {9be43c9f-7f6a-46d3-9398-bd27794c9854}
+
+*****************************
+Date:    17/04/2026 16:58:04
+Type:    Error
+Event:    8193
+Source:    VSS
+
+Volume Shadow Copy Service error: Unexpected error calling routine RegSetValueExW(0x0000028c,(null),0,REG_BINARY,000000F5C947D110.72).  hr = 0x800703fa, Illegal operation attempted on a registry key that has been marked for deletion.
+. 
+
+Operation:
+   Gather writers' status
+
+Context:
+   Writer Class Id: {a6ad56c2-b509-4e6c-bb19-49d8f43532f0}
+   Writer Name: WMI Writer
+   Writer Instance ID: {fcb18fb7-c3c1-4a71-99df-798c7933d494}
+
+*****************************
+Date:    17/04/2026 16:58:04
+Type:    Error
+Event:    8193
+Source:    VSS
+
+Volume Shadow Copy Service error: Unexpected error calling routine RegSetValueExW(0x00000390,(null),0,REG_BINARY,00000083F867D260.72).  hr = 0x800703fa, Illegal operation attempted on a registry key that has been marked for deletion.
+. 
+
+Operation:
+   Gather writers' status
+
+Context:
+   Writer Class Id: {59b1f0cf-90ef-465f-9609-6ca8b2938366}
+   Writer Name: IIS Metabase Writer
+   Writer Instance ID: {0c017a92-6483-4a7d-90a9-c021609404d7}
+
+*****************************
+Date:    17/04/2026 16:58:04
+Type:    Error
+Event:    8193
+Source:    VSS
+
+Volume Shadow Copy Service error: Unexpected error calling routine RegSetValueExW(0x0000028c,(null),0,REG_BINARY,000000F5C947D160.72).  hr = 0x800703fa, Illegal operation attempted on a registry key that has been marked for deletion.
+. 
+
+Operation:
+   Gather writers' status
+
+Context:
+   Writer Class Id: {a6ad56c2-b509-4e6c-bb19-49d8f43532f0}
+   Writer Name: WMI Writer
+   Writer Instance ID: {fcb18fb7-c3c1-4a71-99df-798c7933d494}
+
+*****************************
+Date:    17/04/2026 16:58:04
+Type:    Error
+Event:    8193
+Source:    VSS
+
+Volume Shadow Copy Service error: Unexpected error calling routine RegSetValueExW(0x00000234,(null),0,REG_BINARY,00000083C73FD280.72).  hr = 0x800703fa, Illegal operation attempted on a registry key that has been marked for deletion.
+. 
+
+Operation:
+   Gather writers' status
+
+Context:
+   Writer Class Id: {2a40fd15-dfca-4aa8-a654-1f8c654603f6}
+   Writer Name: IIS Config Writer
+   Writer Instance ID: {9be43c9f-7f6a-46d3-9398-bd27794c9854}
+
+*****************************
+Date:    17/04/2026 16:58:04
+Type:    Error
+Event:    8193
+Source:    VSS
+
+Volume Shadow Copy Service error: Unexpected error calling routine RegSetValueExW(0x0000028c,(null),0,REG_BINARY,000000F5C947CE40.72).  hr = 0x800703fa, Illegal operation attempted on a registry key that has been marked for deletion.
+. 
+
+Operation:
+   PostSnapshot Event
+
+Context:
+   Execution Context: Writer
+   Writer Class Id: {a6ad56c2-b509-4e6c-bb19-49d8f43532f0}
+   Writer Name: WMI Writer
+   Writer Instance ID: {fcb18fb7-c3c1-4a71-99df-798c7933d494}
+
+*****************************
+Date:    17/04/2026 16:58:04
+Type:    Error
+Event:    8193
+Source:    VSS
+
+Volume Shadow Copy Service error: Unexpected error calling routine RegSetValueExW(0x0000028c,(null),0,REG_BINARY,000000F5C947CFF0.72).  hr = 0x800703fa, Illegal operation attempted on a registry key that has been marked for deletion.
+. 
+
+Operation:
+   PostSnapshot Event
+
+Context:
+   Execution Context: Writer
+   Writer Class Id: {a6ad56c2-b509-4e6c-bb19-49d8f43532f0}
+   Writer Name: WMI Writer
+   Writer Instance ID: {fcb18fb7-c3c1-4a71-99df-798c7933d494}
+
+*****************************
+Date:    17/04/2026 16:58:04
+Type:    Error
+Event:    8193
+Source:    VSS
+
+Volume Shadow Copy Service error: Unexpected error calling routine RegSetValueExW(0x00000390,(null),0,REG_BINARY,00000083F83DD090.72).  hr = 0x800703fa, Illegal operation attempted on a registry key that has been marked for deletion.
+. 
+
+Operation:
+   PostSnapshot Event
+
+Context:
+   Execution Context: Writer
+   Writer Class Id: {59b1f0cf-90ef-465f-9609-6ca8b2938366}
+   Writer Name: IIS Metabase Writer
+   Writer Instance ID: {0c017a92-6483-4a7d-90a9-c021609404d7}
+
+*****************************
+Date:    17/04/2026 16:58:04
+Type:    Error
+Event:    8193
+Source:    VSS
+
+Volume Shadow Copy Service error: Unexpected error calling routine RegSetValueExW(0x00000390,(null),0,REG_BINARY,00000083F83DD240.72).  hr = 0x800703fa, Illegal operation attempted on a registry key that has been marked for deletion.
+. 
+
+Operation:
+   PostSnapshot Event
+
+Context:
+   Execution Context: Writer
+   Writer Class Id: {59b1f0cf-90ef-465f-9609-6ca8b2938366}
+   Writer Name: IIS Metabase Writer
+   Writer Instance ID: {0c017a92-6483-4a7d-90a9-c021609404d7}
+
+*****************************
+Date:    17/04/2026 16:58:04
+Type:    Error
+Event:    8193
+Source:    VSS
+
+Volume Shadow Copy Service error: Unexpected error calling routine RegSetValueExW(0x00000234,(null),0,REG_BINARY,00000083C73FCF60.72).  hr = 0x800703fa, Illegal operation attempted on a registry key that has been marked for deletion.
+. 
+
+Operation:
+   PostSnapshot Event
+
+Context:
+   Execution Context: Writer
+   Writer Class Id: {2a40fd15-dfca-4aa8-a654-1f8c654603f6}
+   Writer Name: IIS Config Writer
+   Writer Instance ID: {9be43c9f-7f6a-46d3-9398-bd27794c9854}
+
+*****************************
+Date:    17/04/2026 16:58:04
+Type:    Error
+Event:    8193
+Source:    VSS
+
+Volume Shadow Copy Service error: Unexpected error calling routine RegSetValueExW(0x00000234,(null),0,REG_BINARY,00000083C73FD110.72).  hr = 0x800703fa, Illegal operation attempted on a registry key that has been marked for deletion.
+. 
+
+Operation:
+   PostSnapshot Event
+
+Context:
+   Execution Context: Writer
+   Writer Class Id: {2a40fd15-dfca-4aa8-a654-1f8c654603f6}
+   Writer Name: IIS Config Writer
+   Writer Instance ID: {9be43c9f-7f6a-46d3-9398-bd27794c9854}
+
+*****************************
+Date:    17/04/2026 16:58:04
+Type:    Error
+Event:    8193
+Source:    VSS
+
+Volume Shadow Copy Service error: Unexpected error calling routine RegSetValueExW(0x00000234,(null),0,REG_BINARY,00000083C73FD110.72).  hr = 0x800703fa, Illegal operation attempted on a registry key that has been marked for deletion.
+. 
+
+Operation:
+   PostSnapshot Event
+
+Context:
+   Execution Context: Writer
+   Writer Class Id: {2a40fd15-dfca-4aa8-a654-1f8c654603f6}
+   Writer Name: IIS Config Writer
+   Writer Instance ID: {9be43c9f-7f6a-46d3-9398-bd27794c9854}
+
+*****************************
+Date:    17/04/2026 16:58:04
+Type:    Error
+Event:    8193
+Source:    VSS
+
+Volume Shadow Copy Service error: Unexpected error calling routine RegSetValueExW(0x0000028c,(null),0,REG_BINARY,000000F5C947CFF0.72).  hr = 0x800703fa, Illegal operation attempted on a registry key that has been marked for deletion.
+. 
+
+Operation:
+   PostSnapshot Event
+
+Context:
+   Execution Context: Writer
+   Writer Class Id: {a6ad56c2-b509-4e6c-bb19-49d8f43532f0}
+   Writer Name: WMI Writer
+   Writer Instance ID: {fcb18fb7-c3c1-4a71-99df-798c7933d494}
+
+*****************************
+Date:    17/04/2026 16:58:04
+Type:    Error
+Event:    8193
+Source:    VSS
+
+Volume Shadow Copy Service error: Unexpected error calling routine RegSetValueExW(0x00000390,(null),0,REG_BINARY,00000083F83DD240.72).  hr = 0x800703fa, Illegal operation attempted on a registry key that has been marked for deletion.
+. 
+
+Operation:
+   PostSnapshot Event
+
+Context:
+   Execution Context: Writer
+   Writer Class Id: {59b1f0cf-90ef-465f-9609-6ca8b2938366}
+   Writer Name: IIS Metabase Writer
+   Writer Instance ID: {0c017a92-6483-4a7d-90a9-c021609404d7}
+
+*****************************
+Date:    17/04/2026 16:58:03
+Type:    Error
+Event:    8193
+Source:    VSS
+
+Volume Shadow Copy Service error: Unexpected error calling routine RegSetValueExW(0x00000234,(null),0,REG_BINARY,00000083C73FD060.72).  hr = 0x800703fa, Illegal operation attempted on a registry key that has been marked for deletion.
+. 
+
+Operation:
+   Thaw Event
+
+Context:
+   Execution Context: Writer
+   Writer Class Id: {2a40fd15-dfca-4aa8-a654-1f8c654603f6}
+   Writer Name: IIS Config Writer
+   Writer Instance ID: {9be43c9f-7f6a-46d3-9398-bd27794c9854}
+
+*****************************
+Date:    17/04/2026 16:58:03
+Type:    Error
+Event:    8193
+Source:    VSS
+
+Volume Shadow Copy Service error: Unexpected error calling routine RegSetValueExW(0x0000028c,(null),0,REG_BINARY,000000F5C947CF40.72).  hr = 0x800703fa, Illegal operation attempted on a registry key that has been marked for deletion.
+. 
+
+Operation:
+   Thaw Event
+
+Context:
+   Execution Context: Writer
+   Writer Class Id: {a6ad56c2-b509-4e6c-bb19-49d8f43532f0}
+   Writer Name: WMI Writer
+   Writer Instance ID: {fcb18fb7-c3c1-4a71-99df-798c7933d494}
+
+*****************************
+Date:    17/04/2026 16:58:03
+Type:    Error
+Event:    8193
+Source:    VSS
+
+Volume Shadow Copy Service error: Unexpected error calling routine RegSetValueExW(0x00000390,(null),0,REG_BINARY,00000083F83DD190.72).  hr = 0x800703fa, Illegal operation attempted on a registry key that has been marked for deletion.
+. 
+
+Operation:
+   Thaw Event
+
+Context:
+   Execution Context: Writer
+   Writer Class Id: {59b1f0cf-90ef-465f-9609-6ca8b2938366}
+   Writer Name: IIS Metabase Writer
+   Writer Instance ID: {0c017a92-6483-4a7d-90a9-c021609404d7}
+
+*****************************
+Date:    17/04/2026 16:58:03
+Type:    Error
+Event:    8193
+Source:    VSS
+
+Volume Shadow Copy Service error: Unexpected error calling routine RegSetValueExW(0x00000234,(null),0,REG_BINARY,00000083C73FD210.72).  hr = 0x800703fa, Illegal operation attempted on a registry key that has been marked for deletion.
+. 
+
+Operation:
+   Thaw Event
+
+Context:
+   Execution Context: Writer
+   Writer Class Id: {2a40fd15-dfca-4aa8-a654-1f8c654603f6}
+   Writer Name: IIS Config Writer
+   Writer Instance ID: {9be43c9f-7f6a-46d3-9398-bd27794c9854}
+
+*****************************
+Date:    17/04/2026 16:58:03
+Type:    Error
+Event:    8193
+Source:    VSS
+
+Volume Shadow Copy Service error: Unexpected error calling routine RegSetValueExW(0x0000028c,(null),0,REG_BINARY,000000F5C947D0F0.72).  hr = 0x800703fa, Illegal operation attempted on a registry key that has been marked for deletion.
+. 
+
+Operation:
+   Thaw Event
+
+Context:
+   Execution Context: Writer
+   Writer Class Id: {a6ad56c2-b509-4e6c-bb19-49d8f43532f0}
+   Writer Name: WMI Writer
+   Writer Instance ID: {fcb18fb7-c3c1-4a71-99df-798c7933d494}
+
+*****************************
+Date:    17/04/2026 16:58:03
+Type:    Error
+Event:    8193
+Source:    VSS
+
+Volume Shadow Copy Service error: Unexpected error calling routine RegSetValueExW(0x00000390,(null),0,REG_BINARY,00000083F83DD340.72).  hr = 0x800703fa, Illegal operation attempted on a registry key that has been marked for deletion.
+. 
+
+Operation:
+   Thaw Event
+
+Context:
+   Execution Context: Writer
+   Writer Class Id: {59b1f0cf-90ef-465f-9609-6ca8b2938366}
+   Writer Name: IIS Metabase Writer
+   Writer Instance ID: {0c017a92-6483-4a7d-90a9-c021609404d7}
+
+*****************************
+Date:    17/04/2026 16:58:03
+Type:    Error
+Event:    8193
+Source:    VSS
+
+Volume Shadow Copy Service error: Unexpected error calling routine RegSetValueExW(0x00000234,(null),0,REG_BINARY,00000083C75FF860.72).  hr = 0x800703fa, Illegal operation attempted on a registry key that has been marked for deletion.
+. 
+
+Operation:
+   Monitoring Freeze Timeout
+
+Context:
+   Writer Class Id: {2a40fd15-dfca-4aa8-a654-1f8c654603f6}
+   Writer Name: IIS Config Writer
+   Writer Instance ID: {9be43c9f-7f6a-46d3-9398-bd27794c9854}
+
+*****************************
+Date:    17/04/2026 16:58:03
+Type:    Error
+Event:    8193
+Source:    VSS
+
+Volume Shadow Copy Service error: Unexpected error calling routine RegSetValueExW(0x0000028c,(null),0,REG_BINARY,000000F5C98FF3E0.72).  hr = 0x800703fa, Illegal operation attempted on a registry key that has been marked for deletion.
+. 
+
+Operation:
+   Monitoring Freeze Timeout
+
+Context:
+   Writer Class Id: {a6ad56c2-b509-4e6c-bb19-49d8f43532f0}
+   Writer Name: WMI Writer
+   Writer Instance ID: {fcb18fb7-c3c1-4a71-99df-798c7933d494}
+
+*****************************
+Date:    17/04/2026 16:58:03
+Type:    Error
+Event:    8193
+Source:    VSS
+
+Volume Shadow Copy Service error: Unexpected error calling routine RegSetValueExW(0x00000390,(null),0,REG_BINARY,00000083F88FF2F0.72).  hr = 0x800703fa, Illegal operation attempted on a registry key that has been marked for deletion.
+. 
+
+Operation:
+   Monitoring Freeze Timeout
+
+Context:
+   Writer Class Id: {59b1f0cf-90ef-465f-9609-6ca8b2938366}
+   Writer Name: IIS Metabase Writer
+   Writer Instance ID: {0c017a92-6483-4a7d-90a9-c021609404d7}
+
+*****************************
+Date:    17/04/2026 16:58:03
+Type:    Error
+Event:    8193
+Source:    VSS
+
+Volume Shadow Copy Service error: Unexpected error calling routine RegSetValueExW(0x0000028c,(null),0,REG_BINARY,000000F5C947D0F0.72).  hr = 0x800703fa, Illegal operation attempted on a registry key that has been marked for deletion.
+. 
+
+Operation:
+   Thaw Event
+
+Context:
+   Execution Context: Writer
+   Writer Class Id: {a6ad56c2-b509-4e6c-bb19-49d8f43532f0}
+   Writer Name: WMI Writer
+   Writer Instance ID: {fcb18fb7-c3c1-4a71-99df-798c7933d494}
+
+*****************************
+Date:    17/04/2026 16:58:03
+Type:    Error
+Event:    8193
+Source:    VSS
+
+Volume Shadow Copy Service error: Unexpected error calling routine RegSetValueExW(0x00000234,(null),0,REG_BINARY,00000083C73FD210.72).  hr = 0x800703fa, Illegal operation attempted on a registry key that has been marked for deletion.
+. 
+
+Operation:
+   Thaw Event
+
+Context:
+   Execution Context: Writer
+   Writer Class Id: {2a40fd15-dfca-4aa8-a654-1f8c654603f6}
+   Writer Name: IIS Config Writer
+   Writer Instance ID: {9be43c9f-7f6a-46d3-9398-bd27794c9854}
+
+*****************************
+Date:    17/04/2026 16:58:03
+Type:    Error
+Event:    8193
+Source:    VSS
+
+Volume Shadow Copy Service error: Unexpected error calling routine RegSetValueExW(0x00000390,(null),0,REG_BINARY,00000083F83DD340.72).  hr = 0x800703fa, Illegal operation attempted on a registry key that has been marked for deletion.
+. 
+
+Operation:
+   Thaw Event
+
+Context:
+   Execution Context: Writer
+   Writer Class Id: {59b1f0cf-90ef-465f-9609-6ca8b2938366}
+   Writer Name: IIS Metabase Writer
+   Writer Instance ID: {0c017a92-6483-4a7d-90a9-c021609404d7}
+
+*****************************
+Date:    17/04/2026 16:58:03
+Type:    Error
+Event:    8193
+Source:    VSS
+
+Volume Shadow Copy Service error: Unexpected error calling routine RegSetValueExW(0x0000028c,(null),0,REG_BINARY,000000F5C98FF430.72).  hr = 0x800703fa, Illegal operation attempted on a registry key that has been marked for deletion.
+. 
+
+Operation:
+   Monitoring Freeze Timeout
+
+Context:
+   Writer Class Id: {a6ad56c2-b509-4e6c-bb19-49d8f43532f0}
+   Writer Name: WMI Writer
+   Writer Instance ID: {fcb18fb7-c3c1-4a71-99df-798c7933d494}
+
+*****************************
+Date:    17/04/2026 16:58:03
+Type:    Error
+Event:    8193
+Source:    VSS
+
+Volume Shadow Copy Service error: Unexpected error calling routine RegSetValueExW(0x0000028c,(null),0,REG_BINARY,000000F5C947CE60.72).  hr = 0x800703fa, Illegal operation attempted on a registry key that has been marked for deletion.
+. 
+
+Operation:
+   Freeze Event
+
+Context:
+   Execution Context: Writer
+   Writer Class Id: {a6ad56c2-b509-4e6c-bb19-49d8f43532f0}
+   Writer Name: WMI Writer
+   Writer Instance ID: {fcb18fb7-c3c1-4a71-99df-798c7933d494}
+
+*****************************
+Date:    17/04/2026 16:58:03
+Type:    Error
+Event:    8193
+Source:    VSS
+
+Volume Shadow Copy Service error: Unexpected error calling routine RegSetValueExW(0x0000028c,(null),0,REG_BINARY,000000F5C947D010.72).  hr = 0x800703fa, Illegal operation attempted on a registry key that has been marked for deletion.
+. 
+
+Operation:
+   Freeze Event
+
+Context:
+   Execution Context: Writer
+   Writer Class Id: {a6ad56c2-b509-4e6c-bb19-49d8f43532f0}
+   Writer Name: WMI Writer
+   Writer Instance ID: {fcb18fb7-c3c1-4a71-99df-798c7933d494}
+
+*****************************
+Date:    17/04/2026 16:58:03
+Type:    Error
+Event:    8193
+Source:    VSS
+
+Volume Shadow Copy Service error: Unexpected error calling routine RegSetValueExW(0x00000390,(null),0,REG_BINARY,00000083F88FF340.72).  hr = 0x800703fa, Illegal operation attempted on a registry key that has been marked for deletion.
+. 
+
+Operation:
+   Monitoring Freeze Timeout
+
+Context:
+   Writer Class Id: {59b1f0cf-90ef-465f-9609-6ca8b2938366}
+   Writer Name: IIS Metabase Writer
+   Writer Instance ID: {0c017a92-6483-4a7d-90a9-c021609404d7}
+
+*****************************
+Date:    17/04/2026 16:58:03
+Type:    Error
+Event:    8193
+Source:    VSS
+
+Volume Shadow Copy Service error: Unexpected error calling routine RegSetValueExW(0x00000234,(null),0,REG_BINARY,00000083C75FF8B0.72).  hr = 0x800703fa, Illegal operation attempted on a registry key that has been marked for deletion.
+. 
+
+Operation:
+   Monitoring Freeze Timeout
+
+Context:
+   Writer Class Id: {2a40fd15-dfca-4aa8-a654-1f8c654603f6}
+   Writer Name: IIS Config Writer
+   Writer Instance ID: {9be43c9f-7f6a-46d3-9398-bd27794c9854}
+
+*****************************
+Date:    17/04/2026 16:58:03
+Type:    Error
+Event:    8193
+Source:    VSS
+
+Volume Shadow Copy Service error: Unexpected error calling routine RegSetValueExW(0x00000390,(null),0,REG_BINARY,00000083F83DD0B0.72).  hr = 0x800703fa, Illegal operation attempted on a registry key that has been marked for deletion.
+. 
+
+Operation:
+   Freeze Event
+
+Context:
+   Execution Context: Writer
+   Writer Class Id: {59b1f0cf-90ef-465f-9609-6ca8b2938366}
+   Writer Name: IIS Metabase Writer
+   Writer Instance ID: {0c017a92-6483-4a7d-90a9-c021609404d7}
+
+*****************************
+Date:    17/04/2026 16:58:03
+Type:    Error
+Event:    8193
+Source:    VSS
+
+Volume Shadow Copy Service error: Unexpected error calling routine RegSetValueExW(0x00000234,(null),0,REG_BINARY,00000083C73FCF80.72).  hr = 0x800703fa, Illegal operation attempted on a registry key that has been marked for deletion.
+. 
+
+Operation:
+   Freeze Event
+
+Context:
+   Execution Context: Writer
+   Writer Class Id: {2a40fd15-dfca-4aa8-a654-1f8c654603f6}
+   Writer Name: IIS Config Writer
+   Writer Instance ID: {9be43c9f-7f6a-46d3-9398-bd27794c9854}
+
+*****************************
+Date:    17/04/2026 16:58:03
+Type:    Error
+Event:    8193
+Source:    VSS
+
+Volume Shadow Copy Service error: Unexpected error calling routine RegSetValueExW(0x00000390,(null),0,REG_BINARY,00000083F83DD260.72).  hr = 0x800703fa, Illegal operation attempted on a registry key that has been marked for deletion.
+. 
+
+Operation:
+   Freeze Event
+
+Context:
+   Execution Context: Writer
+   Writer Class Id: {59b1f0cf-90ef-465f-9609-6ca8b2938366}
+   Writer Name: IIS Metabase Writer
+   Writer Instance ID: {0c017a92-6483-4a7d-90a9-c021609404d7}
+
+*****************************
+Date:    17/04/2026 16:58:03
+Type:    Error
+Event:    8193
+Source:    VSS
+
+Volume Shadow Copy Service error: Unexpected error calling routine RegSetValueExW(0x00000234,(null),0,REG_BINARY,00000083C73FD130.72).  hr = 0x800703fa, Illegal operation attempted on a registry key that has been marked for deletion.
+. 
+
+Operation:
+   Freeze Event
+
+Context:
+   Execution Context: Writer
+   Writer Class Id: {2a40fd15-dfca-4aa8-a654-1f8c654603f6}
+   Writer Name: IIS Config Writer
+   Writer Instance ID: {9be43c9f-7f6a-46d3-9398-bd27794c9854}
+
+*****************************
+Date:    17/04/2026 16:58:03
+Type:    Error
+Event:    8193
+Source:    VSS
+
+Volume Shadow Copy Service error: Unexpected error calling routine RegSetValueExW(0x00000390,(null),0,REG_BINARY,00000083F83DD260.72).  hr = 0x800703fa, Illegal operation attempted on a registry key that has been marked for deletion.
+. 
+
+Operation:
+   Freeze Event
+
+Context:
+   Execution Context: Writer
+   Writer Class Id: {59b1f0cf-90ef-465f-9609-6ca8b2938366}
+   Writer Name: IIS Metabase Writer
+   Writer Instance ID: {0c017a92-6483-4a7d-90a9-c021609404d7}
+
+*****************************
+Date:    17/04/2026 16:58:03
+Type:    Error
+Event:    8193
+Source:    VSS
+
+Volume Shadow Copy Service error: Unexpected error calling routine RegSetValueExW(0x0000028c,(null),0,REG_BINARY,000000F5C947D010.72).  hr = 0x800703fa, Illegal operation attempted on a registry key that has been marked for deletion.
+. 
+
+Operation:
+   Freeze Event
+
+Context:
+   Execution Context: Writer
+   Writer Class Id: {a6ad56c2-b509-4e6c-bb19-49d8f43532f0}
+   Writer Name: WMI Writer
+   Writer Instance ID: {fcb18fb7-c3c1-4a71-99df-798c7933d494}
+
+*****************************
+Date:    17/04/2026 16:58:03
+Type:    Error
+Event:    8193
+Source:    VSS
+
+Volume Shadow Copy Service error: Unexpected error calling routine RegSetValueExW(0x00000234,(null),0,REG_BINARY,00000083C73FD130.72).  hr = 0x800703fa, Illegal operation attempted on a registry key that has been marked for deletion.
+. 
+
+Operation:
+   Freeze Event
+
+Context:
+   Execution Context: Writer
+   Writer Class Id: {2a40fd15-dfca-4aa8-a654-1f8c654603f6}
+   Writer Name: IIS Config Writer
+   Writer Instance ID: {9be43c9f-7f6a-46d3-9398-bd27794c9854}
+
+*****************************
+Date:    17/04/2026 16:58:03
+Type:    Error
+Event:    8193
+Source:    VSS
+
+Volume Shadow Copy Service error: Unexpected error calling routine RegSetValueExW(0x00000390,(null),0,REG_BINARY,00000083F83DD090.72).  hr = 0x800703fa, Illegal operation attempted on a registry key that has been marked for deletion.
+. 
+
+Operation:
+   PrepareForSnapshot Event
+
+Context:
+   Execution Context: Writer
+   Writer Class Id: {59b1f0cf-90ef-465f-9609-6ca8b2938366}
+   Writer Name: IIS Metabase Writer
+   Writer Instance ID: {0c017a92-6483-4a7d-90a9-c021609404d7}
+
+*****************************
+Date:    17/04/2026 16:58:03
+Type:    Error
+Event:    8193
+Source:    VSS
+
+Volume Shadow Copy Service error: Unexpected error calling routine RegSetValueExW(0x00000390,(null),0,REG_BINARY,00000083F83DD240.72).  hr = 0x800703fa, Illegal operation attempted on a registry key that has been marked for deletion.
+. 
+
+Operation:
+   PrepareForSnapshot Event
+
+Context:
+   Execution Context: Writer
+   Writer Class Id: {59b1f0cf-90ef-465f-9609-6ca8b2938366}
+   Writer Name: IIS Metabase Writer
+   Writer Instance ID: {0c017a92-6483-4a7d-90a9-c021609404d7}
+
+*****************************
+Date:    17/04/2026 16:58:03
+Type:    Error
+Event:    8193
+Source:    VSS
+
+Volume Shadow Copy Service error: Unexpected error calling routine RegSetValueExW(0x00000234,(null),0,REG_BINARY,00000083C73FCF60.72).  hr = 0x800703fa, Illegal operation attempted on a registry key that has been marked for deletion.
+. 
+
+Operation:
+   PrepareForSnapshot Event
+
+Context:
+   Execution Context: Writer
+   Writer Class Id: {2a40fd15-dfca-4aa8-a654-1f8c654603f6}
+   Writer Name: IIS Config Writer
+   Writer Instance ID: {9be43c9f-7f6a-46d3-9398-bd27794c9854}
+
+*****************************
+Date:    17/04/2026 16:58:03
+Type:    Error
+Event:    8193
+Source:    VSS
+
+Volume Shadow Copy Service error: Unexpected error calling routine RegSetValueExW(0x00000234,(null),0,REG_BINARY,00000083C73FD110.72).  hr = 0x800703fa, Illegal operation attempted on a registry key that has been marked for deletion.
+. 
+
+Operation:
+   PrepareForSnapshot Event
+
+Context:
+   Execution Context: Writer
+   Writer Class Id: {2a40fd15-dfca-4aa8-a654-1f8c654603f6}
+   Writer Name: IIS Config Writer
+   Writer Instance ID: {9be43c9f-7f6a-46d3-9398-bd27794c9854}
+
+*****************************
+Date:    17/04/2026 16:58:03
+Type:    Error
+Event:    8193
+Source:    VSS
+
+Volume Shadow Copy Service error: Unexpected error calling routine RegSetValueExW(0x0000028c,(null),0,REG_BINARY,000000F5C947CE40.72).  hr = 0x800703fa, Illegal operation attempted on a registry key that has been marked for deletion.
+. 
+
+Operation:
+   PrepareForSnapshot Event
+
+Context:
+   Execution Context: Writer
+   Writer Class Id: {a6ad56c2-b509-4e6c-bb19-49d8f43532f0}
+   Writer Name: WMI Writer
+   Writer Instance ID: {fcb18fb7-c3c1-4a71-99df-798c7933d494}
+
+*****************************
+Date:    17/04/2026 16:58:03
+Type:    Error
+Event:    8193
+Source:    VSS
+
+Volume Shadow Copy Service error: Unexpected error calling routine RegSetValueExW(0x0000028c,(null),0,REG_BINARY,000000F5C947CFF0.72).  hr = 0x800703fa, Illegal operation attempted on a registry key that has been marked for deletion.
+. 
+
+Operation:
+   PrepareForSnapshot Event
+
+Context:
+   Execution Context: Writer
+   Writer Class Id: {a6ad56c2-b509-4e6c-bb19-49d8f43532f0}
+   Writer Name: WMI Writer
+   Writer Instance ID: {fcb18fb7-c3c1-4a71-99df-798c7933d494}
+
+*****************************
+Date:    17/04/2026 16:58:03
+Type:    Error
+Event:    8193
+Source:    VSS
+
+Volume Shadow Copy Service error: Unexpected error calling routine RegSetValueExW(0x0000028c,(null),0,REG_BINARY,000000F5C947CFF0.72).  hr = 0x800703fa, Illegal operation attempted on a registry key that has been marked for deletion.
+. 
+
+Operation:
+   PrepareForSnapshot Event
+
+Context:
+   Execution Context: Writer
+   Writer Class Id: {a6ad56c2-b509-4e6c-bb19-49d8f43532f0}
+   Writer Name: WMI Writer
+   Writer Instance ID: {fcb18fb7-c3c1-4a71-99df-798c7933d494}
+
+*****************************
+Date:    17/04/2026 16:58:03
+Type:    Error
+Event:    8193
+Source:    VSS
+
+Volume Shadow Copy Service error: Unexpected error calling routine RegSetValueExW(0x00000234,(null),0,REG_BINARY,00000083C73FD110.72).  hr = 0x800703fa, Illegal operation attempted on a registry key that has been marked for deletion.
+. 
+
+Operation:
+   PrepareForSnapshot Event
+
+Context:
+   Execution Context: Writer
+   Writer Class Id: {2a40fd15-dfca-4aa8-a654-1f8c654603f6}
+   Writer Name: IIS Config Writer
+   Writer Instance ID: {9be43c9f-7f6a-46d3-9398-bd27794c9854}
+
+*****************************
+Date:    17/04/2026 16:58:03
+Type:    Error
+Event:    8193
+Source:    VSS
+
+Volume Shadow Copy Service error: Unexpected error calling routine RegSetValueExW(0x00000390,(null),0,REG_BINARY,00000083F83DD240.72).  hr = 0x800703fa, Illegal operation attempted on a registry key that has been marked for deletion.
+. 
+
+Operation:
+   PrepareForSnapshot Event
+
+Context:
+   Execution Context: Writer
+   Writer Class Id: {59b1f0cf-90ef-465f-9609-6ca8b2938366}
+   Writer Name: IIS Metabase Writer
+   Writer Instance ID: {0c017a92-6483-4a7d-90a9-c021609404d7}
+
+*****************************
+Date:    17/04/2026 16:58:02
+Type:    Error
+Event:    8193
+Source:    VSS
+
+Volume Shadow Copy Service error: Unexpected error calling routine RegSetValueExW(0x00000234,(null),0,REG_BINARY,00000083C73FD230.72).  hr = 0x800703fa, Illegal operation attempted on a registry key that has been marked for deletion.
+. 
+
+Operation:
+   Gather writers' status
+
+Context:
+   Writer Class Id: {2a40fd15-dfca-4aa8-a654-1f8c654603f6}
+   Writer Name: IIS Config Writer
+   Writer Instance ID: {9be43c9f-7f6a-46d3-9398-bd27794c9854}
+
+*****************************
+Date:    17/04/2026 16:58:02
+Type:    Error
+Event:    8193
+Source:    VSS
+
+Volume Shadow Copy Service error: Unexpected error calling routine RegSetValueExW(0x0000028c,(null),0,REG_BINARY,000000F5C987CC20.72).  hr = 0x800703fa, Illegal operation attempted on a registry key that has been marked for deletion.
+. 
+
+Operation:
+   Gather writers' status
+
+Context:
+   Writer Class Id: {a6ad56c2-b509-4e6c-bb19-49d8f43532f0}
+   Writer Name: WMI Writer
+   Writer Instance ID: {fcb18fb7-c3c1-4a71-99df-798c7933d494}
+
+*****************************
+Date:    17/04/2026 16:58:02
+Type:    Error
+Event:    8193
+Source:    VSS
+
+Volume Shadow Copy Service error: Unexpected error calling routine RegSetValueExW(0x00000390,(null),0,REG_BINARY,00000083F83DD360.72).  hr = 0x800703fa, Illegal operation attempted on a registry key that has been marked for deletion.
+. 
+
+Operation:
+   Gather writers' status
+
+Context:
+   Writer Class Id: {59b1f0cf-90ef-465f-9609-6ca8b2938366}
+   Writer Name: IIS Metabase Writer
+   Writer Instance ID: {0c017a92-6483-4a7d-90a9-c021609404d7}
+
+*****************************
+Date:    17/04/2026 16:58:02
+Type:    Error
+Event:    8193
+Source:    VSS
+
+Volume Shadow Copy Service error: Unexpected error calling routine RegSetValueExW(0x00000234,(null),0,REG_BINARY,00000083C73FD280.72).  hr = 0x800703fa, Illegal operation attempted on a registry key that has been marked for deletion.
+. 
+
+Operation:
+   Gather writers' status
+
+Context:
+   Writer Class Id: {2a40fd15-dfca-4aa8-a654-1f8c654603f6}
+   Writer Name: IIS Config Writer
+   Writer Instance ID: {9be43c9f-7f6a-46d3-9398-bd27794c9854}
+
+*****************************
+Date:    17/04/2026 16:58:02
+Type:    Error
+Event:    8193
+Source:    VSS
+
+Volume Shadow Copy Service error: Unexpected error calling routine RegSetValueExW(0x0000028c,(null),0,REG_BINARY,000000F5C987CC70.72).  hr = 0x800703fa, Illegal operation attempted on a registry key that has been marked for deletion.
+. 
+
+Operation:
+   Gather writers' status
+
+Context:
+   Writer Class Id: {a6ad56c2-b509-4e6c-bb19-49d8f43532f0}
+   Writer Name: WMI Writer
+   Writer Instance ID: {fcb18fb7-c3c1-4a71-99df-798c7933d494}
+
+*****************************
+Date:    17/04/2026 16:58:02
+Type:    Error
+Event:    8193
+Source:    VSS
+
+Volume Shadow Copy Service error: Unexpected error calling routine RegSetValueExW(0x00000390,(null),0,REG_BINARY,00000083F83DD3B0.72).  hr = 0x800703fa, Illegal operation attempted on a registry key that has been marked for deletion.
+. 
+
+Operation:
+   Gather writers' status
+
+Context:
+   Writer Class Id: {59b1f0cf-90ef-465f-9609-6ca8b2938366}
+   Writer Name: IIS Metabase Writer
+   Writer Instance ID: {0c017a92-6483-4a7d-90a9-c021609404d7}
+
+*****************************
+Date:    17/04/2026 16:58:02
+Type:    Error
+Event:    8193
+Source:    VSS
+
+Volume Shadow Copy Service error: Unexpected error calling routine RegSetValueExW(0x0000028c,(null),0,REG_BINARY,000000F5C987CA10.72).  hr = 0x800703fa, Illegal operation attempted on a registry key that has been marked for deletion.
+. 
+
+Operation:
+   PrepareForBackup event
+
+Context:
+   Execution Context: Writer
+   Writer Class Id: {a6ad56c2-b509-4e6c-bb19-49d8f43532f0}
+   Writer Name: WMI Writer
+   Writer Instance ID: {fcb18fb7-c3c1-4a71-99df-798c7933d494}
+
+*****************************
+Date:    17/04/2026 16:58:02
+Type:    Error
+Event:    8193
+Source:    VSS
+
+Volume Shadow Copy Service error: Unexpected error calling routine RegSetValueExW(0x0000028c,(null),0,REG_BINARY,000000F5C987CBC0.72).  hr = 0x800703fa, Illegal operation attempted on a registry key that has been marked for deletion.
+. 
+
+Operation:
+   PrepareForBackup event
+
+Context:
+   Execution Context: Writer
+   Writer Class Id: {a6ad56c2-b509-4e6c-bb19-49d8f43532f0}
+   Writer Name: WMI Writer
+   Writer Instance ID: {fcb18fb7-c3c1-4a71-99df-798c7933d494}
+
+*****************************
+Date:    17/04/2026 16:58:02
+Type:    Error
+Event:    8193
+Source:    VSS
+
+Volume Shadow Copy Service error: Unexpected error calling routine RegSetValueExW(0x00000234,(null),0,REG_BINARY,00000083C6F8D100.72).  hr = 0x800703fa, Illegal operation attempted on a registry key that has been marked for deletion.
+. 
+
+Operation:
+   PrepareForBackup event
+
+Context:
+   Execution Context: Writer
+   Writer Class Id: {2a40fd15-dfca-4aa8-a654-1f8c654603f6}
+   Writer Name: IIS Config Writer
+   Writer Instance ID: {9be43c9f-7f6a-46d3-9398-bd27794c9854}
+
+*****************************
+Date:    17/04/2026 16:58:02
+Type:    Error
+Event:    8193
+Source:    VSS
+
+Volume Shadow Copy Service error: Unexpected error calling routine RegSetValueExW(0x00000390,(null),0,REG_BINARY,00000083F83DD150.72).  hr = 0x800703fa, Illegal operation attempted on a registry key that has been marked for deletion.
+. 
+
+Operation:
+   PrepareForBackup event
+
+Context:
+   Execution Context: Writer
+   Writer Class Id: {59b1f0cf-90ef-465f-9609-6ca8b2938366}
+   Writer Name: IIS Metabase Writer
+   Writer Instance ID: {0c017a92-6483-4a7d-90a9-c021609404d7}
+
+*****************************
+Date:    17/04/2026 16:58:02
+Type:    Error
+Event:    8193
+Source:    VSS
+
+Volume Shadow Copy Service error: Unexpected error calling routine RegSetValueExW(0x00000234,(null),0,REG_BINARY,00000083C6F8D2B0.72).  hr = 0x800703fa, Illegal operation attempted on a registry key that has been marked for deletion.
+. 
+
+Operation:
+   PrepareForBackup event
+
+Context:
+   Execution Context: Writer
+   Writer Class Id: {2a40fd15-dfca-4aa8-a654-1f8c654603f6}
+   Writer Name: IIS Config Writer
+   Writer Instance ID: {9be43c9f-7f6a-46d3-9398-bd27794c9854}
+
+*****************************
+Date:    17/04/2026 16:58:02
+Type:    Error
+Event:    8193
+Source:    VSS
+
+Volume Shadow Copy Service error: Unexpected error calling routine RegSetValueExW(0x00000390,(null),0,REG_BINARY,00000083F83DD300.72).  hr = 0x800703fa, Illegal operation attempted on a registry key that has been marked for deletion.
+. 
+
+Operation:
+   PrepareForBackup event
+
+Context:
+   Execution Context: Writer
+   Writer Class Id: {59b1f0cf-90ef-465f-9609-6ca8b2938366}
+   Writer Name: IIS Metabase Writer
+   Writer Instance ID: {0c017a92-6483-4a7d-90a9-c021609404d7}
+
+*****************************
+Date:    17/04/2026 16:58:02
+Type:    Error
+Event:    8193
+Source:    VSS
+
+Volume Shadow Copy Service error: Unexpected error calling routine RegSetValueExW(0x00000234,(null),0,REG_BINARY,00000083C6F8D2B0.72).  hr = 0x800703fa, Illegal operation attempted on a registry key that has been marked for deletion.
+. 
+
+Operation:
+   PrepareForBackup event
+
+Context:
+   Execution Context: Writer
+   Writer Class Id: {2a40fd15-dfca-4aa8-a654-1f8c654603f6}
+   Writer Name: IIS Config Writer
+   Writer Instance ID: {9be43c9f-7f6a-46d3-9398-bd27794c9854}
+
+*****************************
+Date:    17/04/2026 16:58:02
+Type:    Error
+Event:    8193
+Source:    VSS
+
+Volume Shadow Copy Service error: Unexpected error calling routine RegSetValueExW(0x00000390,(null),0,REG_BINARY,00000083F83DD300.72).  hr = 0x800703fa, Illegal operation attempted on a registry key that has been marked for deletion.
+. 
+
+Operation:
+   PrepareForBackup event
+
+Context:
+   Execution Context: Writer
+   Writer Class Id: {59b1f0cf-90ef-465f-9609-6ca8b2938366}
+   Writer Name: IIS Metabase Writer
+   Writer Instance ID: {0c017a92-6483-4a7d-90a9-c021609404d7}
+
+*****************************
+Date:    17/04/2026 16:58:02
+Type:    Error
+Event:    8193
+Source:    VSS
+
+Volume Shadow Copy Service error: Unexpected error calling routine RegSetValueExW(0x0000028c,(null),0,REG_BINARY,000000F5C987CBC0.72).  hr = 0x800703fa, Illegal operation attempted on a registry key that has been marked for deletion.
+. 
+
+Operation:
+   PrepareForBackup event
+
+Context:
+   Execution Context: Writer
+   Writer Class Id: {a6ad56c2-b509-4e6c-bb19-49d8f43532f0}
+   Writer Name: WMI Writer
+   Writer Instance ID: {fcb18fb7-c3c1-4a71-99df-798c7933d494}
+
+*****************************
+Date:    17/04/2026 16:58:00
+Type:    Error
+Event:    8193
+Source:    VSS
+
+Volume Shadow Copy Service error: Unexpected error calling routine RegSetValueExW(0x00000234,(null),0,REG_BINARY,00000083C6F8D310.72).  hr = 0x800703fa, Illegal operation attempted on a registry key that has been marked for deletion.
+. 
+
+Operation:
+   Gathering Writer Data
+
+Context:
+   Writer Class Id: {2a40fd15-dfca-4aa8-a654-1f8c654603f6}
+   Writer Name: IIS Config Writer
+   Writer Instance ID: {9be43c9f-7f6a-46d3-9398-bd27794c9854}
+
+*****************************
+Date:    17/04/2026 16:58:00
+Type:    Error
+Event:    8193
+Source:    VSS
+
+Volume Shadow Copy Service error: Unexpected error calling routine RegSetValueExW(0x00000390,(null),0,REG_BINARY,00000083F83DD360.72).  hr = 0x800703fa, Illegal operation attempted on a registry key that has been marked for deletion.
+. 
+
+Operation:
+   Gathering Writer Data
+
+Context:
+   Writer Class Id: {59b1f0cf-90ef-465f-9609-6ca8b2938366}
+   Writer Name: IIS Metabase Writer
+   Writer Instance ID: {0c017a92-6483-4a7d-90a9-c021609404d7}
+
+*****************************
+Date:    17/04/2026 16:58:00
+Type:    Error
+Event:    8193
+Source:    VSS
+
+Volume Shadow Copy Service error: Unexpected error calling routine RegSetValueExW(0x0000068c,(null),0,REG_BINARY,00000090D12FD340.72).  hr = 0x800703fa, Illegal operation attempted on a registry key that has been marked for deletion.
+. 
+
+Operation:
+   Gathering Writer Data
+
+Context:
+   Writer Class Id: {4969d978-be47-48b0-b100-f328f07ac1e0}
+   Writer Name: BITS Writer
+   Writer Instance ID: {d2debff8-3cc9-40ee-9c5c-f2bf6cad291f}
+
+*****************************
+Date:    17/04/2026 16:58:00
+Type:    Error
+Event:    8193
+Source:    VSS
+
+Volume Shadow Copy Service error: Unexpected error calling routine RegSetValueExW(0x0000028c,(null),0,REG_BINARY,000000F5C987CC20.72).  hr = 0x800703fa, Illegal operation attempted on a registry key that has been marked for deletion.
+. 
+
+Operation:
+   Gathering Writer Data
+
+Context:
+   Writer Class Id: {a6ad56c2-b509-4e6c-bb19-49d8f43532f0}
+   Writer Name: WMI Writer
+   Writer Instance ID: {fcb18fb7-c3c1-4a71-99df-798c7933d494}
+
+*****************************
+Date:    17/04/2026 16:58:00
+Type:    Error
+Event:    8193
+Source:    VSS
+
+Volume Shadow Copy Service error: Unexpected error calling routine RegSetValueExW(0x00000ae4,(null),0,REG_BINARY,000000333207D340.72).  hr = 0x800703fa, Illegal operation attempted on a registry key that has been marked for deletion.
+. 
+
+Operation:
+   Gathering Writer Data
+
+Context:
+   Writer Class Id: {66841cd4-6ded-4f4b-8f17-fd23f8ddc3de}
+   Writer Name: Microsoft Hyper-V VSS Writer
+   Writer Instance ID: {e56e7631-6e50-46d4-90e5-fb23e7619f79}
+
+*****************************
+Date:    17/04/2026 16:58:00
+Type:    Error
+Event:    8193
+Source:    VSS
+
+Volume Shadow Copy Service error: Unexpected error calling routine RegSetValueExW(0x00000234,(null),0,REG_BINARY,00000083C6F8D360.72).  hr = 0x800703fa, Illegal operation attempted on a registry key that has been marked for deletion.
+. 
+
+Operation:
+   Gathering Writer Data
+
+Context:
+   Writer Class Id: {2a40fd15-dfca-4aa8-a654-1f8c654603f6}
+   Writer Name: IIS Config Writer
+   Writer Instance ID: {9be43c9f-7f6a-46d3-9398-bd27794c9854}
+
+*****************************
+Date:    17/04/2026 16:58:00
+Type:    Error
+Event:    8193
+Source:    VSS
+
+Volume Shadow Copy Service error: Unexpected error calling routine RegSetValueExW(0x0000068c,(null),0,REG_BINARY,00000090D12FD390.72).  hr = 0x800703fa, Illegal operation attempted on a registry key that has been marked for deletion.
+. 
+
+Operation:
+   Gathering Writer Data
+
+Context:
+   Writer Class Id: {4969d978-be47-48b0-b100-f328f07ac1e0}
+   Writer Name: BITS Writer
+   Writer Instance ID: {d2debff8-3cc9-40ee-9c5c-f2bf6cad291f}
+
+*****************************
+Date:    17/04/2026 16:58:00
+Type:    Error
+Event:    8193
+Source:    VSS
+
+Volume Shadow Copy Service error: Unexpected error calling routine RegSetValueExW(0x00000ae4,(null),0,REG_BINARY,000000333207D390.72).  hr = 0x800703fa, Illegal operation attempted on a registry key that has been marked for deletion.
+. 
+
+Operation:
+   Gathering Writer Data
+
+Context:
+   Writer Class Id: {66841cd4-6ded-4f4b-8f17-fd23f8ddc3de}
+   Writer Name: Microsoft Hyper-V VSS Writer
+   Writer Instance ID: {e56e7631-6e50-46d4-90e5-fb23e7619f79}
+
+*****************************
+Date:    17/04/2026 16:58:00
+Type:    Error
+Event:    8193
+Source:    VSS
+
+Volume Shadow Copy Service error: Unexpected error calling routine RegSetValueExW(0x00000390,(null),0,REG_BINARY,00000083F83DD3B0.72).  hr = 0x800703fa, Illegal operation attempted on a registry key that has been marked for deletion.
+. 
+
+Operation:
+   Gathering Writer Data
+
+Context:
+   Writer Class Id: {59b1f0cf-90ef-465f-9609-6ca8b2938366}
+   Writer Name: IIS Metabase Writer
+   Writer Instance ID: {0c017a92-6483-4a7d-90a9-c021609404d7}
+
+*****************************
+Date:    17/04/2026 16:58:00
+Type:    Error
+Event:    8193
+Source:    VSS
+
+Volume Shadow Copy Service error: Unexpected error calling routine RegSetValueExW(0x0000028c,(null),0,REG_BINARY,000000F5C987CC70.72).  hr = 0x800703fa, Illegal operation attempted on a registry key that has been marked for deletion.
+. 
+
+Operation:
+   Gathering Writer Data
+
+Context:
+   Writer Class Id: {a6ad56c2-b509-4e6c-bb19-49d8f43532f0}
+   Writer Name: WMI Writer
+   Writer Instance ID: {fcb18fb7-c3c1-4a71-99df-798c7933d494}
+

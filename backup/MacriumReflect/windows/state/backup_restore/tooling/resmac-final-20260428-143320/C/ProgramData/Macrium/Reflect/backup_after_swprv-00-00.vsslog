@@ -1,0 +1,102 @@
+(Gathering writer metadata...)
+(Waiting for the asynchronous operation to finish...)
+Initialize writer metadata ...
+- Get exclude files
+- Enumerate components
+- Get file list descriptors
+- Get database descriptors
+- Get log descriptors
+- Get exclude files
+- Enumerate components
+- Get file list descriptors
+- Get database descriptors
+- Get log descriptors
+- Get exclude files
+- Enumerate components
+- Get file list descriptors
+- Get database descriptors
+- Get log descriptors
+- Get exclude files
+- Enumerate components
+- Get file list descriptors
+- Get database descriptors
+- Get log descriptors
+- Get exclude files
+- Enumerate components
+- Get file list descriptors
+- Get database descriptors
+- Get log descriptors
+- Get exclude files
+- Enumerate components
+- Get file list descriptors
+- Get database descriptors
+- Get log descriptors
+- Get exclude files
+- Enumerate components
+- Get exclude files
+- Enumerate components
+- Get exclude files
+- Enumerate components
+- Get file list descriptors
+- Get database descriptors
+- Get log descriptors
+- Get exclude files
+- Enumerate components
+- Get file list descriptors
+- Get database descriptors
+- Get log descriptors
+Discover directly excluded components ...
+- Excluding writer '' since it has no selected components for restore.
+- Excluding writer '' since it has no selected components for restore.
+- Excluding writer 'BITS Writer' since it has no selected components for restore.
+- Excluding writer 'Shadow Copy Optimization Writer' since it has no selected components for restore.
+Discover components that reside outside the shadow set ...
+Discover all excluded components ...
+Discover excluded writers ...
+Discover explicitly included components ...
+Verifying explicitly specified writers/components ...
+Select explicitly included components ...
+ * Writer 'Task Scheduler Writer':
+   - Add component \TasksStore
+ * Writer 'VSS Metadata Store Writer':
+   - Add component \WriterMetadataStore
+ * Writer 'Performance Counters Writer':
+   - Add component \PerformanceCounters
+ * Writer 'IIS Config Writer':
+   - Add component \IISCONFIG
+ * Writer 'WMI Writer':
+   - Add component \WMI
+ * Writer 'Registry Writer':
+   - Add component \Registry
+ * Writer 'IIS Metabase Writer':
+   - Add component \IISMETABASE
+ * Writer 'COM+ REGDB Writer':
+   - Add component \COM+ REGDB
+Creating shadow set {a6ef5ad1-bffd-4603-80fa-cf7732f91992} ...
+- Adding volume \\?\Volume{55cfa735-ac3f-4c8b-beef-b3b8c2f92e89}\ [C:\] to the shadow set...
+Preparing for backup ... 
+(Waiting for the asynchronous operation to finish...)
+(Waiting for the asynchronous operation to finish...)
+Creating the shadow (DoSnapshotSet) ... 
+(Waiting for the asynchronous operation to finish...)
+(Waiting for the asynchronous operation to finish...)
+Shadow copy set successfully created.
+Saving the backup components document ... 
+
+List of created shadow copies: 
+
+
+Querying all shadow copies with the SnapshotSetID {a6ef5ad1-bffd-4603-80fa-cf7732f91992} ...
+
+* SNAPSHOT ID = {dfd34dc7-bdad-4d7b-a82e-0e8560f1e26b} ...
+   - Shadow copy Set: {a6ef5ad1-bffd-4603-80fa-cf7732f91992}
+   - Original count of shadow copies = 1
+   - Original Volume name: \\?\Volume{55cfa735-ac3f-4c8b-beef-b3b8c2f92e89}\ [C:\]
+   - Creation Time: 15/04/2026 18:58:16
+   - Shadow copy device name: \\?\GLOBALROOT\Device\HarddiskVolumeShadowCopy1
+   - Originating machine: user
+   - Service machine: user
+   - Not Exposed
+   - Provider id: {b5946137-7b9f-4925-af80-51abd60b20d5}
+   - Attributes:  Auto_Release Differential
+

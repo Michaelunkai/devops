@@ -1,0 +1,2393 @@
+{
+  "backup_root": "F:\\backup\\windowsapps\\AppsBackups\\Macrium",
+  "created_at": "2026-04-28T14:25:51.985380+03:00",
+  "drives": [
+    {
+      "DeviceID": "C:",
+      "DriveType": 3,
+      "FileSystem": "NTFS",
+      "FreeSpace": 1874533027840,
+      "Size": 1997889597440,
+      "VolumeName": ""
+    },
+    {
+      "DeviceID": "D:",
+      "DriveType": 3,
+      "FileSystem": "NTFS",
+      "FreeSpace": 765657088,
+      "Size": 782233600,
+      "VolumeName": "New Volume"
+    },
+    {
+      "DeviceID": "E:",
+      "DriveType": 3,
+      "FileSystem": "exFAT",
+      "FreeSpace": 545247854592,
+      "Size": 2048311033856,
+      "VolumeName": "Ventoy"
+    },
+    {
+      "DeviceID": "F:",
+      "DriveType": 3,
+      "FileSystem": "exFAT",
+      "FreeSpace": 485989679104,
+      "Size": 1024143654912,
+      "VolumeName": "Ventoy"
+    },
+    {
+      "DeviceID": "G:",
+      "DriveType": 2,
+      "FileSystem": null,
+      "FreeSpace": null,
+      "Size": null,
+      "VolumeName": null
+    }
+  ],
+  "machine": {
+    "elevated": true,
+    "hostname": "user",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+    "username": "user"
+  },
+  "macrium_found": true,
+  "registry": [
+    {
+      "path": "HKLM\\SOFTWARE\\Macrium",
+      "subkeys": [
+        {
+          "path": "HKLM\\SOFTWARE\\Macrium\\CMCAgent",
+          "subkeys": [],
+          "values": []
+        },
+        {
+          "path": "HKLM\\SOFTWARE\\Macrium\\Common",
+          "subkeys": [
+            {
+              "path": "HKLM\\SOFTWARE\\Macrium\\Common\\Shared",
+              "subkeys": [
+                {
+                  "path": "HKLM\\SOFTWARE\\Macrium\\Common\\Shared\\Files",
+                  "subkeys": [],
+                  "values": [
+                    {
+                      "name": "macriumservice.exe",
+                      "redacted": false,
+                      "registry_type": 1,
+                      "value": "C:\\Program Files\\Macrium\\Common\\MacriumService.exe"
+                    },
+                    {
+                      "name": "reflectui.exe",
+                      "redacted": false,
+                      "registry_type": 1,
+                      "value": "c:\\program files\\macrium\\common\\reflectui.exe"
+                    },
+                    {
+                      "name": "reflect.exe",
+                      "redacted": false,
+                      "registry_type": 1,
+                      "value": "F:\\backup\\windowsapps\\installed\\Reflect\\Reflect.exe"
+                    },
+                    {
+                      "name": "reflectbin.exe",
+                      "redacted": false,
+                      "registry_type": 1,
+                      "value": "F:\\backup\\windowsapps\\installed\\reflect\\reflectbin.exe"
+                    },
+                    {
+                      "name": "macriumbackupmessage.exe",
+                      "redacted": false,
+                      "registry_type": 1,
+                      "value": "F:\\backup\\windowsapps\\installed\\reflect\\macriumbackupmessage.exe"
+                    }
+                  ]
+                },
+                {
+                  "path": "HKLM\\SOFTWARE\\Macrium\\Common\\Shared\\Folders",
+                  "subkeys": [],
+                  "values": [
+                    {
+                      "name": "Common",
+                      "redacted": false,
+                      "registry_type": 1,
+                      "value": "c:\\program files\\macrium\\common\\"
+                    },
+                    {
+                      "name": "Reflect",
+                      "redacted": false,
+                      "registry_type": 1,
+                      "value": "F:\\backup\\windowsapps\\installed\\reflect\\"
+                    }
+                  ]
+                }
+              ],
+              "values": []
+            }
+          ],
+          "values": []
+        },
+        {
+          "path": "HKLM\\SOFTWARE\\Macrium\\Macrium Service",
+          "subkeys": [],
+          "values": [
+            {
+              "name": "RegistryPermissionsUpdated",
+              "redacted": false,
+              "registry_type": 4,
+              "value": 1
+            },
+            {
+              "name": "UserRegistryPermissionsUpdated",
+              "redacted": false,
+              "registry_type": 4,
+              "value": 1
+            }
+          ]
+        },
+        {
+          "path": "HKLM\\SOFTWARE\\Macrium\\reflect",
+          "subkeys": [
+            {
+              "path": "HKLM\\SOFTWARE\\Macrium\\reflect\\CBT",
+              "subkeys": [
+                {
+                  "path": "HKLM\\SOFTWARE\\Macrium\\reflect\\CBT\\Sequence",
+                  "subkeys": [],
+                  "values": [
+                    {
+                      "name": "\\\\?\\Volume{55cfa735-ac3f-4c8b-beef-b3b8c2f92e89}",
+                      "redacted": false,
+                      "registry_type": 11,
+                      "value": 134216117990048586
+                    }
+                  ]
+                }
+              ],
+              "values": []
+            },
+            {
+              "path": "HKLM\\SOFTWARE\\Macrium\\reflect\\CD List",
+              "subkeys": [],
+              "values": []
+            },
+            {
+              "path": "HKLM\\SOFTWARE\\Macrium\\reflect\\Defaults",
+              "subkeys": [],
+              "values": [
+                {
+                  "name": "LiveUpdate",
+                  "redacted": false,
+                  "registry_type": 4,
+                  "value": 0
+                },
+                {
+                  "name": "PatchAutoRestart",
+                  "redacted": false,
+                  "registry_type": 4,
+                  "value": 0
+                },
+                {
+                  "name": "UpdateCheckOnLoad",
+                  "redacted": false,
+                  "registry_type": 4,
+                  "value": 0
+                },
+                {
+                  "name": "UpdateCheckSendEmail",
+                  "redacted": false,
+                  "registry_type": 4,
+                  "value": 0
+                },
+                {
+                  "name": "UpdateCheckEmail",
+                  "redacted": false,
+                  "registry_type": 1,
+                  "value": ""
+                }
+              ]
+            },
+            {
+              "path": "HKLM\\SOFTWARE\\Macrium\\reflect\\Disks",
+              "subkeys": [],
+              "values": []
+            },
+            {
+              "path": "HKLM\\SOFTWARE\\Macrium\\reflect\\EnumTree",
+              "subkeys": [],
+              "values": []
+            },
+            {
+              "path": "HKLM\\SOFTWARE\\Macrium\\reflect\\ErrorState",
+              "subkeys": [],
+              "values": [
+                {
+                  "name": "122",
+                  "redacted": false,
+                  "registry_type": 4,
+                  "value": 301
+                },
+                {
+                  "name": "105",
+                  "redacted": false,
+                  "registry_type": 4,
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "path": "HKLM\\SOFTWARE\\Macrium\\reflect\\ExcludedWriters",
+              "subkeys": [],
+              "values": []
+            },
+            {
+              "path": "HKLM\\SOFTWARE\\Macrium\\reflect\\FailedRename",
+              "subkeys": [],
+              "values": []
+            },
+            {
+              "path": "HKLM\\SOFTWARE\\Macrium\\reflect\\Help",
+              "subkeys": [],
+              "values": []
+            },
+            {
+              "path": "HKLM\\SOFTWARE\\Macrium\\reflect\\Help_debug",
+              "subkeys": [],
+              "values": []
+            },
+            {
+              "path": "HKLM\\SOFTWARE\\Macrium\\reflect\\ImageGuardian",
+              "subkeys": [],
+              "values": []
+            },
+            {
+              "path": "HKLM\\SOFTWARE\\Macrium\\reflect\\Install",
+              "subkeys": [],
+              "values": [
+                {
+                  "name": "InstallID",
+                  "redacted": false,
+                  "registry_type": 11,
+                  "value": 3111400643
+                },
+                {
+                  "name": "CompName",
+                  "redacted": false,
+                  "registry_type": 1,
+                  "value": "USER"
+                },
+                {
+                  "name": "Firstname",
+                  "redacted": false,
+                  "registry_type": 1,
+                  "value": "Norton"
+                },
+                {
+                  "name": "Lastname",
+                  "redacted": false,
+                  "registry_type": 1,
+                  "value": "Fam"
+                },
+                {
+                  "name": "Company",
+                  "redacted": false,
+                  "registry_type": 1,
+                  "value": "Google"
+                },
+                {
+                  "name": "Email",
+                  "redacted": false,
+                  "registry_type": 1,
+                  "value": "noname.clubs@mail.ru"
+                },
+                {
+                  "name": "URC",
+                  "redacted": false,
+                  "registry_type": 1,
+                  "value": "273Q-7VUJ"
+                }
+              ]
+            },
+            {
+              "path": "HKLM\\SOFTWARE\\Macrium\\reflect\\InstallState",
+              "subkeys": [],
+              "values": [
+                {
+                  "name": "100",
+                  "redacted": false,
+                  "registry_type": 4,
+                  "value": 126
+                },
+                {
+                  "name": "5",
+                  "redacted": false,
+                  "registry_type": 4,
+                  "value": 96
+                },
+                {
+                  "name": "9",
+                  "redacted": false,
+                  "registry_type": 4,
+                  "value": 1
+                },
+                {
+                  "name": "0",
+                  "redacted": false,
+                  "registry_type": 4,
+                  "value": 1
+                },
+                {
+                  "name": "8",
+                  "redacted": false,
+                  "registry_type": 4,
+                  "value": 0
+                },
+                {
+                  "name": "2",
+                  "redacted": false,
+                  "registry_type": 4,
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "path": "HKLM\\SOFTWARE\\Macrium\\reflect\\MacriumService",
+              "subkeys": [],
+              "values": []
+            },
+            {
+              "path": "HKLM\\SOFTWARE\\Macrium\\reflect\\MIG",
+              "subkeys": [
+                {
+                  "path": "HKLM\\SOFTWARE\\Macrium\\reflect\\MIG\\Verified",
+                  "subkeys": [
+                    {
+                      "path": "HKLM\\SOFTWARE\\Macrium\\reflect\\MIG\\Verified\\4A519BF2D9C3DF9EC4C76E3028127F71",
+                      "subkeys": [],
+                      "values": [
+                        {
+                          "name": "Protected",
+                          "redacted": false,
+                          "registry_type": 4,
+                          "value": 1
+                        }
+                      ]
+                    },
+                    {
+                      "path": "HKLM\\SOFTWARE\\Macrium\\reflect\\MIG\\Verified\\55121C693C22100ABC0A2EE56490F155",
+                      "subkeys": [],
+                      "values": [
+                        {
+                          "name": "Protected",
+                          "redacted": false,
+                          "registry_type": 4,
+                          "value": 1
+                        }
+                      ]
+                    },
+                    {
+                      "path": "HKLM\\SOFTWARE\\Macrium\\reflect\\MIG\\Verified\\5800C845CE732AF0DEF5E3AB6238A1BD",
+                      "subkeys": [],
+                      "values": [
+                        {
+                          "name": "Protected",
+                          "redacted": false,
+                          "registry_type": 4,
+                          "value": 1
+                        }
+                      ]
+                    },
+                    {
+                      "path": "HKLM\\SOFTWARE\\Macrium\\reflect\\MIG\\Verified\\7024C0C810B97AF682C56EA534A86BFF",
+                      "subkeys": [],
+                      "values": [
+                        {
+                          "name": "Protected",
+                          "redacted": false,
+                          "registry_type": 4,
+                          "value": 1
+                        }
+                      ]
+                    }
+                  ],
+                  "values": [
+                    {
+                      "name": "reflectbin.exe-v8.1.8631",
+                      "redacted": false,
+                      "registry_type": 4,
+                      "value": 1
+                    }
+                  ]
+                }
+              ],
+              "values": [
+                {
+                  "name": "VolumesAutoProtected",
+                  "redacted": false,
+                  "registry_type": 4,
+                  "value": 0
+                },
+                {
+                  "name": "Enabled",
+                  "redacted": false,
+                  "registry_type": 4,
+                  "value": 0
+                },
+                {
+                  "name": "FirstRunMessageShown",
+                  "redacted": false,
+                  "registry_type": 4,
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "path": "HKLM\\SOFTWARE\\Macrium\\reflect\\Promo",
+              "subkeys": [],
+              "values": []
+            },
+            {
+              "path": "HKLM\\SOFTWARE\\Macrium\\reflect\\Recent Folders",
+              "subkeys": [
+                {
+                  "path": "HKLM\\SOFTWARE\\Macrium\\reflect\\Recent Folders\\Backup",
+                  "subkeys": [],
+                  "values": []
+                },
+                {
+                  "path": "HKLM\\SOFTWARE\\Macrium\\reflect\\Recent Folders\\Image",
+                  "subkeys": [],
+                  "values": []
+                }
+              ],
+              "values": []
+            },
+            {
+              "path": "HKLM\\SOFTWARE\\Macrium\\reflect\\ReflectDL",
+              "subkeys": [],
+              "values": []
+            },
+            {
+              "path": "HKLM\\SOFTWARE\\Macrium\\reflect\\ReflectMonitor",
+              "subkeys": [],
+              "values": []
+            },
+            {
+              "path": "HKLM\\SOFTWARE\\Macrium\\reflect\\ReflectUI",
+              "subkeys": [],
+              "values": []
+            },
+            {
+              "path": "HKLM\\SOFTWARE\\Macrium\\reflect\\Rescue",
+              "subkeys": [],
+              "values": [
+                {
+                  "name": "RescuePEReleaseVersion",
+                  "redacted": false,
+                  "registry_type": 4,
+                  "value": 0
+                }
+              ]
+            },
+            {
+              "path": "HKLM\\SOFTWARE\\Macrium\\reflect\\RescueCD",
+              "subkeys": [],
+              "values": [
+                {
+                  "name": "WimmountFix",
+                  "redacted": false,
+                  "registry_type": 4,
+                  "value": 1
+                },
+                {
+                  "name": "PEMajor",
+                  "redacted": false,
+                  "registry_type": 4,
+                  "value": 0
+                },
+                {
+                  "name": "PEMinor",
+                  "redacted": false,
+                  "registry_type": 4,
+                  "value": 0
+                },
+                {
+                  "name": "PEBuild",
+                  "redacted": false,
+                  "registry_type": 4,
+                  "value": 0
+                }
+              ]
+            },
+            {
+              "path": "HKLM\\SOFTWARE\\Macrium\\reflect\\Security",
+              "subkeys": [],
+              "values": [
+                {
+                  "name": "App Path",
+                  "redacted": false,
+                  "registry_type": 1,
+                  "value": "F:\\backup\\windowsapps\\installed\\reflect\\Reflect.exe"
+                }
+              ]
+            },
+            {
+              "path": "HKLM\\SOFTWARE\\Macrium\\reflect\\Settings",
+              "subkeys": [],
+              "values": [
+                {
+                  "name": "Language",
+                  "redacted": false,
+                  "registry_type": 4,
+                  "value": 1033
+                },
+                {
+                  "name": "ThreadPriority",
+                  "redacted": false,
+                  "registry_type": 4,
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "path": "HKLM\\SOFTWARE\\Macrium\\reflect\\SM_Stealth",
+              "subkeys": [],
+              "values": [
+                {
+                  "name": "IntraDailyStealthStartDialog",
+                  "redacted": false,
+                  "registry_type": 4,
+                  "value": 1
+                },
+                {
+                  "name": "IntraDailyStealthNotify",
+                  "redacted": false,
+                  "registry_type": 4,
+                  "value": 1
+                },
+                {
+                  "name": "IntraDailyStealthLogs",
+                  "redacted": false,
+                  "registry_type": 4,
+                  "value": 0
+                }
+              ]
+            },
+            {
+              "path": "HKLM\\SOFTWARE\\Macrium\\reflect\\SplitFiles",
+              "subkeys": [],
+              "values": []
+            },
+            {
+              "path": "HKLM\\SOFTWARE\\Macrium\\reflect\\Splitter",
+              "subkeys": [],
+              "values": []
+            },
+            {
+              "path": "HKLM\\SOFTWARE\\Macrium\\reflect\\VSS",
+              "subkeys": [],
+              "values": []
+            },
+            {
+              "path": "HKLM\\SOFTWARE\\Macrium\\reflect\\WriteFlags",
+              "subkeys": [],
+              "values": [
+                {
+                  "name": "F:_Type",
+                  "redacted": false,
+                  "registry_type": 4,
+                  "value": 1
+                },
+                {
+                  "name": "F:_NormalTime",
+                  "redacted": false,
+                  "registry_type": 4,
+                  "value": 922
+                },
+                {
+                  "name": "F:_DirectIOTime",
+                  "redacted": false,
+                  "registry_type": 4,
+                  "value": 605
+                }
+              ]
+            },
+            {
+              "path": "HKLM\\SOFTWARE\\Macrium\\reflect\\ServiceStart",
+              "subkeys": [],
+              "values": [
+                {
+                  "name": "Time",
+                  "redacted": false,
+                  "registry_type": 11,
+                  "value": 1777368964
+                }
+              ]
+            }
+          ],
+          "values": [
+            {
+              "name": "v8LicenceData",
+              "redacted": false,
+              "registry_type": 3,
+              "value": {
+                "sha256": "b22807cc1300959e1789cf5871253da7fcbee6ef6ebc1ad3b0178a6d20d65a25",
+                "size": 80,
+                "type": "binary"
+              }
+            },
+            {
+              "name": "Hash",
+              "redacted": false,
+              "registry_type": 3,
+              "value": {
+                "sha256": "fab193a2b5b91328d7ed56140df7d7d2deb473d9a7ca5242807e5e1463ef80ee",
+                "size": 16,
+                "type": "binary"
+              }
+            },
+            {
+              "name": "Licensee",
+              "redacted": true,
+              "registry_type": 1,
+              "value": "[redacted]"
+            },
+            {
+              "name": "v7LicenceData",
+              "redacted": false,
+              "registry_type": 3,
+              "value": {
+                "sha256": "26a5452b2929431cc5c4ebde911242296543205dea8c1514b8f2fac98d9bc83b",
+                "size": 80,
+                "type": "binary"
+              }
+            },
+            {
+              "name": "SupportData",
+              "redacted": false,
+              "registry_type": 3,
+              "value": {
+                "sha256": "4322fd2bc0a137d1375b37b3b2e2b4715b3d3dd7ca9682438d4fea0f8437fad3",
+                "size": 9,
+                "type": "binary"
+              }
+            },
+            {
+              "name": "HardwareDetectionCount",
+              "redacted": false,
+              "registry_type": 4,
+              "value": 0
+            },
+            {
+              "name": "LastRun",
+              "redacted": false,
+              "registry_type": 1,
+              "value": "-full -e C:\\ProgramData\\Macrium\\Reflect\\mrauto_backup.xml -noconsole"
+            }
+          ]
+        },
+        {
+          "path": "HKLM\\SOFTWARE\\Macrium\\RescuePE",
+          "subkeys": [],
+          "values": [
+            {
+              "name": "InstallDir",
+              "redacted": false,
+              "registry_type": 1,
+              "value": "c:\\boot"
+            },
+            {
+              "name": "WAIK Files Version",
+              "redacted": false,
+              "registry_type": 1,
+              "value": "v8.1.8631"
+            },
+            {
+              "name": "WAIK Files Version String",
+              "redacted": false,
+              "registry_type": 1,
+              "value": "E57932F1AE469A26#8.1.8631 2025/08/05 T#"
+            }
+          ]
+        },
+        {
+          "path": "HKLM\\SOFTWARE\\Macrium\\RMBuilder",
+          "subkeys": [
+            {
+              "path": "HKLM\\SOFTWARE\\Macrium\\RMBuilder\\Build",
+              "subkeys": [
+                {
+                  "path": "HKLM\\SOFTWARE\\Macrium\\RMBuilder\\Build\\Windows RE",
+                  "subkeys": [
+                    {
+                      "path": "HKLM\\SOFTWARE\\Macrium\\RMBuilder\\Build\\Windows RE\\DiscoveredInvalidWIMs",
+                      "subkeys": [],
+                      "values": []
+                    },
+                    {
+                      "path": "HKLM\\SOFTWARE\\Macrium\\RMBuilder\\Build\\Windows RE\\DiscoveredValidWIMs",
+                      "subkeys": [],
+                      "values": [
+                        {
+                          "name": "\\\\?\\Volume{855ddcc0-1a2a-4843-a461-98ec8a9f6a06}\\Recovery\\WindowsRE\\winre.wim-134151839051163488",
+                          "redacted": false,
+                          "registry_type": 11,
+                          "value": 112098646425610
+                        },
+                        {
+                          "name": "\\\\?\\Volume{005f291f-a13b-4a6c-b553-451f3e3e9041}\\Recovery\\WindowsRE\\winre.wim-134140059792512395",
+                          "redacted": false,
+                          "registry_type": 11,
+                          "value": 112098646425610
+                        }
+                      ]
+                    }
+                  ],
+                  "values": [
+                    {
+                      "name": "26100",
+                      "redacted": false,
+                      "registry_type": 1,
+                      "value": "2009"
+                    },
+                    {
+                      "name": "Version",
+                      "redacted": false,
+                      "registry_type": 11,
+                      "value": 112098646425610
+                    },
+                    {
+                      "name": "Name",
+                      "redacted": false,
+                      "registry_type": 1,
+                      "value": "Microsoft Windows Recovery Environment (amd64)"
+                    },
+                    {
+                      "name": "ModifiedTime",
+                      "redacted": false,
+                      "registry_type": 11,
+                      "value": 134159316050184367
+                    },
+                    {
+                      "name": "CustomWim",
+                      "redacted": false,
+                      "registry_type": 4,
+                      "value": 0
+                    }
+                  ]
+                }
+              ],
+              "values": []
+            },
+            {
+              "path": "HKLM\\SOFTWARE\\Macrium\\RMBuilder\\DeviceStatus",
+              "subkeys": [],
+              "values": []
+            },
+            {
+              "path": "HKLM\\SOFTWARE\\Macrium\\RMBuilder\\Settings",
+              "subkeys": [],
+              "values": [
+                {
+                  "name": "LastTargetType",
+                  "redacted": false,
+                  "registry_type": 4,
+                  "value": 3
+                },
+                {
+                  "name": "LastTargetDevice",
+                  "redacted": false,
+                  "registry_type": 1,
+                  "value": ""
+                },
+                {
+                  "name": "LastBuild",
+                  "redacted": false,
+                  "registry_type": 4,
+                  "value": 1
+                },
+                {
+                  "name": "unsupported",
+                  "redacted": false,
+                  "registry_type": 4,
+                  "value": 0
+                },
+                {
+                  "name": "bootprompt",
+                  "redacted": false,
+                  "registry_type": 4,
+                  "value": 1
+                },
+                {
+                  "name": "multiboot",
+                  "redacted": false,
+                  "registry_type": 4,
+                  "value": 1
+                },
+                {
+                  "name": "lastiso",
+                  "redacted": false,
+                  "registry_type": 1,
+                  "value": "E:\\isos\\MacriumRescue.iso"
+                },
+                {
+                  "name": "iscsi",
+                  "redacted": false,
+                  "registry_type": 4,
+                  "value": 0
+                },
+                {
+                  "name": "legacyefi",
+                  "redacted": false,
+                  "registry_type": 4,
+                  "value": 0
+                },
+                {
+                  "name": "legacysmb",
+                  "redacted": false,
+                  "registry_type": 4,
+                  "value": 0
+                },
+                {
+                  "name": "networkprofiles",
+                  "redacted": false,
+                  "registry_type": 4,
+                  "value": 1
+                },
+                {
+                  "name": "addwifi",
+                  "redacted": false,
+                  "registry_type": 4,
+                  "value": 1
+                },
+                {
+                  "name": "usbhostcopy",
+                  "redacted": false,
+                  "registry_type": 4,
+                  "value": 0
+                },
+                {
+                  "name": "staticip",
+                  "redacted": false,
+                  "registry_type": 4,
+                  "value": 0
+                }
+              ]
+            }
+          ],
+          "values": []
+        },
+        {
+          "path": "HKLM\\SOFTWARE\\Macrium\\Site Manager Agent",
+          "subkeys": [
+            {
+              "path": "HKLM\\SOFTWARE\\Macrium\\Site Manager Agent\\Live",
+              "subkeys": [],
+              "values": []
+            }
+          ],
+          "values": []
+        }
+      ],
+      "values": []
+    },
+    {
+      "path": "HKLM\\SOFTWARE\\WOW6432Node\\Macrium",
+      "subkeys": [
+        {
+          "path": "HKLM\\SOFTWARE\\WOW6432Node\\Macrium\\reflect",
+          "subkeys": [
+            {
+              "path": "HKLM\\SOFTWARE\\WOW6432Node\\Macrium\\reflect\\Defaults",
+              "subkeys": [],
+              "values": []
+            },
+            {
+              "path": "HKLM\\SOFTWARE\\WOW6432Node\\Macrium\\reflect\\Disks",
+              "subkeys": [],
+              "values": []
+            },
+            {
+              "path": "HKLM\\SOFTWARE\\WOW6432Node\\Macrium\\reflect\\Settings",
+              "subkeys": [],
+              "values": []
+            }
+          ],
+          "values": [
+            {
+              "name": "HardwareDetectionCount",
+              "redacted": false,
+              "registry_type": 4,
+              "value": 0
+            },
+            {
+              "name": "v8LicenceData",
+              "redacted": false,
+              "registry_type": 3,
+              "value": {
+                "sha256": "969b04bcf812b45d90c294fc8ef20699384267dc220c5de89b212fb27a1a94f9",
+                "size": 80,
+                "type": "binary"
+              }
+            },
+            {
+              "name": "Hash",
+              "redacted": false,
+              "registry_type": 3,
+              "value": {
+                "sha256": "fab193a2b5b91328d7ed56140df7d7d2deb473d9a7ca5242807e5e1463ef80ee",
+                "size": 16,
+                "type": "binary"
+              }
+            }
+          ]
+        }
+      ],
+      "values": []
+    },
+    {
+      "path": "HKCU\\Software\\Macrium",
+      "subkeys": [
+        {
+          "path": "HKCU\\Software\\Macrium\\Common",
+          "subkeys": [],
+          "values": [
+            {
+              "name": "DarkModeEx",
+              "redacted": false,
+              "registry_type": 4,
+              "value": 2
+            },
+            {
+              "name": "ThemeSet",
+              "redacted": false,
+              "registry_type": 4,
+              "value": 1
+            }
+          ]
+        },
+        {
+          "path": "HKCU\\Software\\Macrium\\reflect",
+          "subkeys": [
+            {
+              "path": "HKCU\\Software\\Macrium\\reflect\\BDF",
+              "subkeys": [],
+              "values": []
+            },
+            {
+              "path": "HKCU\\Software\\Macrium\\reflect\\CD List",
+              "subkeys": [],
+              "values": []
+            },
+            {
+              "path": "HKCU\\Software\\Macrium\\reflect\\CommandBars",
+              "subkeys": [],
+              "values": []
+            },
+            {
+              "path": "HKCU\\Software\\Macrium\\reflect\\CommandBars-Bar0",
+              "subkeys": [],
+              "values": [
+                {
+                  "name": "BarID",
+                  "redacted": false,
+                  "registry_type": 4,
+                  "value": 1
+                },
+                {
+                  "name": "XPos",
+                  "redacted": false,
+                  "registry_type": 4,
+                  "value": 0
+                },
+                {
+                  "name": "YPos",
+                  "redacted": false,
+                  "registry_type": 4,
+                  "value": 0
+                },
+                {
+                  "name": "MRUDockID",
+                  "redacted": false,
+                  "registry_type": 4,
+                  "value": 0
+                },
+                {
+                  "name": "MRUDockLeftPos",
+                  "redacted": false,
+                  "registry_type": 4,
+                  "value": 0
+                },
+                {
+                  "name": "MRUDockTopPos",
+                  "redacted": false,
+                  "registry_type": 4,
+                  "value": 0
+                },
+                {
+                  "name": "MRUDockRightPos",
+                  "redacted": false,
+                  "registry_type": 4,
+                  "value": 0
+                },
+                {
+                  "name": "MRUDockBottomPos",
+                  "redacted": false,
+                  "registry_type": 4,
+                  "value": 0
+                },
+                {
+                  "name": "MRUFloatXPos",
+                  "redacted": false,
+                  "registry_type": 4,
+                  "value": 0
+                },
+                {
+                  "name": "MRUFloatYPos",
+                  "redacted": false,
+                  "registry_type": 4,
+                  "value": 0
+                },
+                {
+                  "name": "DialogBar",
+                  "redacted": false,
+                  "registry_type": 4,
+                  "value": 0
+                }
+              ]
+            },
+            {
+              "path": "HKCU\\Software\\Macrium\\reflect\\CommandBars-Bar1",
+              "subkeys": [],
+              "values": [
+                {
+                  "name": "BarID",
+                  "redacted": false,
+                  "registry_type": 4,
+                  "value": 32833
+                },
+                {
+                  "name": "XPos",
+                  "redacted": false,
+                  "registry_type": 4,
+                  "value": 0
+                },
+                {
+                  "name": "YPos",
+                  "redacted": false,
+                  "registry_type": 4,
+                  "value": 40
+                },
+                {
+                  "name": "MRUDockID",
+                  "redacted": false,
+                  "registry_type": 4,
+                  "value": 0
+                },
+                {
+                  "name": "MRUDockLeftPos",
+                  "redacted": false,
+                  "registry_type": 4,
+                  "value": 0
+                },
+                {
+                  "name": "MRUDockTopPos",
+                  "redacted": false,
+                  "registry_type": 4,
+                  "value": 0
+                },
+                {
+                  "name": "MRUDockRightPos",
+                  "redacted": false,
+                  "registry_type": 4,
+                  "value": 0
+                },
+                {
+                  "name": "MRUDockBottomPos",
+                  "redacted": false,
+                  "registry_type": 4,
+                  "value": 0
+                },
+                {
+                  "name": "MRUFloatXPos",
+                  "redacted": false,
+                  "registry_type": 4,
+                  "value": 0
+                },
+                {
+                  "name": "MRUFloatYPos",
+                  "redacted": false,
+                  "registry_type": 4,
+                  "value": 0
+                },
+                {
+                  "name": "DialogBar",
+                  "redacted": false,
+                  "registry_type": 4,
+                  "value": 0
+                }
+              ]
+            },
+            {
+              "path": "HKCU\\Software\\Macrium\\reflect\\CommandBars-DockBar0",
+              "subkeys": [],
+              "values": [
+                {
+                  "name": "Bar#0",
+                  "redacted": false,
+                  "registry_type": 4,
+                  "value": 0
+                },
+                {
+                  "name": "Bar#1",
+                  "redacted": false,
+                  "registry_type": 4,
+                  "value": 1
+                },
+                {
+                  "name": "Bar#2",
+                  "redacted": false,
+                  "registry_type": 4,
+                  "value": 0
+                },
+                {
+                  "name": "Bar#3",
+                  "redacted": false,
+                  "registry_type": 4,
+                  "value": 32833
+                },
+                {
+                  "name": "Bar#4",
+                  "redacted": false,
+                  "registry_type": 4,
+                  "value": 0
+                },
+                {
+                  "name": "Bars",
+                  "redacted": false,
+                  "registry_type": 4,
+                  "value": 5
+                }
+              ]
+            },
+            {
+              "path": "HKCU\\Software\\Macrium\\reflect\\CommandBars-Options",
+              "subkeys": [],
+              "values": [
+                {
+                  "name": "Schema",
+                  "redacted": false,
+                  "registry_type": 4,
+                  "value": 42
+                },
+                {
+                  "name": "AlwaysShowFullMenus",
+                  "redacted": false,
+                  "registry_type": 4,
+                  "value": 1
+                },
+                {
+                  "name": "ShowFullAfterDelay",
+                  "redacted": false,
+                  "registry_type": 4,
+                  "value": 1
+                },
+                {
+                  "name": "ToolBarScreenTips",
+                  "redacted": false,
+                  "registry_type": 4,
+                  "value": 1
+                },
+                {
+                  "name": "ToolBarAccelTips",
+                  "redacted": false,
+                  "registry_type": 4,
+                  "value": 0
+                },
+                {
+                  "name": "LargeIcons",
+                  "redacted": false,
+                  "registry_type": 4,
+                  "value": 0
+                },
+                {
+                  "name": "Animation",
+                  "redacted": false,
+                  "registry_type": 4,
+                  "value": 0
+                }
+              ]
+            },
+            {
+              "path": "HKCU\\Software\\Macrium\\reflect\\CommandBars-Summary",
+              "subkeys": [],
+              "values": [
+                {
+                  "name": "Bars",
+                  "redacted": false,
+                  "registry_type": 4,
+                  "value": 2
+                },
+                {
+                  "name": "ScreenCX",
+                  "redacted": false,
+                  "registry_type": 4,
+                  "value": 3840
+                },
+                {
+                  "name": "ScreenCY",
+                  "redacted": false,
+                  "registry_type": 4,
+                  "value": 2160
+                }
+              ]
+            },
+            {
+              "path": "HKCU\\Software\\Macrium\\reflect\\Defaults",
+              "subkeys": [],
+              "values": [
+                {
+                  "name": "InteractiveTimeOutSeconds",
+                  "redacted": false,
+                  "registry_type": 4,
+                  "value": 0
+                },
+                {
+                  "name": "BackupViewSetsPathWidth",
+                  "redacted": false,
+                  "registry_type": 4,
+                  "value": 29
+                },
+                {
+                  "name": "BackupViewSetsDefWidth",
+                  "redacted": false,
+                  "registry_type": 4,
+                  "value": 57
+                },
+                {
+                  "name": "BackupViewSetsImageIDWidth",
+                  "redacted": false,
+                  "registry_type": 4,
+                  "value": 51
+                },
+                {
+                  "name": "BackupViewSetsTypeWidth",
+                  "redacted": false,
+                  "registry_type": 4,
+                  "value": 31
+                },
+                {
+                  "name": "BackupViewSetsDateWidth",
+                  "redacted": false,
+                  "registry_type": 4,
+                  "value": 30
+                },
+                {
+                  "name": "BackupViewSetsSizeWidth",
+                  "redacted": false,
+                  "registry_type": 4,
+                  "value": 30
+                },
+                {
+                  "name": "BackupViewSetsCommentWidth",
+                  "redacted": false,
+                  "registry_type": 4,
+                  "value": 200
+                },
+                {
+                  "name": "FixUpBackupViewSetColWidths",
+                  "redacted": false,
+                  "registry_type": 4,
+                  "value": 0
+                },
+                {
+                  "name": "ImageViewSetsPathWidth",
+                  "redacted": false,
+                  "registry_type": 4,
+                  "value": 29
+                },
+                {
+                  "name": "ImageViewSetsDefWidth",
+                  "redacted": false,
+                  "registry_type": 4,
+                  "value": 57
+                },
+                {
+                  "name": "ImageViewSetsImageIDWidth",
+                  "redacted": false,
+                  "registry_type": 4,
+                  "value": 51
+                },
+                {
+                  "name": "ImageViewSetsTypeWidth",
+                  "redacted": false,
+                  "registry_type": 4,
+                  "value": 31
+                },
+                {
+                  "name": "ImageViewSetsDateWidth",
+                  "redacted": false,
+                  "registry_type": 4,
+                  "value": 30
+                },
+                {
+                  "name": "ImageViewSetsSizeWidth",
+                  "redacted": false,
+                  "registry_type": 4,
+                  "value": 30
+                },
+                {
+                  "name": "ImageViewSetsCommentWidth",
+                  "redacted": false,
+                  "registry_type": 4,
+                  "value": 200
+                },
+                {
+                  "name": "FixUpImageViewSetColWidths",
+                  "redacted": false,
+                  "registry_type": 4,
+                  "value": 0
+                },
+                {
+                  "name": "LogViewResultColWidth",
+                  "redacted": false,
+                  "registry_type": 4,
+                  "value": 0
+                },
+                {
+                  "name": "LogViewDateColWidth",
+                  "redacted": false,
+                  "registry_type": 4,
+                  "value": 0
+                },
+                {
+                  "name": "LogViewTypeColWidth",
+                  "redacted": false,
+                  "registry_type": 4,
+                  "value": 0
+                },
+                {
+                  "name": "LogViewBackupTypeColWidth",
+                  "redacted": false,
+                  "registry_type": 4,
+                  "value": 0
+                },
+                {
+                  "name": "LogViewDefColWidth",
+                  "redacted": false,
+                  "registry_type": 4,
+                  "value": 0
+                },
+                {
+                  "name": "LogViewImageIDColWidth",
+                  "redacted": false,
+                  "registry_type": 4,
+                  "value": 0
+                },
+                {
+                  "name": "LogViewFilenameColWidth",
+                  "redacted": false,
+                  "registry_type": 4,
+                  "value": 0
+                },
+                {
+                  "name": "LogViewMessageColWidth",
+                  "redacted": false,
+                  "registry_type": 4,
+                  "value": 0
+                },
+                {
+                  "name": "BackupViewFolderListWidth",
+                  "redacted": false,
+                  "registry_type": 4,
+                  "value": 200
+                },
+                {
+                  "name": "ImageViewFolderListWidth",
+                  "redacted": false,
+                  "registry_type": 4,
+                  "value": 200
+                },
+                {
+                  "name": "TaskViewNameColWidth",
+                  "redacted": false,
+                  "registry_type": 4,
+                  "value": 439
+                },
+                {
+                  "name": "TaskViewScheduleColWidth",
+                  "redacted": false,
+                  "registry_type": 4,
+                  "value": 1096
+                },
+                {
+                  "name": "TaskViewNextColWidth",
+                  "redacted": false,
+                  "registry_type": 4,
+                  "value": 439
+                },
+                {
+                  "name": "TaskViewLastColWidth",
+                  "redacted": false,
+                  "registry_type": 4,
+                  "value": 440
+                },
+                {
+                  "name": "TaskViewStatusColWidth",
+                  "redacted": false,
+                  "registry_type": 4,
+                  "value": 440
+                },
+                {
+                  "name": "TaskViewResultColWidth",
+                  "redacted": false,
+                  "registry_type": 4,
+                  "value": 440
+                },
+                {
+                  "name": "TaskViewUserColWidth",
+                  "redacted": false,
+                  "registry_type": 4,
+                  "value": 222
+                }
+              ]
+            },
+            {
+              "path": "HKCU\\Software\\Macrium\\reflect\\Disk00",
+              "subkeys": [],
+              "values": []
+            },
+            {
+              "path": "HKCU\\Software\\Macrium\\reflect\\Disk01",
+              "subkeys": [],
+              "values": []
+            },
+            {
+              "path": "HKCU\\Software\\Macrium\\reflect\\Disk02",
+              "subkeys": [],
+              "values": []
+            },
+            {
+              "path": "HKCU\\Software\\Macrium\\reflect\\Disk03",
+              "subkeys": [],
+              "values": []
+            },
+            {
+              "path": "HKCU\\Software\\Macrium\\reflect\\DiskImageBackup",
+              "subkeys": [],
+              "values": [
+                {
+                  "name": "WindowPlacement",
+                  "redacted": false,
+                  "registry_type": 3,
+                  "value": {
+                    "sha256": "aa282b40740cd48bee060116d9faeaa710c6efe54a3b2b0829b84b548e15c2e6",
+                    "size": 44,
+                    "type": "binary"
+                  }
+                }
+              ]
+            },
+            {
+              "path": "HKCU\\Software\\Macrium\\reflect\\Disks",
+              "subkeys": [],
+              "values": [
+                {
+                  "name": "1026E02B-0282-48DF-974C-B647B57C9973",
+                  "redacted": false,
+                  "registry_type": 4,
+                  "value": 4294967295
+                },
+                {
+                  "name": "EBDC71C7",
+                  "redacted": false,
+                  "registry_type": 4,
+                  "value": 4294967295
+                },
+                {
+                  "name": "CD24931A",
+                  "redacted": false,
+                  "registry_type": 4,
+                  "value": 4294967295
+                },
+                {
+                  "name": "9605B2D7",
+                  "redacted": false,
+                  "registry_type": 4,
+                  "value": 4294967295
+                },
+                {
+                  "name": "0008F4D8",
+                  "redacted": false,
+                  "registry_type": 4,
+                  "value": 4294967295
+                }
+              ]
+            },
+            {
+              "path": "HKCU\\Software\\Macrium\\reflect\\ErrorState",
+              "subkeys": [],
+              "values": []
+            },
+            {
+              "path": "HKCU\\Software\\Macrium\\reflect\\ExcludedWriters",
+              "subkeys": [],
+              "values": []
+            },
+            {
+              "path": "HKCU\\Software\\Macrium\\reflect\\FailedRename",
+              "subkeys": [],
+              "values": []
+            },
+            {
+              "path": "HKCU\\Software\\Macrium\\reflect\\Help",
+              "subkeys": [],
+              "values": []
+            },
+            {
+              "path": "HKCU\\Software\\Macrium\\reflect\\Help_debug",
+              "subkeys": [],
+              "values": []
+            },
+            {
+              "path": "HKCU\\Software\\Macrium\\reflect\\ImageGuardian",
+              "subkeys": [],
+              "values": []
+            },
+            {
+              "path": "HKCU\\Software\\Macrium\\reflect\\Install",
+              "subkeys": [],
+              "values": [
+                {
+                  "name": "InstallRunning",
+                  "redacted": false,
+                  "registry_type": 4,
+                  "value": 0
+                }
+              ]
+            },
+            {
+              "path": "HKCU\\Software\\Macrium\\reflect\\InstallState",
+              "subkeys": [],
+              "values": []
+            },
+            {
+              "path": "HKCU\\Software\\Macrium\\reflect\\MIG",
+              "subkeys": [],
+              "values": []
+            },
+            {
+              "path": "HKCU\\Software\\Macrium\\reflect\\Recent File List",
+              "subkeys": [],
+              "values": [
+                {
+                  "name": "File1",
+                  "redacted": false,
+                  "registry_type": 1,
+                  "value": "C:\\Users\\micha\\Documents\\Reflect\\My Backup.xml"
+                }
+              ]
+            },
+            {
+              "path": "HKCU\\Software\\Macrium\\reflect\\Recent Folders",
+              "subkeys": [
+                {
+                  "path": "HKCU\\Software\\Macrium\\reflect\\Recent Folders\\Backup",
+                  "subkeys": [],
+                  "values": []
+                },
+                {
+                  "path": "HKCU\\Software\\Macrium\\reflect\\Recent Folders\\Image",
+                  "subkeys": [
+                    {
+                      "path": "HKCU\\Software\\Macrium\\reflect\\Recent Folders\\Image\\0",
+                      "subkeys": [],
+                      "values": [
+                        {
+                          "name": "Search",
+                          "redacted": false,
+                          "registry_type": 4,
+                          "value": 1
+                        },
+                        {
+                          "name": "Folder",
+                          "redacted": false,
+                          "registry_type": 1,
+                          "value": "F:\\win11recovery\\"
+                        }
+                      ]
+                    }
+                  ],
+                  "values": []
+                }
+              ],
+              "values": []
+            },
+            {
+              "path": "HKCU\\Software\\Macrium\\reflect\\ReflectDL",
+              "subkeys": [],
+              "values": []
+            },
+            {
+              "path": "HKCU\\Software\\Macrium\\reflect\\ReflectMonitor",
+              "subkeys": [],
+              "values": [
+                {
+                  "name": "TrayIcon",
+                  "redacted": false,
+                  "registry_type": 3,
+                  "value": {
+                    "sha256": "76e2a43c41d08d3c5b3b58d98b7be4939543793a07933eea44cd6b1ce413b49e",
+                    "size": 16,
+                    "type": "binary"
+                  }
+                },
+                {
+                  "name": "Error",
+                  "redacted": false,
+                  "registry_type": 1,
+                  "value": ""
+                },
+                {
+                  "name": "IconCreateError",
+                  "redacted": false,
+                  "registry_type": 1,
+                  "value": "-2147467259 - Unspecified error"
+                }
+              ]
+            },
+            {
+              "path": "HKCU\\Software\\Macrium\\reflect\\ReflectUI",
+              "subkeys": [],
+              "values": []
+            },
+            {
+              "path": "HKCU\\Software\\Macrium\\reflect\\Rescue",
+              "subkeys": [],
+              "values": []
+            },
+            {
+              "path": "HKCU\\Software\\Macrium\\reflect\\Settings",
+              "subkeys": [],
+              "values": [
+                {
+                  "name": "ImageViewSetBestFitCols",
+                  "redacted": false,
+                  "registry_type": 3,
+                  "value": {
+                    "sha256": "b14d2c95178add3c69da1d30e54f022add6ca9a8453169a3f1f36ee6f9010cb2",
+                    "size": 7,
+                    "type": "binary"
+                  }
+                },
+                {
+                  "name": "BackupViewSetBestFitCols",
+                  "redacted": false,
+                  "registry_type": 3,
+                  "value": {
+                    "sha256": "b14d2c95178add3c69da1d30e54f022add6ca9a8453169a3f1f36ee6f9010cb2",
+                    "size": 7,
+                    "type": "binary"
+                  }
+                },
+                {
+                  "name": "WindowMax",
+                  "redacted": false,
+                  "registry_type": 4,
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "path": "HKCU\\Software\\Macrium\\reflect\\SM_Stealth",
+              "subkeys": [],
+              "values": []
+            },
+            {
+              "path": "HKCU\\Software\\Macrium\\reflect\\SplitFiles",
+              "subkeys": [],
+              "values": []
+            },
+            {
+              "path": "HKCU\\Software\\Macrium\\reflect\\Splitter",
+              "subkeys": [],
+              "values": [
+                {
+                  "name": "CMainFrame_Splitter0W",
+                  "redacted": false,
+                  "registry_type": 4,
+                  "value": 310
+                },
+                {
+                  "name": "RelectView_Splitter_Col_Width",
+                  "redacted": false,
+                  "registry_type": 4,
+                  "value": 3516
+                },
+                {
+                  "name": "RelectView_Splitter_Row0_Height",
+                  "redacted": false,
+                  "registry_type": 4,
+                  "value": 255
+                },
+                {
+                  "name": "RelectView_Splitter_Row1_Height",
+                  "redacted": false,
+                  "registry_type": 4,
+                  "value": 1656
+                },
+                {
+                  "name": "RelectView_Splitter1_Col_Width",
+                  "redacted": false,
+                  "registry_type": 4,
+                  "value": 3516
+                },
+                {
+                  "name": "RelectView_Splitter1_Row0_Height",
+                  "redacted": false,
+                  "registry_type": 4,
+                  "value": 255
+                },
+                {
+                  "name": "RelectView_Splitter1_Row1_Height",
+                  "redacted": false,
+                  "registry_type": 4,
+                  "value": 1656
+                },
+                {
+                  "name": "RelectView_Splitter4_Col_Width",
+                  "redacted": false,
+                  "registry_type": 4,
+                  "value": 3516
+                },
+                {
+                  "name": "RelectView_Splitter4_Row0_Height",
+                  "redacted": false,
+                  "registry_type": 4,
+                  "value": 255
+                },
+                {
+                  "name": "RelectView_Splitter4_Row1_Height",
+                  "redacted": false,
+                  "registry_type": 4,
+                  "value": 1656
+                },
+                {
+                  "name": "RelectView_Splitter5_Col_Width",
+                  "redacted": false,
+                  "registry_type": 4,
+                  "value": 3516
+                },
+                {
+                  "name": "RelectView_Splitter5_Row0_Height",
+                  "redacted": false,
+                  "registry_type": 4,
+                  "value": 255
+                },
+                {
+                  "name": "RelectView_Splitter5_Row1_Height",
+                  "redacted": false,
+                  "registry_type": 4,
+                  "value": 1531
+                }
+              ]
+            },
+            {
+              "path": "HKCU\\Software\\Macrium\\reflect\\Variables",
+              "subkeys": [],
+              "values": [
+                {
+                  "name": "LastUsed",
+                  "redacted": false,
+                  "registry_type": 4,
+                  "value": 121
+                }
+              ]
+            },
+            {
+              "path": "HKCU\\Software\\Macrium\\reflect\\VSS",
+              "subkeys": [],
+              "values": []
+            },
+            {
+              "path": "HKCU\\Software\\Macrium\\reflect\\Wizard",
+              "subkeys": [],
+              "values": [
+                {
+                  "name": "Default Destination",
+                  "redacted": false,
+                  "registry_type": 4,
+                  "value": 0
+                },
+                {
+                  "name": "Last File Name",
+                  "redacted": false,
+                  "registry_type": 1,
+                  "value": ""
+                }
+              ]
+            },
+            {
+              "path": "HKCU\\Software\\Macrium\\reflect\\WriteFlags",
+              "subkeys": [],
+              "values": []
+            }
+          ],
+          "values": [
+            {
+              "name": "REGDETAILS",
+              "redacted": false,
+              "registry_type": 1,
+              "value": "EMPTY"
+            },
+            {
+              "name": "REGISTER",
+              "redacted": false,
+              "registry_type": 1,
+              "value": ""
+            },
+            {
+              "name": "REGEMAIL",
+              "redacted": false,
+              "registry_type": 1,
+              "value": "michaelovsky55@gmail.com"
+            },
+            {
+              "name": "REGURC",
+              "redacted": false,
+              "registry_type": 1,
+              "value": "YVK3-SYAV"
+            },
+            {
+              "name": "License",
+              "redacted": true,
+              "registry_type": 1,
+              "value": "[redacted]"
+            },
+            {
+              "name": "newmsi",
+              "redacted": false,
+              "registry_type": 1,
+              "value": "C:\\WINDOWS\\Installer\\reflect_setupv8.1.8631-x64-15.msi"
+            },
+            {
+              "name": "version",
+              "redacted": false,
+              "registry_type": 4,
+              "value": 8631
+            }
+          ]
+        },
+        {
+          "path": "HKCU\\Software\\Macrium\\reflectmonitor",
+          "subkeys": [
+            {
+              "path": "HKCU\\Software\\Macrium\\reflectmonitor\\ReflectMonitor",
+              "subkeys": [],
+              "values": [
+                {
+                  "name": "WindowPlacement",
+                  "redacted": false,
+                  "registry_type": 3,
+                  "value": {
+                    "sha256": "fe734a28234917653d9816c42d3dd6f664a3861cfa8aa9c6a5cb960a2c69d5b3",
+                    "size": 44,
+                    "type": "binary"
+                  }
+                }
+              ]
+            }
+          ],
+          "values": []
+        }
+      ],
+      "values": []
+    },
+    {
+      "path": "HKLM\\SYSTEM\\CurrentControlSet\\Services\\MacriumService",
+      "subkeys": [],
+      "values": [
+        {
+          "name": "DisplayName",
+          "redacted": false,
+          "registry_type": 1,
+          "value": "Macrium Service"
+        },
+        {
+          "name": "Description",
+          "redacted": false,
+          "registry_type": 1,
+          "value": "Provides scheduling and communication services for Macrium Reflect and associated products. This is a required service that should not be disabled or turned off."
+        },
+        {
+          "name": "FailureActions",
+          "redacted": false,
+          "registry_type": 3,
+          "value": {
+            "sha256": "317b8e345de6c8aa72bd14ea47b7000d9ebb76627d25586df2ff7700708a8e0f",
+            "size": 44,
+            "type": "binary"
+          }
+        },
+        {
+          "name": "Type",
+          "redacted": false,
+          "registry_type": 4,
+          "value": 16
+        },
+        {
+          "name": "Start",
+          "redacted": false,
+          "registry_type": 4,
+          "value": 4
+        },
+        {
+          "name": "ErrorControl",
+          "redacted": false,
+          "registry_type": 4,
+          "value": 1
+        },
+        {
+          "name": "ImagePath",
+          "redacted": false,
+          "registry_type": 2,
+          "value": "\"C:\\Program Files\\Macrium\\Common\\MacriumService.exe\""
+        },
+        {
+          "name": "ObjectName",
+          "redacted": false,
+          "registry_type": 1,
+          "value": "LocalSystem"
+        }
+      ]
+    },
+    {
+      "path": "HKLM\\SYSTEM\\CurrentControlSet\\Services\\mrcbt",
+      "subkeys": [
+        {
+          "path": "HKLM\\SYSTEM\\CurrentControlSet\\Services\\mrcbt\\Parameters",
+          "subkeys": [],
+          "values": [
+            {
+              "name": "StorageSupportedFeatures",
+              "redacted": false,
+              "registry_type": 4,
+              "value": 1
+            }
+          ]
+        }
+      ],
+      "values": [
+        {
+          "name": "PersistOverReboot",
+          "redacted": false,
+          "registry_type": 4,
+          "value": 1
+        },
+        {
+          "name": "ExcludeUSB",
+          "redacted": false,
+          "registry_type": 4,
+          "value": 0
+        },
+        {
+          "name": "ExcludeVHD",
+          "redacted": false,
+          "registry_type": 4,
+          "value": 0
+        },
+        {
+          "name": "DebugLog",
+          "redacted": false,
+          "registry_type": 4,
+          "value": 1
+        },
+        {
+          "name": "DebugLogPath",
+          "redacted": false,
+          "registry_type": 2,
+          "value": "\\??\\C:\\ProgramData\\Macrium\\mrcbt_debug.log"
+        },
+        {
+          "name": "Description",
+          "redacted": false,
+          "registry_type": 1,
+          "value": "Macrium Change Block Tracker"
+        },
+        {
+          "name": "DisplayName",
+          "redacted": false,
+          "registry_type": 1,
+          "value": "Macrium Change Block Tracker"
+        },
+        {
+          "name": "EventLevel",
+          "redacted": false,
+          "registry_type": 4,
+          "value": 3
+        },
+        {
+          "name": "TrackUnmap",
+          "redacted": false,
+          "registry_type": 4,
+          "value": 1
+        },
+        {
+          "name": "Type",
+          "redacted": false,
+          "registry_type": 4,
+          "value": 1
+        },
+        {
+          "name": "Start",
+          "redacted": false,
+          "registry_type": 4,
+          "value": 0
+        },
+        {
+          "name": "ErrorControl",
+          "redacted": false,
+          "registry_type": 4,
+          "value": 3
+        },
+        {
+          "name": "ImagePath",
+          "redacted": false,
+          "registry_type": 2,
+          "value": "system32\\drivers\\mrcbt.sys"
+        }
+      ]
+    },
+    {
+      "path": "HKLM\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\MacriumReflect",
+      "subkeys": [],
+      "values": [
+        {
+          "name": "DisplayVersion",
+          "redacted": false,
+          "registry_type": 1,
+          "value": "v8.1.8631"
+        },
+        {
+          "name": "InstallDate",
+          "redacted": false,
+          "registry_type": 1,
+          "value": "06/04/2026"
+        },
+        {
+          "name": "InstallSource",
+          "redacted": false,
+          "registry_type": 1,
+          "value": "C:\\WINDOWS\\Installer\\"
+        },
+        {
+          "name": "ModifyPath",
+          "redacted": false,
+          "registry_type": 2,
+          "value": "MsiExec.exe /I{BB66D265-AC9C-4F02-A8EE-D82DA78541D2}"
+        },
+        {
+          "name": "Publisher",
+          "redacted": false,
+          "registry_type": 1,
+          "value": "Paramount Software (UK) Ltd."
+        },
+        {
+          "name": "UninstallString",
+          "redacted": false,
+          "registry_type": 2,
+          "value": "F:\\backup\\windowsapps\\installed\\Reflect\\xReflect.exe"
+        },
+        {
+          "name": "HelpLink",
+          "redacted": false,
+          "registry_type": 2,
+          "value": "http://knowledgebase.macrium.com/"
+        },
+        {
+          "name": "URLInfoAbout",
+          "redacted": false,
+          "registry_type": 2,
+          "value": "http://www.macrium.com/default.aspx"
+        },
+        {
+          "name": "URLUpdateInfo",
+          "redacted": false,
+          "registry_type": 2,
+          "value": "http://updates.macrium.com/reflect/v8/latest_release_notes.asp"
+        },
+        {
+          "name": "DisplayIcon",
+          "redacted": false,
+          "registry_type": 1,
+          "value": "F:\\backup\\windowsapps\\installed\\Reflect\\Reflect.exe"
+        },
+        {
+          "name": "NoRepair",
+          "redacted": false,
+          "registry_type": 4,
+          "value": 0
+        },
+        {
+          "name": "DisplayName",
+          "redacted": false,
+          "registry_type": 1,
+          "value": "Macrium Reflect Workstation"
+        }
+      ]
+    },
+    {
+      "path": "HKLM\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\{BB66D265-AC9C-4F02-A8EE-D82DA78541D2}",
+      "subkeys": [],
+      "values": [
+        {
+          "name": "AuthorizedCDFPrefix",
+          "redacted": false,
+          "registry_type": 1,
+          "value": ""
+        },
+        {
+          "name": "Comments",
+          "redacted": false,
+          "registry_type": 1,
+          "value": ""
+        },
+        {
+          "name": "Contact",
+          "redacted": false,
+          "registry_type": 1,
+          "value": ""
+        },
+        {
+          "name": "DisplayVersion",
+          "redacted": false,
+          "registry_type": 1,
+          "value": "8.1.8631"
+        },
+        {
+          "name": "HelpLink",
+          "redacted": false,
+          "registry_type": 1,
+          "value": ""
+        },
+        {
+          "name": "HelpTelephone",
+          "redacted": false,
+          "registry_type": 1,
+          "value": ""
+        },
+        {
+          "name": "InstallDate",
+          "redacted": false,
+          "registry_type": 1,
+          "value": "20260406"
+        },
+        {
+          "name": "InstallLocation",
+          "redacted": false,
+          "registry_type": 1,
+          "value": ""
+        },
+        {
+          "name": "InstallSource",
+          "redacted": false,
+          "registry_type": 1,
+          "value": "C:\\WINDOWS\\Installer\\"
+        },
+        {
+          "name": "ModifyPath",
+          "redacted": false,
+          "registry_type": 2,
+          "value": "MsiExec.exe /I{BB66D265-AC9C-4F02-A8EE-D82DA78541D2}"
+        },
+        {
+          "name": "Publisher",
+          "redacted": false,
+          "registry_type": 1,
+          "value": "Paramount Software (UK) Ltd."
+        },
+        {
+          "name": "Readme",
+          "redacted": false,
+          "registry_type": 1,
+          "value": ""
+        },
+        {
+          "name": "Size",
+          "redacted": false,
+          "registry_type": 1,
+          "value": ""
+        },
+        {
+          "name": "SystemComponent",
+          "redacted": false,
+          "registry_type": 4,
+          "value": 1
+        },
+        {
+          "name": "UninstallString",
+          "redacted": false,
+          "registry_type": 2,
+          "value": "MsiExec.exe /I{BB66D265-AC9C-4F02-A8EE-D82DA78541D2}"
+        },
+        {
+          "name": "URLInfoAbout",
+          "redacted": false,
+          "registry_type": 1,
+          "value": ""
+        },
+        {
+          "name": "URLUpdateInfo",
+          "redacted": false,
+          "registry_type": 1,
+          "value": ""
+        },
+        {
+          "name": "VersionMajor",
+          "redacted": false,
+          "registry_type": 4,
+          "value": 8
+        },
+        {
+          "name": "VersionMinor",
+          "redacted": false,
+          "registry_type": 4,
+          "value": 1
+        },
+        {
+          "name": "WindowsInstaller",
+          "redacted": false,
+          "registry_type": 4,
+          "value": 1
+        },
+        {
+          "name": "Version",
+          "redacted": false,
+          "registry_type": 4,
+          "value": 134291895
+        },
+        {
+          "name": "Language",
+          "redacted": false,
+          "registry_type": 4,
+          "value": 1033
+        },
+        {
+          "name": "DisplayName",
+          "redacted": false,
+          "registry_type": 1,
+          "value": "Macrium Reflect Workstation"
+        }
+      ]
+    }
+  ],
+  "scan_strategy": {
+    "drive_root_hits": [],
+    "fixed_drives_scanned": [
+      "C:",
+      "D:",
+      "E:",
+      "F:"
+    ],
+    "full_drive_crawl": false,
+    "patterns": [
+      "*Macrium*",
+      "*Reflect*",
+      "*MRCBT*"
+    ],
+    "runtime_candidates": [
+      "C:\\Program Files\\Macrium",
+      "C:\\Program Files (x86)\\Macrium",
+      "F:\\backup\\windowsapps\\installed\\Reflect",
+      "C:\\Windows\\System32\\drivers\\mrcbt.sys",
+      "C:\\Windows\\System32\\drivers\\mrigflt.sys"
+    ],
+    "scan_depth": "drive root immediate children plus known Windows Macrium locations, Macrium runtime roots, and Macrium driver files"
+  },
+  "scheduled_tasks": [],
+  "schema_version": "1",
+  "services": [
+    {
+      "Description": "Provides scheduling and communication services for Macrium Reflect and associated products. This is a required service that should not be disabled or turned off.",
+      "DisplayName": "Macrium Service",
+      "Name": "MacriumService",
+      "PathName": "\"C:\\Program Files\\Macrium\\Common\\MacriumService.exe\"",
+      "ServiceType": "Own Process",
+      "StartMode": "Disabled",
+      "StartName": "LocalSystem",
+      "State": "Stopped"
+    }
+  ],
+  "sources": [
+    {
+      "exists": true,
+      "kind": "directory",
+      "path": "C:\\Program Files\\Macrium"
+    },
+    {
+      "exists": true,
+      "kind": "directory",
+      "path": "F:\\backup\\windowsapps\\installed\\Reflect"
+    },
+    {
+      "exists": true,
+      "kind": "file",
+      "path": "C:\\Windows\\System32\\drivers\\mrcbt.sys"
+    },
+    {
+      "exists": true,
+      "kind": "file",
+      "path": "C:\\Windows\\System32\\drivers\\mrigflt.sys"
+    },
+    {
+      "exists": true,
+      "kind": "directory",
+      "path": "C:\\ProgramData\\Macrium"
+    },
+    {
+      "exists": true,
+      "kind": "directory",
+      "path": "C:\\ProgramData\\Macrium\\Reflect"
+    },
+    {
+      "exists": true,
+      "kind": "directory",
+      "path": "C:\\Users\\micha\\Documents\\Reflect"
+    },
+    {
+      "exists": true,
+      "kind": "directory",
+      "path": "C:\\Users\\micha\\Desktop"
+    },
+    {
+      "exists": true,
+      "kind": "directory",
+      "path": "C:\\Users\\Public\\Desktop"
+    },
+    {
+      "exists": true,
+      "kind": "directory",
+      "path": "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Macrium"
+    },
+    {
+      "exists": true,
+      "kind": "directory",
+      "path": "C:\\Users\\micha\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs"
+    },
+    {
+      "exists": true,
+      "kind": "file",
+      "path": "C:\\Users\\micha\\Documents\\Reflect\\My Backup.xml"
+    },
+    {
+      "exists": true,
+      "kind": "file",
+      "path": "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Macrium\\Macrium viBoot.lnk"
+    },
+    {
+      "exists": true,
+      "kind": "file",
+      "path": "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Macrium\\Reflect\\Macrium Reflect.lnk"
+    }
+  ],
+  "tool_version": "1.0.0"
+}

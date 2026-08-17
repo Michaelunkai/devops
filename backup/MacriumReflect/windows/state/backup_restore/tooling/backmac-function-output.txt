@@ -1,0 +1,20 @@
+0
+[?1000l[?1002l[?1003l[?1006l[?1015l[?1016l[Profile loaded in 521ms]
+Looking in links: c:\Users\micha\AppData\Local\Temp\tmpu0l0a57s
+Requirement already satisfied: pip in c:\users\micha\appdata\local\programs\python\python312\lib\site-packages (26.0.1)
+2026-04-28T14:31:32 INFO Resolved backup root: F:\backup\windowsapps\AppsBackups\Macrium
+2026-04-28T14:33:10 INFO Backup package created: F:\backup\windowsapps\AppsBackups\Macrium\macrium-reflect-state-20260428-143132.zip
+2026-04-28T14:33:10 INFO Package size bytes: 316000983
+{
+  "latest_successful_package": "F:\\backup\\windowsapps\\AppsBackups\\Macrium\\macrium-reflect-state-20260428-143132.zip",
+  "updated_at": "2026-04-28T14:33:10.356877+03:00",
+  "verification": {
+    "created_at": "2026-04-28T14:31:37.025136+03:00",
+    "file_count": 507,
+    "hashes_checked": 507,
+    "package_size": 316000983,
+    "path": "F:\\backup\\windowsapps\\AppsBackups\\Macrium\\macrium-reflect-state-20260428-143132.zip",
+    "schema_version": "1",
+    "status": "success"
+  }
+}

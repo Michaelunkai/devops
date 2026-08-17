@@ -1,0 +1,16 @@
+2026-04-28T14:00:14 INFO Resolved backup root: F:\backup\windowsapps\AppsBackups\Macrium
+2026-04-28T14:00:20 INFO Backup package created: F:\backup\windowsapps\AppsBackups\Macrium\macrium-reflect-state-20260428-140014.zip
+2026-04-28T14:00:20 INFO Package size bytes: 421979
+{
+  "latest_successful_package": "F:\\backup\\windowsapps\\AppsBackups\\Macrium\\macrium-reflect-state-20260428-140014.zip",
+  "updated_at": "2026-04-28T14:00:20.677117+03:00",
+  "verification": {
+    "created_at": "2026-04-28T14:00:18.795490+03:00",
+    "file_count": 437,
+    "hashes_checked": 437,
+    "package_size": 421979,
+    "path": "F:\\backup\\windowsapps\\AppsBackups\\Macrium\\macrium-reflect-state-20260428-140014.zip",
+    "schema_version": "1",
+    "status": "success"
+  }
+}

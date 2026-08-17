@@ -1,0 +1,566 @@
+//=======================================================================
+//================ Lex class support ====================================
+//=======================================================================
+// 	lexClass:
+//		name		= c_CPPString
+//		parent		= c_CPP
+//		parent:dyn	= c_CPP
+//
+//		children		= 0
+//		children		= class1, class2, ...
+//
+//		previous:class			=	
+//		previous:tag			=	
+//		previous:tag:separators	=	
+//
+//		start:class		= 
+//		start:Tag		= '"'
+//
+//		skip:Tag		= '\"'
+//
+//		end:class		= //
+//		end:Tag			= '"'
+//		end:separators	= ' '
+//
+//		Token:tag		= 'if', 'for', 'while', 'do'
+//		Token:start:separators	= 
+//		Token:end:separators	= 
+//-----------------------------------------------------------------------
+//---------------- Attributes -------------------------------------------
+//-----------------------------------------------------------------------
+//	txt:colorFG	= 0x003f3f // color value in hex format. default: black	
+//	txt:colorBK	= 0x003f3f // color value in hex format. default: white		
+//
+//	txt:colorSelFG	= 0x003f3f // color value in hex format. default: white
+//	txt:colorSelBK	= 0x003f3f // color value in hex format. default: black
+//
+//	txt:Bold	= 1 // {1,0} default: 0
+//	txt:italic	= 0 // {1,0} default: 0
+//	txt:Underline	= 1 // {1,0} default: 0
+//
+//	caseSensitive	= 1 // {1,0} default: 0
+//
+//	Collapsable	= 1 // {1,0} default: 0
+//	CollapsedText	= '/*...*/' // quoted string value. default: '[..]'	
+//
+//	ParseOnScreen	= 1 // {1,0} default: 0
+// 	
+//-----------------------------------------------------------------------
+//* Global attributes ***************************************************
+//-----------------------------------------------------------------------
+// 	global:FirstParseInSeparateThread	= 0		// {0,1} default=1
+// 	global:EditReparceInSeparateThread	= 0		// {0,1} default=1
+//	global:ConfigChangedReparceInSeparateThread= 0 // {0,1} default=1
+// 	global:EditReparceTimeout_ms	= 500		// default= 500 ms; time out for start reparse after last key was pressed.
+// 	global:MaxBackParseOffset		= 100		// default= 100 chars; maximum back buffer size. Some times parser look back for the text from current position.
+// 	global:OnScreenSchCacheLifeTime_sec = 180	// default= 180 sec; -1 and 0 means infinite; time out for on screen parsed pices of text. for memory using optimization.
+// 	global:ParserThreadIdleLifeTime_sec = 60	// default=60 sec; -1 and 0 means infinite; time out for existing of parser thread when parser idle (no parse requests).
+	
+/////////////////////////////////////////////////////////////////////////
+
+//=======================================================================
+//================ Variables support ====================================
+//=======================================================================
+// NON operation - example:   @alpha:not
+//
+// @alpha	= a-z, A-Z
+// @digit	= 0-9
+// @HexDdigit	= 0-9, a-f, A-F
+// @specs	= "~`!@#$%^&*()_-+=\\|{}[];:'\",.<>/?"
+// @EOL		= End Of Line
+//---------------------------------------------
+// special tags:  '\\', '\'', '\t', '\r', '\n'
+/////////////////////////////////////////////////////////////////////////
+
+/// VBS ///	
+lexClass:
+	parent:file		= <*.vbs>
+	name			= c_VBS
+	caseSensitive	= 0
+	txt:colorFG	= 0xffffff
+	global:EditReparceTimeout_ms = 15000
+	global:OnScreenSchcacheLifeTime_sec = 0
+	global:ParserThreadIdleLifeTime_sec = 300
+ 	global:FirstParseInSeparateThread	= 1		// {0,1} default=1
+ 	global:EditReparceInSeparateThread	= 1		// {0,1} default=1
+	global:ConfigChangedReparceInSeparateThread= 1          // {0,1} default=1
+//:lexClass
+
+
+lexClass:
+	name		= c_VBScriptComment
+	parent		= c_VBS
+	ParseOnScreen = 0
+	start:Tag	= '\''
+	end:separators =  @EOL
+	txt:colorFG	= 0x76F773
+	txt:Italic	= 1
+	DisplayName = 'VB Script Comment'
+
+lexClass:
+	name		= c_VBS_A_OPERATORS	
+	ParseOnScreen = 0
+	parent		= c_VBS
+	Token:Tag = '=', '+', '-', '!', '(', ')', '*'
+	txt:colorfg = 0xE1E1E1
+
+
+lexClass: 	
+	name			= c_VBSString_char	
+	parent:dyn		= c_VBS 
+	children		= 0
+	start:Tag		= '"',  '"""'
+	end:Tag			= '"',  '"""', @eol
+	txt:colorFG		= 0xE00000
+
+
+lexClass: 
+	name		= c_VBScript_Language_Keywords
+	parent		= c_VBS
+	ParseOnScreen = 0
+
+	token:start:separators	= ' ','\t', ,'(', @eol
+	token:end:separators	= ' ','\t', '(',')', @eol, '.'
+	
+	txt:colorFG	= 0xFFFF00
+	txt:Bold = 0
+		
+	token:tag = 'And'
+	token:tag = 'ByVal', 'ByRef'
+	token:tag = 'Call', 'Case'	
+	token:tag = 'Dim'
+    token:tag = 'Error', 'ElseIf', 'Else', 'End', 'Erase', 'Exit', 'Eqv', 'Explicit'
+	token:tag = 'For', 'Function'
+    token:tag = 'In', 'If', 'Is', 'Imp'
+	token:tag = 'Like'
+	token:tag = 'Mod'
+    token:tag = 'Nothing', 'New', 'Next', 'Not'
+	token:tag = 'Option', 'On', 'Or'
+    token:tag = 'Preserve', 'Private', 'Public'
+	token:tag = 'ReDim', 'Raise', 'Resume'
+    token:tag = 'Set', 'Step', 'Sub'
+	token:tag = 'Then', 'To'
+	token:tag = 'Do', 'Until', 'Loop'
+	token:tag = 'Xor'
+	token:tag = 'With', 'Wend', 'While'
+	token:tag = 'WScript'
+	DisplayName = 'VB Script Keywords'
+
+
+lexClass:
+	name		= c_VBScript_Functions	
+	ParseOnScreen = 0
+	parent		= c_VBS
+
+    token:tag = 'Abs'
+    token:tag = 'Array'
+    token:tag = 'Asc'
+    token:tag = 'Atn'
+    token:tag = 'CBool'
+    token:tag = 'CByte'
+    token:tag = 'CCur'
+    token:tag = 'CDate'
+    token:tag = 'CDbl'
+    token:tag = 'Chr'
+    token:tag = 'CInt'
+    token:tag = 'CLng'
+    token:tag = 'Const'
+    token:tag = 'Cos'
+    token:tag = 'CreateObject'
+    token:tag = 'CSng'
+    token:tag = 'CStr'
+    token:tag = 'Date'
+    token:tag = 'DateAdd'
+    token:tag = 'DateDiff'
+    token:tag = 'DatePart'
+    token:tag = 'DateSerial'
+    token:tag = 'DateValue'
+    token:tag = 'Day'
+    token:tag = 'Exp'
+    token:tag = 'Filter'
+    token:tag = 'Fix'
+    token:tag = 'FormatCurrency'
+    token:tag = 'FormatDateTime'
+    token:tag = 'FormatNumber'
+    token:tag = 'FormatPercent'
+    token:tag = 'GetObject'
+    token:tag = 'Hex'
+    token:tag = 'Hour'
+    token:tag = 'InputBox'
+    token:tag = 'InStr'
+    token:tag = 'InStrRev'
+    token:tag = 'Int'
+    token:tag = 'IsArray'
+    token:tag = 'IsDate'
+    token:tag = 'IsEmpty'
+    token:tag = 'IsNull'
+    token:tag = 'IsNumeric'
+    token:tag = 'IsObject'
+    token:tag = 'Join'
+    token:tag = 'LBound'
+    token:tag = 'LCase'
+    token:tag = 'Left'
+    token:tag = 'Len'
+    token:tag = 'LoadPicture'
+    token:tag = 'Log'
+    token:tag = 'LTrim'
+    token:tag = 'Mid'
+    token:tag = 'Minute'
+    token:tag = 'Month'
+    token:tag = 'MonthName'
+    token:tag = 'MsgBox'
+    token:tag = 'Now'
+    token:tag = 'Oct'
+    token:tag = 'Replace'
+    token:tag = 'Right'
+    token:tag = 'Rnd'
+    token:tag = 'Round'
+    token:tag = 'RTrim'
+    token:tag = 'ScriptEngine'
+    token:tag = 'ScriptEngineBuildVersion'
+    token:tag = 'ScriptEngineMajorVersion'
+    token:tag = 'ScriptEngineMinorVersion'
+    token:tag = 'Second'
+    token:tag = 'Sgn'
+    token:tag = 'Sin'
+    token:tag = 'Space'
+    token:tag = 'Split'
+    token:tag = 'Sqr'
+    token:tag = 'StrComp'
+    token:tag = 'StrReverse'
+    token:tag = 'String'
+    token:tag = 'Tan'
+    token:tag = 'Time'
+    token:tag = 'TimeSerial'
+    token:tag = 'TimeValue'
+    token:tag = 'Trim'
+    token:tag = 'TypeName'
+    token:tag = 'UBound'
+    token:tag = 'UCase'
+    token:tag = 'VarType'
+    token:tag = 'Weekday'
+    token:tag = 'WeekdayName'
+    token:tag = 'Year'
+
+    token:tag = 'empty'
+    token:tag = 'True'
+    token:tag = 'false'
+    token:tag = 'null'
+
+	DisplayName = 'VB Script Functions'
+	txt:colorfg = 0xFFFF00
+	token:start:separators = ' ', '\t', ':', ';', '!', '(', ')', '{', '}', @eol, ','
+	token:end:separators =  '  ', '\t', ':', ';', '!', '(', ')', '{', '}', @eol, ','
+
+
+lexClass:
+	name		= c_TFileSystemObjectL_Methods	
+	ParseOnScreen = 0
+	parent		= c_VBS
+	txt:colorFG	= 0xFFFF00
+	txt:italic	= 0
+
+token:tag = 'Add'
+token:tag = 'BuildPath'
+token:tag = 'Close'
+token:tag = 'Copy'
+token:tag = 'CopyFile'
+token:tag = 'CopyFolder'
+token:tag = 'CreateFolder'
+token:tag = 'CreateTextFile'
+token:tag = 'Delete'
+token:tag = 'DeleteFile'
+token:tag = 'DeleteFolder'
+token:tag = 'DriveExists'
+token:tag = 'Exists'
+token:tag = 'FileExists'
+token:tag = 'FolderExists'
+token:tag = 'GetAbsolutePathName'
+token:tag = 'GetBaseName'
+token:tag = 'GetDrive'
+token:tag = 'GetDriveName'
+token:tag = 'GetExtensionName'
+token:tag = 'GetFile'
+token:tag = 'GetFileName'
+token:tag = 'GetFileVersion'
+token:tag = 'GetFolder'
+token:tag = 'GetParentFolderName'
+token:tag = 'GetSpecialFolder'
+token:tag = 'GetStandardStream' 
+token:tag = 'GetTempName'
+token:tag = 'Items'
+token:tag = 'Keys'
+token:tag = 'Move'
+token:tag = 'MoveFile'
+token:tag = 'MoveFolder'
+token:tag = 'OpenAsTextStream'
+token:tag = 'OpenTextFile'
+token:tag = 'Read'
+token:tag = 'ReadAll'
+token:tag = 'ReadLine' 
+token:tag = 'Remove'
+token:tag = 'RemoveAll'
+token:tag = 'Skip'
+token:tag = 'SkipLine'
+token:tag = 'Write'
+token:tag = 'WriteBlankLines'
+token:tag = 'WriteLine'	
+	token:start:separators = '.'
+	token:end:separators = '.',' ', '\t', ':', ';', '!', '(', ')', '{', '}', @eol
+	DisplayName = 'File System Object Methods'
+
+lexClass:
+	name		= c_TFileSystemObjectL_Properties	
+	ParseOnScreen = 0
+	parent		= c_VBS
+	txt:colorFG	= 0xFFFF00
+	txt:italic	= 0
+token:tag = 'AtEndOfLine'
+token:tag = 'AtEndOfStream'
+token:tag = 'Attributes'
+token:tag = 'AvailableSpace'
+token:tag = 'Column'
+token:tag = 'CompareMode'
+token:tag = 'Count'
+token:tag = 'DateCreated'
+token:tag = 'DateLastAccessed'
+token:tag = 'DateLastModified'
+token:tag = 'Drive'
+token:tag = 'DriveLetter'
+token:tag = 'Drives'
+token:tag = 'DriveType'
+token:tag = 'Files'
+token:tag = 'FileSystemProperty'
+token:tag = 'FreeSpace'
+token:tag = 'IsReady'
+token:tag = 'IsRootFolder'
+token:tag = 'Item'
+token:tag = 'Key'
+token:tag = 'Line'
+token:tag = 'Name'
+token:tag = 'ParentFolder'
+token:tag = 'Path'
+token:tag = 'RootFolder'
+token:tag = 'SerialNumber'
+token:tag = 'ShareName'
+token:tag = 'ShortName'
+token:tag = 'ShortPath'
+token:tag = 'Size'
+token:tag = 'SubFolders'
+token:tag = 'TotalSize'
+token:tag = 'Type'
+token:tag = 'VolumeName'
+	token:start:separators = '.'
+	token:end:separators = '.',' ', '\t', ':', ';', '!', '(', ')', '{', '}', @eol
+	DisplayName = 'File System Object Properties'
+
+
+
+lexClass:
+	name		= c_WScript_Properties	
+	ParseOnScreen = 0
+	parent		= c_VBS
+	txt:colorFG	= 0xFFFF00
+	txt:italic	= 0
+token:tag = 'Arguments'
+token:tag = 'AtEndOfLine'
+token:tag = 'AtEndOfStream'
+token:tag = 'BuildVersion'
+token:tag = 'Character'
+token:tag = 'Column'
+token:tag = 'ComputerName'
+token:tag = 'CurrentDirectory'
+token:tag = 'Description'
+token:tag = 'Environment'
+token:tag = 'Error'
+token:tag = 'ExitCode'
+token:tag = 'FullName'
+token:tag = 'Hotkey'
+token:tag = 'IconLocation'
+token:tag = 'Interactive'
+token:tag = 'Item'
+token:tag = 'length'
+token:tag = 'Line'
+token:tag = 'Name'
+token:tag = 'Named'
+token:tag = 'Number'
+token:tag = 'Path'
+token:tag = 'ProcessID'
+token:tag = 'RelativePath'
+token:tag = 'ScriptFullName'
+token:tag = 'ScriptName'
+token:tag = 'Source'
+token:tag = 'SourceText'
+token:tag = 'SpecialFolders'
+token:tag = 'Status'
+token:tag = 'StdErr'
+token:tag = 'StdIn'
+token:tag = 'StdOut'
+token:tag = 'TargetPath'
+token:tag = 'Unnamed'
+token:tag = 'UserDomain'
+token:tag = 'UserName'
+token:tag = 'Version'
+token:tag = 'WindowStyle'
+token:tag = 'WorkingDirectory'
+	token:start:separators = '.'
+	token:end:separators = '.',' ', '\t', ':', ';', '!', '(', ')', '{', '}', @eol
+	DisplayName = 'WScript Object Properties'
+
+
+lexClass:
+	name		= c_WScript_Methods	
+	ParseOnScreen = 0
+	parent		= c_VBS
+	txt:colorFG	= 0xFFFF00
+	txt:italic	= 0
+token:tag = 'AddPrinterConnection'
+token:tag = 'AddWindowsPrinterConnection'
+token:tag = 'AppActivate'
+token:tag = 'Close'
+token:tag = 'ConnectObject'
+token:tag = 'Count'
+token:tag = 'CreateObject'
+token:tag = 'CreateScript'
+token:tag = 'CreateShortcut'
+token:tag = 'DisconnectObject'
+token:tag = 'Echo'
+token:tag = 'EnumNetworkDrives'
+token:tag = 'EnumPrinterConnections'
+token:tag = 'Exec'
+token:tag = 'Execute'
+token:tag = 'Exists'
+token:tag = 'ExpandEnvironmentStrings'
+token:tag = 'GetObject'
+token:tag = 'getResource'
+token:tag = 'LogEvent'
+token:tag = 'MapNetworkDrive'
+token:tag = 'Popup'
+token:tag = 'Quit'
+token:tag = 'Read'
+token:tag = 'ReadAll'
+token:tag = 'ReadLine'
+token:tag = 'RegDelete'
+token:tag = 'RegRead'
+token:tag = 'RegWrite'
+token:tag = 'Remove'
+token:tag = 'RemoveNetworkDrive'
+token:tag = 'RemovePrinterConnection'
+token:tag = 'Run'
+token:tag = 'Save'
+token:tag = 'SendKeys'
+token:tag = 'SetDefaultPrinter'
+token:tag = 'ShowUsage'
+token:tag = 'Sign'
+token:tag = 'SignFile'
+token:tag = 'Skip'
+token:tag = 'SkipLine'
+token:tag = 'Sleep'
+token:tag = 'Terminate(WshScriptExec)'
+token:tag = 'Verify'
+token:tag = 'VerifyFile'
+token:tag = 'Write'
+token:tag = 'WriteBlankLines'
+token:tag = 'WriteLine'	
+	token:start:separators = '.'
+	token:end:separators = '.',' ', '\t', ':', ';', '!', '(', ')', '{', '}', @eol
+	DisplayName = 'WScript Object Methods'
+
+
+
+lexClass:
+	name		= c_CDOSys_Properties	
+	ParseOnScreen = 0
+	parent		= c_VBS
+	txt:colorFG	= 0xFFFF00
+	txt:italic	= 0
+token:tag = 'Attachments'
+token:tag = 'AutoGenerateTextBody'
+token:tag = 'BCC'
+token:tag = 'BodyPart'
+token:tag = 'CC'
+token:tag = 'Configuration'
+token:tag = 'DataSource'
+token:tag = 'DSNOptions'
+token:tag = 'EnvelopeFields'
+token:tag = 'Fields'
+token:tag = 'FollowUpTo'
+token:tag = 'From'
+token:tag = 'HTMLBody'
+token:tag = 'HTMLBodyPart'
+token:tag = 'Keywords'
+token:tag = 'MDNRequested'
+token:tag = 'MIMEFormatted' 
+token:tag = 'Newsgroups'
+token:tag = 'Organization'
+token:tag = 'ReceivedTime'
+token:tag = 'ReplyTo'
+token:tag = 'Sender'
+token:tag = 'SentOn'
+token:tag = 'Subject' 
+token:tag = 'TextBody' 
+token:tag = 'TextBodyPart'
+token:tag = 'To'
+	token:start:separators = '.'
+	token:end:separators = '.',' ', '\t', ':', ';', '!', '(', ')', '{', '}', @eol
+	DisplayName = 'CDOSys Object Properties'
+
+
+lexClass:
+	name		= c_CDOSys_Methods	
+	ParseOnScreen = 0
+	parent		= c_VBS
+	txt:colorFG	= 0xFFFF00
+	txt:italic	= 0
+token:tag = 'AddAttachment'
+token:tag = 'AddRelatedBodyPart'
+token:tag = 'CreateMHTMLBody'
+token:tag = 'Forward'
+token:tag = 'GetInterface'
+token:tag = 'GetStream'
+token:tag = 'Post'
+token:tag = 'PostReply'
+token:tag = 'Reply'
+token:tag = 'ReplyAll'
+token:tag = 'Send'
+	token:start:separators = '.'
+	token:end:separators = '.',' ', '\t', ':', ';', '!', '(', ')', '{', '}', @eol
+	DisplayName = 'CDOSys Object Methods'
+
+
+lexClass:
+	name		= c_CDO_Configuration_Methods	
+	ParseOnScreen = 0
+	parent		= c_VBS
+	txt:colorFG	= 0xFFFF00
+	txt:italic	= 0
+token:tag = 'Load'
+token:tag = 'GetInterface'
+	token:start:separators = '.'
+	token:end:separators = '.',' ', '\t', ':', ';', '!', '(', ')', '{', '}', @eol
+	DisplayName = 'CDO Configuration Object Methods'
+
+
+lexClass:
+	name		= c_CDO_Configuration_Propoerties	
+	ParseOnScreen = 0
+	parent		= c_VBS
+	txt:colorFG	= 0xFFFF00
+	txt:italic	= 0
+token:tag = 'Fields'
+	token:start:separators = '.'
+	token:end:separators = '.',' ', '\t', ':', ';', '!', '(', ')', '{', '}', @eol
+	DisplayName = 'CDO Configuration Object Properties'
+
+lexClass:
+	name		= c_CDO_Configuration_Field_Properties	
+	ParseOnScreen = 0
+	parent		= c_VBS
+	txt:colorFG	= 0xFFFF00
+	txt:italic	= 0
+token:tag = 'Item'
+token:tag = 'Update'
+	token:start:separators = '.'
+	token:end:separators = '.',' ', '\t', ':', ';', '!', '(', ')', '{', '}', @eol
+	DisplayName = 'CDO Configuration Field Properties'
+

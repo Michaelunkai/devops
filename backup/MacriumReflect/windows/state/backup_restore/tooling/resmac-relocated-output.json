@@ -1,0 +1,2070 @@
+[?1000l[?1002l[?1003l[?1006l[?1015l[?1016l[Profile loaded in 1553ms]
+Looking in links: c:\Users\micha\AppData\Local\Temp\tmpehl24w5v
+Requirement already satisfied: pip in c:\users\micha\appdata\local\programs\python\python312\lib\site-packages (26.0.1)
+{
+  "package": "F:\\backup\\windowsapps\\AppsBackups\\Macrium\\macrium-reflect-state-20260428-142718.zip",
+  "post_restore_checks": {
+    "checks": [
+      {
+        "actual_path": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\F\\backup\\windowsapps\\installed\\Reflect\\Reflect.exe",
+        "captured_in_manifest": true,
+        "exists_after_restore": true,
+        "path": "F:\\backup\\windowsapps\\installed\\Reflect\\Reflect.exe"
+      },
+      {
+        "actual_path": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\F\\backup\\windowsapps\\installed\\Reflect\\ReflectBin.exe",
+        "captured_in_manifest": true,
+        "exists_after_restore": true,
+        "path": "F:\\backup\\windowsapps\\installed\\Reflect\\ReflectBin.exe"
+      },
+      {
+        "actual_path": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\Program Files\\Macrium\\Common\\MacriumService.exe",
+        "captured_in_manifest": true,
+        "exists_after_restore": true,
+        "path": "C:\\Program Files\\Macrium\\Common\\MacriumService.exe"
+      },
+      {
+        "actual_path": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\Windows\\System32\\drivers\\mrcbt.sys",
+        "captured_in_manifest": true,
+        "exists_after_restore": true,
+        "path": "C:\\Windows\\System32\\drivers\\mrcbt.sys"
+      }
+    ],
+    "note": "This validates captured runtime files only; a full OS image is the only no-doubt application migration boundary documented by Macrium.",
+    "required_runtime_files_present": true
+  },
+  "registry_results": [],
+  "relocation_target": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910",
+  "restored_files": [
+    {
+      "archive_path": "files/C/Program Files/Macrium/Common/Macrium.OAuth2.dll",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\Program Files\\Macrium\\Common\\Macrium.OAuth2.dll"
+    },
+    {
+      "archive_path": "files/C/Program Files/Macrium/Common/Macrium.ToastNotify.dll",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\Program Files\\Macrium\\Common\\Macrium.ToastNotify.dll"
+    },
+    {
+      "archive_path": "files/C/Program Files/Macrium/Common/MacriumService.exe",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\Program Files\\Macrium\\Common\\MacriumService.exe"
+    },
+    {
+      "archive_path": "files/C/Program Files/Macrium/Common/MacriumService.exe.BAK",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\Program Files\\Macrium\\Common\\MacriumService.exe.BAK"
+    },
+    {
+      "archive_path": "files/C/Program Files/Macrium/Common/MacriumSupport.exe",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\Program Files\\Macrium\\Common\\MacriumSupport.exe"
+    },
+    {
+      "archive_path": "files/C/Program Files/Macrium/Common/MIGPopup.exe",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\Program Files\\Macrium\\Common\\MIGPopup.exe"
+    },
+    {
+      "archive_path": "files/C/Program Files/Macrium/Common/MIGPopup.exe.BAK",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\Program Files\\Macrium\\Common\\MIGPopup.exe.BAK"
+    },
+    {
+      "archive_path": "files/C/Program Files/Macrium/Common/mrigca.dll",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\Program Files\\Macrium\\Common\\mrigca.dll"
+    },
+    {
+      "archive_path": "files/C/Program Files/Macrium/Common/Reflect.png",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\Program Files\\Macrium\\Common\\Reflect.png"
+    },
+    {
+      "archive_path": "files/C/Program Files/Macrium/Common/ReflectMonitor.exe",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\Program Files\\Macrium\\Common\\ReflectMonitor.exe"
+    },
+    {
+      "archive_path": "files/C/Program Files/Macrium/Common/ReflectTheme.dll",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\Program Files\\Macrium\\Common\\ReflectTheme.dll"
+    },
+    {
+      "archive_path": "files/C/Program Files/Macrium/Common/ReflectUI.exe",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\Program Files\\Macrium\\Common\\ReflectUI.exe"
+    },
+    {
+      "archive_path": "files/C/Program Files/Macrium/Common/ReflectUI.exe.BAK",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\Program Files\\Macrium\\Common\\ReflectUI.exe.BAK"
+    },
+    {
+      "archive_path": "files/C/Program Files/Macrium/Common/ThreadManagement.dll",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\Program Files\\Macrium\\Common\\ThreadManagement.dll"
+    },
+    {
+      "archive_path": "files/C/Program Files/Macrium/Common/Languages/de.xml",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\Program Files\\Macrium\\Common\\Languages\\de.xml"
+    },
+    {
+      "archive_path": "files/C/Program Files/Macrium/Common/Languages/fr.xml",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\Program Files\\Macrium\\Common\\Languages\\fr.xml"
+    },
+    {
+      "archive_path": "files/C/Program Files/Macrium/Common/Languages/ja.xml",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\Program Files\\Macrium\\Common\\Languages\\ja.xml"
+    },
+    {
+      "archive_path": "files/C/Program Files/Macrium/Common/Languages/ru.xml",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\Program Files\\Macrium\\Common\\Languages\\ru.xml"
+    },
+    {
+      "archive_path": "files/C/Program Files/Macrium/Common/Languages/uk.xml",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\Program Files\\Macrium\\Common\\Languages\\uk.xml"
+    },
+    {
+      "archive_path": "files/F/backup/windowsapps/installed/Reflect/AESDll.dll",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\F\\backup\\windowsapps\\installed\\Reflect\\AESDll.dll"
+    },
+    {
+      "archive_path": "files/F/backup/windowsapps/installed/Reflect/Consolidate.exe",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\F\\backup\\windowsapps\\installed\\Reflect\\Consolidate.exe"
+    },
+    {
+      "archive_path": "files/F/backup/windowsapps/installed/Reflect/Dockerfile",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\F\\backup\\windowsapps\\installed\\Reflect\\Dockerfile"
+    },
+    {
+      "archive_path": "files/F/backup/windowsapps/installed/Reflect/Drive.png",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\F\\backup\\windowsapps\\installed\\Reflect\\Drive.png"
+    },
+    {
+      "archive_path": "files/F/backup/windowsapps/installed/Reflect/LE5.dll",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\F\\backup\\windowsapps\\installed\\Reflect\\LE5.dll"
+    },
+    {
+      "archive_path": "files/F/backup/windowsapps/installed/Reflect/License.rtf",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\F\\backup\\windowsapps\\installed\\Reflect\\License.rtf"
+    },
+    {
+      "archive_path": "files/F/backup/windowsapps/installed/Reflect/MRVerify.exe",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\F\\backup\\windowsapps\\installed\\Reflect\\MRVerify.exe"
+    },
+    {
+      "archive_path": "files/F/backup/windowsapps/installed/Reflect/Macrium.OAuth2.dll",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\F\\backup\\windowsapps\\installed\\Reflect\\Macrium.OAuth2.dll"
+    },
+    {
+      "archive_path": "files/F/backup/windowsapps/installed/Reflect/MacriumBackupMessage.exe",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\F\\backup\\windowsapps\\installed\\Reflect\\MacriumBackupMessage.exe"
+    },
+    {
+      "archive_path": "files/F/backup/windowsapps/installed/Reflect/Message.dll",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\F\\backup\\windowsapps\\installed\\Reflect\\Message.dll"
+    },
+    {
+      "archive_path": "files/F/backup/windowsapps/installed/Reflect/MessageSvr.dll",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\F\\backup\\windowsapps\\installed\\Reflect\\MessageSvr.dll"
+    },
+    {
+      "archive_path": "files/F/backup/windowsapps/installed/Reflect/Mrcbt.sys",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\F\\backup\\windowsapps\\installed\\Reflect\\Mrcbt.sys"
+    },
+    {
+      "archive_path": "files/F/backup/windowsapps/installed/Reflect/PrimoBurner64.dll",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\F\\backup\\windowsapps\\installed\\Reflect\\PrimoBurner64.dll"
+    },
+    {
+      "archive_path": "files/F/backup/windowsapps/installed/Reflect/RContextMenu.dll",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\F\\backup\\windowsapps\\installed\\Reflect\\RContextMenu.dll"
+    },
+    {
+      "archive_path": "files/F/backup/windowsapps/installed/Reflect/RMBuilder.exe",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\F\\backup\\windowsapps\\installed\\Reflect\\RMBuilder.exe"
+    },
+    {
+      "archive_path": "files/F/backup/windowsapps/installed/Reflect/RMBuilder.exe.BAK",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\F\\backup\\windowsapps\\installed\\Reflect\\RMBuilder.exe.BAK"
+    },
+    {
+      "archive_path": "files/F/backup/windowsapps/installed/Reflect/RShellEx.dll",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\F\\backup\\windowsapps\\installed\\Reflect\\RShellEx.dll"
+    },
+    {
+      "archive_path": "files/F/backup/windowsapps/installed/Reflect/Reflect.exe",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\F\\backup\\windowsapps\\installed\\Reflect\\Reflect.exe"
+    },
+    {
+      "archive_path": "files/F/backup/windowsapps/installed/Reflect/Reflect.png",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\F\\backup\\windowsapps\\installed\\Reflect\\Reflect.png"
+    },
+    {
+      "archive_path": "files/F/backup/windowsapps/installed/Reflect/ReflectBin.exe",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\F\\backup\\windowsapps\\installed\\Reflect\\ReflectBin.exe"
+    },
+    {
+      "archive_path": "files/F/backup/windowsapps/installed/Reflect/ReflectBin.exe.BAK",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\F\\backup\\windowsapps\\installed\\Reflect\\ReflectBin.exe.BAK"
+    },
+    {
+      "archive_path": "files/F/backup/windowsapps/installed/Reflect/ReflectTheme.dll",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\F\\backup\\windowsapps\\installed\\Reflect\\ReflectTheme.dll"
+    },
+    {
+      "archive_path": "files/F/backup/windowsapps/installed/Reflect/ReflectUpdater.exe",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\F\\backup\\windowsapps\\installed\\Reflect\\ReflectUpdater.exe"
+    },
+    {
+      "archive_path": "files/F/backup/windowsapps/installed/Reflect/ReflectUpdater.exe.BAK",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\F\\backup\\windowsapps\\installed\\Reflect\\ReflectUpdater.exe.BAK"
+    },
+    {
+      "archive_path": "files/F/backup/windowsapps/installed/Reflect/SyntaxEdit_dark.ini",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\F\\backup\\windowsapps\\installed\\Reflect\\SyntaxEdit_dark.ini"
+    },
+    {
+      "archive_path": "files/F/backup/windowsapps/installed/Reflect/SyntaxEdit_light.ini",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\F\\backup\\windowsapps\\installed\\Reflect\\SyntaxEdit_light.ini"
+    },
+    {
+      "archive_path": "files/F/backup/windowsapps/installed/Reflect/ThreadManagement.dll",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\F\\backup\\windowsapps\\installed\\Reflect\\ThreadManagement.dll"
+    },
+    {
+      "archive_path": "files/F/backup/windowsapps/installed/Reflect/VBoxIface_6_0.dll",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\F\\backup\\windowsapps\\installed\\Reflect\\VBoxIface_6_0.dll"
+    },
+    {
+      "archive_path": "files/F/backup/windowsapps/installed/Reflect/VBoxIface_6_1.dll",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\F\\backup\\windowsapps\\installed\\Reflect\\VBoxIface_6_1.dll"
+    },
+    {
+      "archive_path": "files/F/backup/windowsapps/installed/Reflect/VBoxIface_7_0.dll",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\F\\backup\\windowsapps\\installed\\Reflect\\VBoxIface_7_0.dll"
+    },
+    {
+      "archive_path": "files/F/backup/windowsapps/installed/Reflect/VSSSvr.dll",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\F\\backup\\windowsapps\\installed\\Reflect\\VSSSvr.dll"
+    },
+    {
+      "archive_path": "files/F/backup/windowsapps/installed/Reflect/WAIKFiles15x64.exe",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\F\\backup\\windowsapps\\installed\\Reflect\\WAIKFiles15x64.exe"
+    },
+    {
+      "archive_path": "files/F/backup/windowsapps/installed/Reflect/Windows.png",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\F\\backup\\windowsapps\\installed\\Reflect\\Windows.png"
+    },
+    {
+      "archive_path": "files/F/backup/windowsapps/installed/Reflect/_bat.schclass",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\F\\backup\\windowsapps\\installed\\Reflect\\_bat.schclass"
+    },
+    {
+      "archive_path": "files/F/backup/windowsapps/installed/Reflect/_bat_dark.schclass",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\F\\backup\\windowsapps\\installed\\Reflect\\_bat_dark.schclass"
+    },
+    {
+      "archive_path": "files/F/backup/windowsapps/installed/Reflect/_ps1.schclass",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\F\\backup\\windowsapps\\installed\\Reflect\\_ps1.schclass"
+    },
+    {
+      "archive_path": "files/F/backup/windowsapps/installed/Reflect/_ps1_dark.schclass",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\F\\backup\\windowsapps\\installed\\Reflect\\_ps1_dark.schclass"
+    },
+    {
+      "archive_path": "files/F/backup/windowsapps/installed/Reflect/_vbs.schclass",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\F\\backup\\windowsapps\\installed\\Reflect\\_vbs.schclass"
+    },
+    {
+      "archive_path": "files/F/backup/windowsapps/installed/Reflect/_vbs_dark.schclass",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\F\\backup\\windowsapps\\installed\\Reflect\\_vbs_dark.schclass"
+    },
+    {
+      "archive_path": "files/F/backup/windowsapps/installed/Reflect/_xml.schclass",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\F\\backup\\windowsapps\\installed\\Reflect\\_xml.schclass"
+    },
+    {
+      "archive_path": "files/F/backup/windowsapps/installed/Reflect/_xml_dark.schclass",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\F\\backup\\windowsapps\\installed\\Reflect\\_xml_dark.schclass"
+    },
+    {
+      "archive_path": "files/F/backup/windowsapps/installed/Reflect/mrauto.exe",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\F\\backup\\windowsapps\\installed\\Reflect\\mrauto.exe"
+    },
+    {
+      "archive_path": "files/F/backup/windowsapps/installed/Reflect/mrcbtca.dll",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\F\\backup\\windowsapps\\installed\\Reflect\\mrcbtca.dll"
+    },
+    {
+      "archive_path": "files/F/backup/windowsapps/installed/Reflect/mrcbttools.exe",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\F\\backup\\windowsapps\\installed\\Reflect\\mrcbttools.exe"
+    },
+    {
+      "archive_path": "files/F/backup/windowsapps/installed/Reflect/mrigflt.sys",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\F\\backup\\windowsapps\\installed\\Reflect\\mrigflt.sys"
+    },
+    {
+      "archive_path": "files/F/backup/windowsapps/installed/Reflect/patch.exe",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\F\\backup\\windowsapps\\installed\\Reflect\\patch.exe"
+    },
+    {
+      "archive_path": "files/F/backup/windowsapps/installed/Reflect/viBoot.exe",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\F\\backup\\windowsapps\\installed\\Reflect\\viBoot.exe"
+    },
+    {
+      "archive_path": "files/F/backup/windowsapps/installed/Reflect/vssfixx64.exe",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\F\\backup\\windowsapps\\installed\\Reflect\\vssfixx64.exe"
+    },
+    {
+      "archive_path": "files/F/backup/windowsapps/installed/Reflect/xReflect.exe",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\F\\backup\\windowsapps\\installed\\Reflect\\xReflect.exe"
+    },
+    {
+      "archive_path": "files/C/Windows/System32/drivers/mrcbt.sys",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\Windows\\System32\\drivers\\mrcbt.sys"
+    },
+    {
+      "archive_path": "files/C/Windows/System32/drivers/mrigflt.sys",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\Windows\\System32\\drivers\\mrigflt.sys"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/LastRescueMedia.log",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\LastRescueMedia.log"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/LastRescueMediaNetwork.log",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\LastRescueMediaNetwork.log"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/mrcbt_debug.log",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\mrcbt_debug.log"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Macrium Service/Macrium Service20260420170323.log",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Macrium Service\\Macrium Service20260420170323.log"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Macrium Service/Macrium Service20260420174034.log",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Macrium Service\\Macrium Service20260420174034.log"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Macrium Service/Macrium Service20260420202343.log",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Macrium Service\\Macrium Service20260420202343.log"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Macrium Service/Macrium Service20260420212006.log",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Macrium Service\\Macrium Service20260420212006.log"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Macrium Service/Macrium Service20260420213219.log",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Macrium Service\\Macrium Service20260420213219.log"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Macrium Service/Macrium Service20260420223926.log",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Macrium Service\\Macrium Service20260420223926.log"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Macrium Service/Macrium Service20260420230015.log",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Macrium Service\\Macrium Service20260420230015.log"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Macrium Service/Macrium Service20260421023118.log",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Macrium Service\\Macrium Service20260421023118.log"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Macrium Service/Macrium Service20260421051938.log",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Macrium Service\\Macrium Service20260421051938.log"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Macrium Service/Macrium Service20260422025756.log",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Macrium Service\\Macrium Service20260422025756.log"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Macrium Service/Macrium Service20260422031009.log",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Macrium Service\\Macrium Service20260422031009.log"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Macrium Service/Macrium Service20260422031220.log",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Macrium Service\\Macrium Service20260422031220.log"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Macrium Service/Macrium Service20260422215321.log",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Macrium Service\\Macrium Service20260422215321.log"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Macrium Service/Macrium Service20260422225725.log",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Macrium Service\\Macrium Service20260422225725.log"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Macrium Service/Macrium Service20260423161704.log",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Macrium Service\\Macrium Service20260423161704.log"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Macrium Service/Macrium Service20260423163856.log",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Macrium Service\\Macrium Service20260423163856.log"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Macrium Service/Macrium Service20260425203959.log",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Macrium Service\\Macrium Service20260425203959.log"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Macrium Service/Macrium Service20260425204100.log",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Macrium Service\\Macrium Service20260425204100.log"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Macrium Service/Macrium Service20260425222030.log",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Macrium Service\\Macrium Service20260425222030.log"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Macrium Service/Macrium Service20260428035008.log",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Macrium Service\\Macrium Service20260428035008.log"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Macrium Service/Macrium Service20260428123551.log",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Macrium Service\\Macrium Service20260428123551.log"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/149ACCB56C0DA32E_Restore08-04-2026 7.22 AM.html",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\149ACCB56C0DA32E_Restore08-04-2026 7.22 AM.html"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/28D3C3D58A03F2DF-00-00.html",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\28D3C3D58A03F2DF-00-00.html"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/28D3C3D58A03F2DF-00-00.vsslog",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\28D3C3D58A03F2DF-00-00.vsslog"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/463F2A8772FC35F7_Restore16-04-2026 6.38 PM.html",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\463F2A8772FC35F7_Restore16-04-2026 6.38 PM.html"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/515732797A1E05A1_Restore15-04-2026 12.03 PM.html",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\515732797A1E05A1_Restore15-04-2026 12.03 PM.html"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/608E8C2B1D1D9AA3_Restore14-04-2026 8.36 PM.html",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\608E8C2B1D1D9AA3_Restore14-04-2026 8.36 PM.html"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/637C2396CDD91D36_Restore16-04-2026 6.25 PM.html",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\637C2396CDD91D36_Restore16-04-2026 6.25 PM.html"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/7AC9BD794C87A22D_Restore20-04-2026 10.57 PM.html",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\7AC9BD794C87A22D_Restore20-04-2026 10.57 PM.html"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/9397AAFA08B6EB03_Restore09-04-2026 3.01 AM.html",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\9397AAFA08B6EB03_Restore09-04-2026 3.01 AM.html"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/A2E76A41CC51AACD_Restore20-04-2026 4.59 PM.html",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\A2E76A41CC51AACD_Restore20-04-2026 4.59 PM.html"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260406_010219-00-00.html",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260406_010219-00-00.html"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260406_010414-00-00.html",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260406_010414-00-00.html"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260406_010755-00-00.html",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260406_010755-00-00.html"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260406_011809-00-00.html",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260406_011809-00-00.html"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260406_223326-00-00.html",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260406_223326-00-00.html"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260406_223326-00-00.vsslog",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260406_223326-00-00.vsslog"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260406_231125-00-00.html",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260406_231125-00-00.html"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260406_231125-00-00.vsslog",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260406_231125-00-00.vsslog"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260406_231750-00-00.html",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260406_231750-00-00.html"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260406_231750-00-00.vsslog",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260406_231750-00-00.vsslog"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260407_025806-00-00.html",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260407_025806-00-00.html"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260407_025806-00-00.vsslog",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260407_025806-00-00.vsslog"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260407_031125-00-00.html",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260407_031125-00-00.html"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260407_031125-00-00.vsslog",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260407_031125-00-00.vsslog"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260407_052820-00-00.html",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260407_052820-00-00.html"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260408_074849-00-00.html",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260408_074849-00-00.html"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260409_033709-00-00.html",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260409_033709-00-00.html"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260409_033709-00-00.vsslog",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260409_033709-00-00.vsslog"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260409_061710-00-00.html",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260409_061710-00-00.html"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260409_061710-00-00.vsslog",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260409_061710-00-00.vsslog"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260409_110627-00-00.html",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260409_110627-00-00.html"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260409_110627-00-00.vsslog",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260409_110627-00-00.vsslog"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260409_110703-00-00.html",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260409_110703-00-00.html"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260409_110703-00-00.vsslog",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260409_110703-00-00.vsslog"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260409_110809-00-00.html",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260409_110809-00-00.html"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260409_110809-00-00.vsslog",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260409_110809-00-00.vsslog"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260409_111003-00-00.html",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260409_111003-00-00.html"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260409_111003-00-00.vsslog",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260409_111003-00-00.vsslog"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260409_111455-00-00.html",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260409_111455-00-00.html"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260409_111455-00-00.vsslog",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260409_111455-00-00.vsslog"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260412_184100-00-00.html",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260412_184100-00-00.html"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260412_184100-00-00.vsslog",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260412_184100-00-00.vsslog"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260412_184126-00-00.html",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260412_184126-00-00.html"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260412_184126-00-00.vsslog",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260412_184126-00-00.vsslog"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260412_184245-00-00.html",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260412_184245-00-00.html"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260412_184245-00-00.vsslog",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260412_184245-00-00.vsslog"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260412_184306-00-00.html",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260412_184306-00-00.html"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260412_184306-00-00.vsslog",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260412_184306-00-00.vsslog"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260412_184726-00-00.html",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260412_184726-00-00.html"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260412_184726-00-00.vsslog",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260412_184726-00-00.vsslog"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260412_185127-00-00.html",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260412_185127-00-00.html"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260412_185127-00-00.vsslog",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260412_185127-00-00.vsslog"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260413_134042-00-00.html",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260413_134042-00-00.html"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260413_134042-00-00.vsslog",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260413_134042-00-00.vsslog"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260413_134444-00-00.html",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260413_134444-00-00.html"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260413_134444-00-00.vsslog",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260413_134444-00-00.vsslog"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260413_224621-00-00.html",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260413_224621-00-00.html"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260413_224621-00-00.vsslog",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260413_224621-00-00.vsslog"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260413_225111-00-00.html",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260413_225111-00-00.html"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260413_225111-00-00.vsslog",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260413_225111-00-00.vsslog"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260414_004516-00-00.html",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260414_004516-00-00.html"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260414_004516-00-00.vsslog",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260414_004516-00-00.vsslog"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260414_004607-00-00.html",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260414_004607-00-00.html"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260414_004607-00-00.vsslog",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260414_004607-00-00.vsslog"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260414_024106-00-00.html",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260414_024106-00-00.html"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260414_024106-00-00.vsslog",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260414_024106-00-00.vsslog"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260414_033122-00-00.html",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260414_033122-00-00.html"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260414_214854-00-00.html",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260414_214854-00-00.html"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260414_214854-00-00.vsslog",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260414_214854-00-00.vsslog"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260414_215100-00-00.html",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260414_215100-00-00.html"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260414_215100-00-00.vsslog",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260414_215100-00-00.vsslog"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260414_215225-00-00.html",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260414_215225-00-00.html"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260414_215225-00-00.vsslog",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260414_215225-00-00.vsslog"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260414_231250-00-00.html",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260414_231250-00-00.html"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260414_231250-00-00.vsslog",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260414_231250-00-00.vsslog"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260414_231540-00-00.html",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260414_231540-00-00.html"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260414_231540-00-00.vsslog",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260414_231540-00-00.vsslog"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260414_233646-00-00.html",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260414_233646-00-00.html"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260414_233646-00-00.vsslog",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260414_233646-00-00.vsslog"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260414_234743-00-00.html",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260414_234743-00-00.html"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260414_234743-00-00.vsslog",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260414_234743-00-00.vsslog"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260414_235617-00-00.html",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260414_235617-00-00.html"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260414_235617-00-00.vsslog",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260414_235617-00-00.vsslog"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260415_001201-00-00.html",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260415_001201-00-00.html"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260415_184136-00-00.html",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260415_184136-00-00.html"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260415_184136-00-00.vsslog",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260415_184136-00-00.vsslog"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260415_184500-00-00.html",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260415_184500-00-00.html"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260415_184500-00-00.vsslog",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260415_184500-00-00.vsslog"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260415_185000-00-00.html",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260415_185000-00-00.html"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260415_185000-00-00.vsslog",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260415_185000-00-00.vsslog"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260415_185100-00-00.html",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260415_185100-00-00.html"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260415_185100-00-00.vsslog",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260415_185100-00-00.vsslog"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260415_191716-00-00.html",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260415_191716-00-00.html"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260415_191716-00-00.vsslog",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260415_191716-00-00.vsslog"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260415_192313-00-00.html",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260415_192313-00-00.html"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260416_183229-00-00.html",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260416_183229-00-00.html"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260417_165716-00-00.html",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260417_165716-00-00.html"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260417_165716-00-00.vsslog",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260417_165716-00-00.vsslog"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260417_165754-00-00.html",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260417_165754-00-00.html"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260417_165754-00-00.vsslog",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260417_165754-00-00.vsslog"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260417_171122-00-00.html",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260417_171122-00-00.html"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260420_174012-00-00.html",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260420_174012-00-00.html"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260420_174012-00-00.vsslog",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260420_174012-00-00.vsslog"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260420_212003-00-00.html",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260420_212003-00-00.html"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260420_212003-00-00.vsslog",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260420_212003-00-00.vsslog"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260420_213221-00-00.html",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260420_213221-00-00.html"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260420_213221-00-00.vsslog",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260420_213221-00-00.vsslog"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260420_223925-00-00.html",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260420_223925-00-00.html"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260420_223925-00-00.vsslog",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260420_223925-00-00.vsslog"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260420_223951-00-00.html",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260420_223951-00-00.html"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260420_223951-00-00.vsslog",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260420_223951-00-00.vsslog"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260420_224029-00-00.html",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260420_224029-00-00.html"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260422_025725-00-00.html",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260422_025725-00-00.html"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260422_025725-00-00.vsslog",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260422_025725-00-00.vsslog"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260422_031222-00-00.html",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260422_031222-00-00.html"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260422_031222-00-00.vsslog",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260422_031222-00-00.vsslog"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260423_161701-00-00.html",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260423_161701-00-00.html"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260423_161701-00-00.vsslog",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260423_161701-00-00.vsslog"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260425_203953-00-00.html",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260425_203953-00-00.html"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260425_203953-00-00.vsslog",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260425_203953-00-00.vsslog"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260425_204102-00-00.html",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260425_204102-00-00.html"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260425_204102-00-00.vsslog",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260425_204102-00-00.vsslog"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260428_034804-00-00.html",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260428_034804-00-00.html"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_after_fix-00-00.html",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_after_fix-00-00.html"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_after_fix-00-00.vsslog",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_after_fix-00-00.vsslog"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_after_swprv-00-00.html",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_after_swprv-00-00.html"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_after_swprv-00-00.vsslog",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_after_swprv-00-00.vsslog"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_after_vssfix2-00-00.html",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_after_vssfix2-00-00.html"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_after_vssfix2-00-00.vsslog",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_after_vssfix2-00-00.vsslog"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_test_check-00-00.html",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_test_check-00-00.html"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_test_check-00-00.vsslog",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_test_check-00-00.vsslog"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_test_check2-00-00.html",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_test_check2-00-00.html"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_test_check2-00-00.vsslog",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_test_check2-00-00.vsslog"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_test_check3-00-00.html",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_test_check3-00-00.html"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_test_check3-00-00.vsslog",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_test_check3-00-00.vsslog"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_test_check4-00-00.html",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_test_check4-00-00.html"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_test_check4-00-00.vsslog",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_test_check4-00-00.vsslog"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/bmp.tmp",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\bmp.tmp"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/Cancel.bmp",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\Cancel.bmp"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/Cancel.png",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\Cancel.png"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/Cancel16.bmp",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\Cancel16.bmp"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/Cancel16.png",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\Cancel16.png"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/CBT.log",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\CBT.log"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/Delete.bmp",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\Delete.bmp"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/Delete.png",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\Delete.png"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/Delete16.bmp",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\Delete16.bmp"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/Delete16.png",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\Delete16.png"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/ED58C59CEA735BA2_Restore28-04-2026 12.32 PM.html",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\ED58C59CEA735BA2_Restore28-04-2026 12.32 PM.html"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/FCC5C26EAFF8180F_Restore06-04-2026 8.22 PM.html",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\FCC5C26EAFF8180F_Restore06-04-2026 8.22 PM.html"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/Info.png",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\Info.png"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/Info16.png",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\Info16.png"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/License.log",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\License.log"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/Logs.dat",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\Logs.dat"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/Logs_backup.dat",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\Logs_backup.dat"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/mrauto_backup.xml",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\mrauto_backup.xml"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/OK.bmp",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\OK.bmp"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/OK.png",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\OK.png"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/OK16.bmp",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\OK16.bmp"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/OK16.png",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\OK16.png"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/Wrning.bmp",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\Wrning.bmp"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/Wrning.png",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\Wrning.png"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/Wrning16.bmp",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\Wrning16.bmp"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/Wrning16.png",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\Wrning16.png"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/XMLFiles.dat",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\XMLFiles.dat"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/Scheduler/qmanager.log",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\Scheduler\\qmanager.log"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/Temp/vss.log",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\Temp\\vss.log"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/Templates/Templates.xml",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\Templates\\Templates.xml"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect Launcher/Reflect Launcher20260420170325.log",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect Launcher\\Reflect Launcher20260420170325.log"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect Launcher/Reflect Launcher20260420174032.log",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect Launcher\\Reflect Launcher20260420174032.log"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect Launcher/Reflect Launcher20260420212005.log",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect Launcher\\Reflect Launcher20260420212005.log"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect Launcher/Reflect Launcher20260420213248.log",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect Launcher\\Reflect Launcher20260420213248.log"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect Launcher/Reflect Launcher20260420223925.log",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect Launcher\\Reflect Launcher20260420223925.log"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect Launcher/Reflect Launcher20260420223952.log",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect Launcher\\Reflect Launcher20260420223952.log"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect Launcher/Reflect Launcher20260420224030.log",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect Launcher\\Reflect Launcher20260420224030.log"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect Launcher/Reflect Launcher20260420230018.log",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect Launcher\\Reflect Launcher20260420230018.log"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect Launcher/Reflect Launcher20260422025751.log",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect Launcher\\Reflect Launcher20260422025751.log"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect Launcher/Reflect Launcher20260422031224.log",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect Launcher\\Reflect Launcher20260422031224.log"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect Launcher/Reflect Launcher20260423161703.log",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect Launcher\\Reflect Launcher20260423161703.log"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect Launcher/Reflect Launcher20260425203957.log",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect Launcher\\Reflect Launcher20260425203957.log"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect Launcher/Reflect Launcher20260425204106.log",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect Launcher\\Reflect Launcher20260425204106.log"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect Launcher/Reflect Launcher20260428035000.log",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect Launcher\\Reflect Launcher20260428035000.log"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect Launcher/Reflect Launcher20260428123553.log",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect Launcher\\Reflect Launcher20260428123553.log"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/149ACCB56C0DA32E_Restore08-04-2026 7.22 AM.html",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\149ACCB56C0DA32E_Restore08-04-2026 7.22 AM.html"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/28D3C3D58A03F2DF-00-00.html",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\28D3C3D58A03F2DF-00-00.html"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/28D3C3D58A03F2DF-00-00.vsslog",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\28D3C3D58A03F2DF-00-00.vsslog"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/463F2A8772FC35F7_Restore16-04-2026 6.38 PM.html",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\463F2A8772FC35F7_Restore16-04-2026 6.38 PM.html"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/515732797A1E05A1_Restore15-04-2026 12.03 PM.html",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\515732797A1E05A1_Restore15-04-2026 12.03 PM.html"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/608E8C2B1D1D9AA3_Restore14-04-2026 8.36 PM.html",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\608E8C2B1D1D9AA3_Restore14-04-2026 8.36 PM.html"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/637C2396CDD91D36_Restore16-04-2026 6.25 PM.html",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\637C2396CDD91D36_Restore16-04-2026 6.25 PM.html"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/7AC9BD794C87A22D_Restore20-04-2026 10.57 PM.html",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\7AC9BD794C87A22D_Restore20-04-2026 10.57 PM.html"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/9397AAFA08B6EB03_Restore09-04-2026 3.01 AM.html",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\9397AAFA08B6EB03_Restore09-04-2026 3.01 AM.html"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/A2E76A41CC51AACD_Restore20-04-2026 4.59 PM.html",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\A2E76A41CC51AACD_Restore20-04-2026 4.59 PM.html"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260406_010219-00-00.html",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260406_010219-00-00.html"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260406_010414-00-00.html",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260406_010414-00-00.html"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260406_010755-00-00.html",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260406_010755-00-00.html"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260406_011809-00-00.html",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260406_011809-00-00.html"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260406_223326-00-00.html",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260406_223326-00-00.html"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260406_223326-00-00.vsslog",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260406_223326-00-00.vsslog"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260406_231125-00-00.html",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260406_231125-00-00.html"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260406_231125-00-00.vsslog",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260406_231125-00-00.vsslog"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260406_231750-00-00.html",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260406_231750-00-00.html"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260406_231750-00-00.vsslog",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260406_231750-00-00.vsslog"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260407_025806-00-00.html",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260407_025806-00-00.html"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260407_025806-00-00.vsslog",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260407_025806-00-00.vsslog"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260407_031125-00-00.html",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260407_031125-00-00.html"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260407_031125-00-00.vsslog",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260407_031125-00-00.vsslog"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260407_052820-00-00.html",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260407_052820-00-00.html"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260408_074849-00-00.html",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260408_074849-00-00.html"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260409_033709-00-00.html",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260409_033709-00-00.html"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260409_033709-00-00.vsslog",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260409_033709-00-00.vsslog"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260409_061710-00-00.html",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260409_061710-00-00.html"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260409_061710-00-00.vsslog",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260409_061710-00-00.vsslog"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260409_110627-00-00.html",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260409_110627-00-00.html"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260409_110627-00-00.vsslog",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260409_110627-00-00.vsslog"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260409_110703-00-00.html",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260409_110703-00-00.html"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260409_110703-00-00.vsslog",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260409_110703-00-00.vsslog"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260409_110809-00-00.html",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260409_110809-00-00.html"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260409_110809-00-00.vsslog",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260409_110809-00-00.vsslog"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260409_111003-00-00.html",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260409_111003-00-00.html"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260409_111003-00-00.vsslog",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260409_111003-00-00.vsslog"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260409_111455-00-00.html",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260409_111455-00-00.html"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260409_111455-00-00.vsslog",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260409_111455-00-00.vsslog"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260412_184100-00-00.html",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260412_184100-00-00.html"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260412_184100-00-00.vsslog",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260412_184100-00-00.vsslog"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260412_184126-00-00.html",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260412_184126-00-00.html"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260412_184126-00-00.vsslog",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260412_184126-00-00.vsslog"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260412_184245-00-00.html",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260412_184245-00-00.html"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260412_184245-00-00.vsslog",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260412_184245-00-00.vsslog"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260412_184306-00-00.html",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260412_184306-00-00.html"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260412_184306-00-00.vsslog",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260412_184306-00-00.vsslog"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260412_184726-00-00.html",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260412_184726-00-00.html"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260412_184726-00-00.vsslog",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260412_184726-00-00.vsslog"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260412_185127-00-00.html",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260412_185127-00-00.html"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260412_185127-00-00.vsslog",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260412_185127-00-00.vsslog"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260413_134042-00-00.html",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260413_134042-00-00.html"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260413_134042-00-00.vsslog",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260413_134042-00-00.vsslog"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260413_134444-00-00.html",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260413_134444-00-00.html"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260413_134444-00-00.vsslog",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260413_134444-00-00.vsslog"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260413_224621-00-00.html",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260413_224621-00-00.html"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260413_224621-00-00.vsslog",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260413_224621-00-00.vsslog"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260413_225111-00-00.html",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260413_225111-00-00.html"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260413_225111-00-00.vsslog",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260413_225111-00-00.vsslog"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260414_004516-00-00.html",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260414_004516-00-00.html"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260414_004516-00-00.vsslog",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260414_004516-00-00.vsslog"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260414_004607-00-00.html",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260414_004607-00-00.html"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260414_004607-00-00.vsslog",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260414_004607-00-00.vsslog"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260414_024106-00-00.html",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260414_024106-00-00.html"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260414_024106-00-00.vsslog",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260414_024106-00-00.vsslog"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260414_033122-00-00.html",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260414_033122-00-00.html"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260414_214854-00-00.html",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260414_214854-00-00.html"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260414_214854-00-00.vsslog",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260414_214854-00-00.vsslog"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260414_215100-00-00.html",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260414_215100-00-00.html"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260414_215100-00-00.vsslog",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260414_215100-00-00.vsslog"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260414_215225-00-00.html",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260414_215225-00-00.html"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260414_215225-00-00.vsslog",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260414_215225-00-00.vsslog"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260414_231250-00-00.html",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260414_231250-00-00.html"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260414_231250-00-00.vsslog",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260414_231250-00-00.vsslog"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260414_231540-00-00.html",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260414_231540-00-00.html"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260414_231540-00-00.vsslog",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260414_231540-00-00.vsslog"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260414_233646-00-00.html",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260414_233646-00-00.html"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260414_233646-00-00.vsslog",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260414_233646-00-00.vsslog"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260414_234743-00-00.html",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260414_234743-00-00.html"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260414_234743-00-00.vsslog",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260414_234743-00-00.vsslog"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260414_235617-00-00.html",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260414_235617-00-00.html"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260414_235617-00-00.vsslog",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260414_235617-00-00.vsslog"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260415_001201-00-00.html",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260415_001201-00-00.html"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260415_184136-00-00.html",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260415_184136-00-00.html"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260415_184136-00-00.vsslog",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260415_184136-00-00.vsslog"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260415_184500-00-00.html",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260415_184500-00-00.html"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260415_184500-00-00.vsslog",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260415_184500-00-00.vsslog"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260415_185000-00-00.html",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260415_185000-00-00.html"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260415_185000-00-00.vsslog",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260415_185000-00-00.vsslog"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260415_185100-00-00.html",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260415_185100-00-00.html"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260415_185100-00-00.vsslog",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260415_185100-00-00.vsslog"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260415_191716-00-00.html",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260415_191716-00-00.html"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260415_191716-00-00.vsslog",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260415_191716-00-00.vsslog"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260415_192313-00-00.html",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260415_192313-00-00.html"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260416_183229-00-00.html",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260416_183229-00-00.html"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260417_165716-00-00.html",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260417_165716-00-00.html"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260417_165716-00-00.vsslog",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260417_165716-00-00.vsslog"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260417_165754-00-00.html",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260417_165754-00-00.html"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260417_165754-00-00.vsslog",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260417_165754-00-00.vsslog"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260417_171122-00-00.html",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260417_171122-00-00.html"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260420_174012-00-00.html",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260420_174012-00-00.html"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260420_174012-00-00.vsslog",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260420_174012-00-00.vsslog"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260420_212003-00-00.html",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260420_212003-00-00.html"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260420_212003-00-00.vsslog",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260420_212003-00-00.vsslog"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260420_213221-00-00.html",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260420_213221-00-00.html"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260420_213221-00-00.vsslog",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260420_213221-00-00.vsslog"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260420_223925-00-00.html",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260420_223925-00-00.html"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260420_223925-00-00.vsslog",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260420_223925-00-00.vsslog"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260420_223951-00-00.html",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260420_223951-00-00.html"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260420_223951-00-00.vsslog",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260420_223951-00-00.vsslog"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260420_224029-00-00.html",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260420_224029-00-00.html"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260422_025725-00-00.html",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260422_025725-00-00.html"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260422_025725-00-00.vsslog",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260422_025725-00-00.vsslog"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260422_031222-00-00.html",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260422_031222-00-00.html"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260422_031222-00-00.vsslog",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260422_031222-00-00.vsslog"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260423_161701-00-00.html",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260423_161701-00-00.html"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260423_161701-00-00.vsslog",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260423_161701-00-00.vsslog"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260425_203953-00-00.html",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260425_203953-00-00.html"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260425_203953-00-00.vsslog",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260425_203953-00-00.vsslog"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260425_204102-00-00.html",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260425_204102-00-00.html"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260425_204102-00-00.vsslog",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260425_204102-00-00.vsslog"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_20260428_034804-00-00.html",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_20260428_034804-00-00.html"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_after_fix-00-00.html",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_after_fix-00-00.html"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_after_fix-00-00.vsslog",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_after_fix-00-00.vsslog"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_after_swprv-00-00.html",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_after_swprv-00-00.html"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_after_swprv-00-00.vsslog",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_after_swprv-00-00.vsslog"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_after_vssfix2-00-00.html",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_after_vssfix2-00-00.html"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_after_vssfix2-00-00.vsslog",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_after_vssfix2-00-00.vsslog"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_test_check-00-00.html",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_test_check-00-00.html"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_test_check-00-00.vsslog",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_test_check-00-00.vsslog"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_test_check2-00-00.html",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_test_check2-00-00.html"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_test_check2-00-00.vsslog",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_test_check2-00-00.vsslog"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_test_check3-00-00.html",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_test_check3-00-00.html"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_test_check3-00-00.vsslog",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_test_check3-00-00.vsslog"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_test_check4-00-00.html",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_test_check4-00-00.html"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/backup_test_check4-00-00.vsslog",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\backup_test_check4-00-00.vsslog"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/bmp.tmp",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\bmp.tmp"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/Cancel.bmp",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\Cancel.bmp"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/Cancel.png",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\Cancel.png"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/Cancel16.bmp",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\Cancel16.bmp"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/Cancel16.png",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\Cancel16.png"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/CBT.log",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\CBT.log"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/Delete.bmp",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\Delete.bmp"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/Delete.png",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\Delete.png"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/Delete16.bmp",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\Delete16.bmp"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/Delete16.png",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\Delete16.png"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/ED58C59CEA735BA2_Restore28-04-2026 12.32 PM.html",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\ED58C59CEA735BA2_Restore28-04-2026 12.32 PM.html"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/FCC5C26EAFF8180F_Restore06-04-2026 8.22 PM.html",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\FCC5C26EAFF8180F_Restore06-04-2026 8.22 PM.html"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/Info.png",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\Info.png"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/Info16.png",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\Info16.png"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/License.log",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\License.log"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/Logs.dat",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\Logs.dat"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/Logs_backup.dat",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\Logs_backup.dat"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/mrauto_backup.xml",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\mrauto_backup.xml"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/OK.bmp",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\OK.bmp"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/OK.png",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\OK.png"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/OK16.bmp",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\OK16.bmp"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/OK16.png",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\OK16.png"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/Wrning.bmp",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\Wrning.bmp"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/Wrning.png",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\Wrning.png"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/Wrning16.bmp",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\Wrning16.bmp"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/Wrning16.png",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\Wrning16.png"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/XMLFiles.dat",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\XMLFiles.dat"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/Scheduler/qmanager.log",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\Scheduler\\qmanager.log"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/Temp/vss.log",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\Temp\\vss.log"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Macrium/Reflect/Templates/Templates.xml",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Macrium\\Reflect\\Templates\\Templates.xml"
+    },
+    {
+      "archive_path": "files/C/Users/micha/Documents/Reflect/My Backup.xml",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\Users\\micha\\Documents\\Reflect\\My Backup.xml"
+    },
+    {
+      "archive_path": "files/C/Users/micha/Desktop/alias.txt.lnk",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\Users\\micha\\Desktop\\alias.txt.lnk"
+    },
+    {
+      "archive_path": "files/C/Users/micha/Desktop/backup.lnk",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\Users\\micha\\Desktop\\backup.lnk"
+    },
+    {
+      "archive_path": "files/C/Users/micha/Desktop/Credentials.lnk",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\Users\\micha\\Desktop\\Credentials.lnk"
+    },
+    {
+      "archive_path": "files/C/Users/micha/Desktop/Downloads.lnk",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\Users\\micha\\Desktop\\Downloads.lnk"
+    },
+    {
+      "archive_path": "files/C/Users/micha/Desktop/install.lnk",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\Users\\micha\\Desktop\\install.lnk"
+    },
+    {
+      "archive_path": "files/C/Users/micha/Desktop/installed.lnk",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\Users\\micha\\Desktop\\installed.lnk"
+    },
+    {
+      "archive_path": "files/C/Users/micha/Desktop/misha.lnk",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\Users\\micha\\Desktop\\misha.lnk"
+    },
+    {
+      "archive_path": "files/C/Users/micha/Desktop/profile.lnk",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\Users\\micha\\Desktop\\profile.lnk"
+    },
+    {
+      "archive_path": "files/C/Users/micha/Desktop/study.lnk",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\Users\\micha\\Desktop\\study.lnk"
+    },
+    {
+      "archive_path": "files/C/Users/micha/Desktop/SyncFiles.lnk",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\Users\\micha\\Desktop\\SyncFiles.lnk"
+    },
+    {
+      "archive_path": "files/C/Users/micha/Desktop/This PC.lnk",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\Users\\micha\\Desktop\\This PC.lnk"
+    },
+    {
+      "archive_path": "files/C/Users/micha/Desktop/win11recovery.lnk",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\Users\\micha\\Desktop\\win11recovery.lnk"
+    },
+    {
+      "archive_path": "files/C/Users/micha/Desktop/wsl.lnk",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\Users\\micha\\Desktop\\wsl.lnk"
+    },
+    {
+      "archive_path": "files/C/Users/micha/Desktop/yt.lnk",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\Users\\micha\\Desktop\\yt.lnk"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Microsoft/Windows/Start Menu/Programs/Macrium/Macrium viBoot.lnk",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Macrium\\Macrium viBoot.lnk"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Microsoft/Windows/Start Menu/Programs/Macrium/Reflect/Macrium Reflect.lnk",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Macrium\\Reflect\\Macrium Reflect.lnk"
+    },
+    {
+      "archive_path": "files/C/Users/micha/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Administrative Tools.lnk",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\Users\\micha\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Administrative Tools.lnk"
+    },
+    {
+      "archive_path": "files/C/Users/micha/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Ascendara.lnk",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\Users\\micha\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Ascendara.lnk"
+    },
+    {
+      "archive_path": "files/C/Users/micha/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/desktop.ini",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\Users\\micha\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\desktop.ini"
+    },
+    {
+      "archive_path": "files/C/Users/micha/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Docker Desktop.lnk",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\Users\\micha\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Docker Desktop.lnk"
+    },
+    {
+      "archive_path": "files/C/Users/micha/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/File Explorer.lnk",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\Users\\micha\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\File Explorer.lnk"
+    },
+    {
+      "archive_path": "files/C/Users/micha/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Fit Launcher.lnk",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\Users\\micha\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Fit Launcher.lnk"
+    },
+    {
+      "archive_path": "files/C/Users/micha/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Hydra.lnk",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\Users\\micha\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Hydra.lnk"
+    },
+    {
+      "archive_path": "files/C/Users/micha/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Ollama.lnk",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\Users\\micha\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Ollama.lnk"
+    },
+    {
+      "archive_path": "files/C/Users/micha/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/OpenWhispr.lnk",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\Users\\micha\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\OpenWhispr.lnk"
+    },
+    {
+      "archive_path": "files/C/Users/micha/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Wand (WeMod).lnk",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\Users\\micha\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Wand (WeMod).lnk"
+    },
+    {
+      "archive_path": "files/C/Users/micha/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Accessibility/Desktop.ini",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\Users\\micha\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Accessibility\\Desktop.ini"
+    },
+    {
+      "archive_path": "files/C/Users/micha/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Accessibility/LiveCaptions.lnk",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\Users\\micha\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Accessibility\\LiveCaptions.lnk"
+    },
+    {
+      "archive_path": "files/C/Users/micha/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Accessibility/Magnify.lnk",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\Users\\micha\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Accessibility\\Magnify.lnk"
+    },
+    {
+      "archive_path": "files/C/Users/micha/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Accessibility/Narrator.lnk",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\Users\\micha\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Accessibility\\Narrator.lnk"
+    },
+    {
+      "archive_path": "files/C/Users/micha/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Accessibility/On-Screen Keyboard.lnk",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\Users\\micha\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Accessibility\\On-Screen Keyboard.lnk"
+    },
+    {
+      "archive_path": "files/C/Users/micha/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Accessibility/VoiceAccess.lnk",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\Users\\micha\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Accessibility\\VoiceAccess.lnk"
+    },
+    {
+      "archive_path": "files/C/Users/micha/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Accessories/Desktop.ini",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\Users\\micha\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Accessories\\Desktop.ini"
+    },
+    {
+      "archive_path": "files/C/Users/micha/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Administrative Tools/desktop.ini",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\Users\\micha\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Administrative Tools\\desktop.ini"
+    },
+    {
+      "archive_path": "files/C/Users/micha/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Anthropic/Claude.lnk",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\Users\\micha\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Anthropic\\Claude.lnk"
+    },
+    {
+      "archive_path": "files/C/Users/micha/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/GitHub, Inc/GitHub Desktop.lnk",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\Users\\micha\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\GitHub, Inc\\GitHub Desktop.lnk"
+    },
+    {
+      "archive_path": "files/C/Users/micha/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Maintenance/Desktop.ini",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\Users\\micha\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Maintenance\\Desktop.ini"
+    },
+    {
+      "archive_path": "files/C/Users/micha/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Ollama/Ollama.lnk",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\Users\\micha\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Ollama\\Ollama.lnk"
+    },
+    {
+      "archive_path": "files/C/Users/micha/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Python 3.11/IDLE (Python 3.11 64-bit).lnk",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\Users\\micha\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Python 3.11\\IDLE (Python 3.11 64-bit).lnk"
+    },
+    {
+      "archive_path": "files/C/Users/micha/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Python 3.11/Python 3.11 (64-bit).lnk",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\Users\\micha\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Python 3.11\\Python 3.11 (64-bit).lnk"
+    },
+    {
+      "archive_path": "files/C/Users/micha/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Python 3.11/Python 3.11 Manuals (64-bit).lnk",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\Users\\micha\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Python 3.11\\Python 3.11 Manuals (64-bit).lnk"
+    },
+    {
+      "archive_path": "files/C/Users/micha/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Python 3.11/Python 3.11 Module Docs (64-bit).lnk",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\Users\\micha\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Python 3.11\\Python 3.11 Module Docs (64-bit).lnk"
+    },
+    {
+      "archive_path": "files/C/Users/micha/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Python 3.12/IDLE (Python 3.12 64-bit).lnk",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\Users\\micha\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Python 3.12\\IDLE (Python 3.12 64-bit).lnk"
+    },
+    {
+      "archive_path": "files/C/Users/micha/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Python 3.12/Python 3.12 (64-bit).lnk",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\Users\\micha\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Python 3.12\\Python 3.12 (64-bit).lnk"
+    },
+    {
+      "archive_path": "files/C/Users/micha/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Python 3.12/Python 3.12 Manuals (64-bit).lnk",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\Users\\micha\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Python 3.12\\Python 3.12 Manuals (64-bit).lnk"
+    },
+    {
+      "archive_path": "files/C/Users/micha/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Python 3.12/Python 3.12 Module Docs (64-bit).lnk",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\Users\\micha\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Python 3.12\\Python 3.12 Module Docs (64-bit).lnk"
+    },
+    {
+      "archive_path": "files/C/Users/micha/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Scoop Apps/7-Zip/7-Zip File Manager.lnk",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\Users\\micha\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Scoop Apps\\7-Zip\\7-Zip File Manager.lnk"
+    },
+    {
+      "archive_path": "files/C/Users/micha/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Scoop Apps/7-Zip/7-Zip Help.lnk",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\Users\\micha\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Scoop Apps\\7-Zip\\7-Zip Help.lnk"
+    },
+    {
+      "archive_path": "files/C/Users/micha/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Slack Technologies Inc/Slack.lnk",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\Users\\micha\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Slack Technologies Inc\\Slack.lnk"
+    },
+    {
+      "archive_path": "files/C/Users/micha/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Startup/current.ahk.lnk",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\Users\\micha\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\current.ahk.lnk"
+    },
+    {
+      "archive_path": "files/C/Users/micha/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Startup/desktop.ini",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\Users\\micha\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\desktop.ini"
+    },
+    {
+      "archive_path": "files/C/Users/micha/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/System Tools/Command Prompt.lnk",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\Users\\micha\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\System Tools\\Command Prompt.lnk"
+    },
+    {
+      "archive_path": "files/C/Users/micha/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/System Tools/Control Panel.lnk",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\Users\\micha\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\System Tools\\Control Panel.lnk"
+    },
+    {
+      "archive_path": "files/C/Users/micha/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/System Tools/Desktop.ini",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\Users\\micha\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\System Tools\\Desktop.ini"
+    },
+    {
+      "archive_path": "files/C/Users/micha/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/System Tools/Run.lnk",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\Users\\micha\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\System Tools\\Run.lnk"
+    },
+    {
+      "archive_path": "files/C/Users/micha/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Telegram Desktop/Telegram.lnk",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\Users\\micha\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Telegram Desktop\\Telegram.lnk"
+    },
+    {
+      "archive_path": "files/C/Users/micha/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Telegram Desktop/Uninstall Telegram.lnk",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\Users\\micha\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Telegram Desktop\\Uninstall Telegram.lnk"
+    },
+    {
+      "archive_path": "files/C/Users/micha/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Visual Studio Code/Visual Studio Code.lnk",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\Users\\micha\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Visual Studio Code\\Visual Studio Code.lnk"
+    },
+    {
+      "archive_path": "files/C/Users/micha/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Windows PowerShell/Windows PowerShell (x86).lnk",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\Users\\micha\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Windows PowerShell\\Windows PowerShell (x86).lnk"
+    },
+    {
+      "archive_path": "files/C/Users/micha/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Windows PowerShell/Windows PowerShell.lnk",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\Users\\micha\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Windows PowerShell\\Windows PowerShell.lnk"
+    },
+    {
+      "archive_path": "files/C/Users/micha/Documents/Reflect/My Backup.xml",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\Users\\micha\\Documents\\Reflect\\My Backup.xml"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Microsoft/Windows/Start Menu/Programs/Macrium/Macrium viBoot.lnk",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Macrium\\Macrium viBoot.lnk"
+    },
+    {
+      "archive_path": "files/C/ProgramData/Microsoft/Windows/Start Menu/Programs/Macrium/Reflect/Macrium Reflect.lnk",
+      "destination": "F:\\study\\Devops\\backup\\MacriumReflect\\windows\\state\\backup_restore\\tooling\\resmac-hardening-20260428-142910\\C\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Macrium\\Reflect\\Macrium Reflect.lnk"
+    }
+  ],
+  "safety_snapshot": "F:\\backup\\windowsapps\\AppsBackups\\Macrium\\pre_restore\\20260428-142919",
+  "task_results": []
+}

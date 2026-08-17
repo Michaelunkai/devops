@@ -1,0 +1,13 @@
+
+ERROR: COM call "m_pVssObject->InitializeForBackup()" failed.
+- Returned HRESULT = 0x80042302
+- Error text: <Unknown error code>
+Completing the backup (BackupComplete) ... 
+
+ERROR: COM call "m_pVssObject->BackupComplete(&pAsync)" failed.
+- Returned HRESULT = 0x80042301
+- Error text: VSS_E_BAD_STATE
+
+ERROR: COM call "m_pVssObject->InitializeForBackup()" failed.
+- Returned HRESULT = 0x80042302
+- Error text: <Unknown error code>

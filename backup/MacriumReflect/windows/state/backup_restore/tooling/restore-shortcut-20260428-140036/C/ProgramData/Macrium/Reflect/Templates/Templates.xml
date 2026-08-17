@@ -1,0 +1,597 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates version="3">
+    <template>
+        <name id="IDS_ILIB_GRANDFATHER_BACKUP_SET" hash="3f08a72ee45d994e5815a53d7eebde35">Grandfather, Father, Son.</name>
+        <description id="IDS_ILIB_GRANDFATHER_BACKUP_SET_DESCRIPTION" hash="16d43ce2a12c74c4a2cbeda66157bd37">Daily Incremental ("Son"), weekly Differential ("Father"), and monthly Full ("Grandfather") backups.</description>
+        <clone>N</clone>
+        <!--frequency: 0 = Monthly, 1 = Weekly, 2 = Daily, 3 = Intra-Daily, 4 = On Event-->
+        <!--type: 0 = Full, 1 = Diff, 2 = Inc-->
+        <!--run_if_missed: Y = run at next start-up if this schedule missed, N = Do not run at next start-up-->
+        <schedule frequency="0" type="0" run_if_missed="Y" run_if_ac_power="N" stop_if_battery_power="N" wake_computer_to_run="N" run_if_network_available="N" network_name="" network_name_guid="">
+            <monthly>
+                <!--type: 0 = Periodic days of the month, 1 = Specific days in a month-->
+                <type>0</type>
+                <!--period: 0 = First, 1 = Second, 2 = Third, 3 = Fourth, 4 = Last-->
+                <period>0</period>
+                <!--weekday: 0 = Monday, 1 = Tuesday, 2 = Wednesday, 3 = Thursday, 4 = Friday, 5 = Saturday, 6 = Sunday-->
+                <weekday>0</weekday>
+                <!--day: specified day of the month that the schedule will run-->
+                <day>1</day>
+                <!--months: specified month that the schedule will be run on-->
+                <months>
+                    <m0>Y</m0>
+                    <m1>Y</m1>
+                    <m2>Y</m2>
+                    <m3>Y</m3>
+                    <m4>Y</m4>
+                    <m5>Y</m5>
+                    <m6>Y</m6>
+                    <m7>Y</m7>
+                    <m8>Y</m8>
+                    <m9>Y</m9>
+                    <m10>Y</m10>
+                    <m11>Y</m11>
+                </months>
+                <start>
+                    <!--year: year for this time-->
+                    <year>2026</year>
+                    <!--month: month for this time-->
+                    <month>4</month>
+                    <!--day: day for this time-->
+                    <day>28</day>
+                    <!--hour: hour that the schedule will begin (24 hour clock)-->
+                    <hour>9</hour>
+                    <!--minute: minute within the hour-->
+                    <minute>0</minute>
+                    <!--second: second for this time-->
+                    <second>0</second>
+                </start>
+            </monthly>
+        </schedule>
+        <!--frequency: 0 = Monthly, 1 = Weekly, 2 = Daily, 3 = Intra-Daily, 4 = On Event-->
+        <!--type: 0 = Full, 1 = Diff, 2 = Inc-->
+        <!--run_if_missed: Y = run at next start-up if this schedule missed, N = Do not run at next start-up-->
+        <schedule frequency="1" type="1" run_if_missed="Y" run_if_ac_power="N" stop_if_battery_power="N" wake_computer_to_run="N" run_if_network_available="N" network_name="" network_name_guid="">
+            <weekly>
+                <!--days: week days for the schedule-->
+                <days>
+                    <Monday>Y</Monday>
+                    <Tuesday>N</Tuesday>
+                    <Wednesday>N</Wednesday>
+                    <Thursday>N</Thursday>
+                    <Friday>N</Friday>
+                    <Saturday>N</Saturday>
+                    <Sunday>N</Sunday>
+                </days>
+                <!--interval: run the backup every <n> weeks-->
+                <interval>1</interval>
+                <!--start: the start time of this schedule-->
+                <start>
+                    <!--year: year for this time-->
+                    <year>2026</year>
+                    <!--month: month for this time-->
+                    <month>4</month>
+                    <!--day: day for this time-->
+                    <day>28</day>
+                    <!--hour: hour that the schedule will begin (24 hour clock)-->
+                    <hour>9</hour>
+                    <!--minute: minute within the hour-->
+                    <minute>0</minute>
+                    <!--second: second for this time-->
+                    <second>0</second>
+                </start>
+            </weekly>
+        </schedule>
+        <!--frequency: 0 = Monthly, 1 = Weekly, 2 = Daily, 3 = Intra-Daily, 4 = On Event-->
+        <!--type: 0 = Full, 1 = Diff, 2 = Inc-->
+        <!--run_if_missed: Y = run at next start-up if this schedule missed, N = Do not run at next start-up-->
+        <schedule frequency="2" type="2" run_if_missed="Y" run_if_ac_power="N" stop_if_battery_power="N" wake_computer_to_run="N" run_if_network_available="N" network_name="" network_name_guid="">
+            <daily>
+                <!--type: 0 = selected days of the week, 1 = an interval period of days-->
+                <type>1</type>
+                <!--days: days that are selected for the daily schedule-->
+                <days>
+                    <Monday>Y</Monday>
+                    <Tuesday>Y</Tuesday>
+                    <Wednesday>Y</Wednesday>
+                    <Thursday>Y</Thursday>
+                    <Friday>Y</Friday>
+                    <Saturday>N</Saturday>
+                    <Sunday>N</Sunday>
+                </days>
+                <!--interval: the interval in days that this schedule will be run-->
+                <interval>1</interval>
+                <!--start: the start time of this schedule-->
+                <start>
+                    <!--year: year for this time-->
+                    <year>2026</year>
+                    <!--month: month for this time-->
+                    <month>4</month>
+                    <!--day: day for this time-->
+                    <day>28</day>
+                    <!--hour: hour that the schedule will begin (24 hour clock)-->
+                    <hour>9</hour>
+                    <!--minute: minute within the hour-->
+                    <minute>0</minute>
+                    <!--second: second for this time-->
+                    <second>0</second>
+                </start>
+            </daily>
+        </schedule>
+        <!--retention: retain = Y to keep files, N to remove files-->
+        <retention>
+            <full retain="y">
+                <!--type: 0 = retain count files, 1 = retain by days, 2 = retain by weeks-->
+                <period>2</period>
+                <!--interval: retention type interval-->
+                <interval>26</interval>
+            </full>
+            <diff retain="y">
+                <!--type: 0 = retain count files, 1 = retain by days, 2 = retain by weeks-->
+                <period>2</period>
+                <!--interval: retention type interval-->
+                <interval>4</interval>
+            </diff>
+            <inc retain="y">
+                <!--type: 0 = retain count files, 1 = retain by days, 2 = retain by weeks-->
+                <period>1</period>
+                <!--interval: retention type interval-->
+                <interval>14</interval>
+            </inc>
+            <!--flags:-->
+            <!--synth: Y/N - incremental forever retention rules-->
+            <!--applyto: 0 - similar backup sets only in the target folder, 1 - to the entire target folder-->
+            <!--before: Y/N - run retention rules before the backup-->
+            <flags synthetic_full="N" applyto="0" before="Y"/>
+        </retention>
+    </template>
+    <template>
+        <name id="IDS_ILIB_DIFFERENTIAL_BACKUP_SET" hash="8020861947d2e59b027c8e3c5421b721">Differential Backup Set</name>
+        <description id="IDS_ILIB_DIFFERENTIAL_BACKUP_SET_DESCRIPTION" hash="0d91409d5b7ad292572890edcec0cab7">A Full backup is created periodically followed by daily Differential backups.</description>
+        <clone>N</clone>
+        <!--frequency: 0 = Monthly, 1 = Weekly, 2 = Daily, 3 = Intra-Daily, 4 = On Event-->
+        <!--type: 0 = Full, 1 = Diff, 2 = Inc-->
+        <!--run_if_missed: Y = run at next start-up if this schedule missed, N = Do not run at next start-up-->
+        <schedule frequency="0" type="0" run_if_missed="Y" run_if_ac_power="N" stop_if_battery_power="N" wake_computer_to_run="N" run_if_network_available="N" network_name="" network_name_guid="">
+            <monthly>
+                <!--type: 0 = Periodic days of the month, 1 = Specific days in a month-->
+                <type>0</type>
+                <!--period: 0 = First, 1 = Second, 2 = Third, 3 = Fourth, 4 = Last-->
+                <period>0</period>
+                <!--weekday: 0 = Monday, 1 = Tuesday, 2 = Wednesday, 3 = Thursday, 4 = Friday, 5 = Saturday, 6 = Sunday-->
+                <weekday>0</weekday>
+                <!--day: specified day of the month that the schedule will run-->
+                <day>1</day>
+                <!--months: specified month that the schedule will be run on-->
+                <months>
+                    <m0>Y</m0>
+                    <m1>Y</m1>
+                    <m2>Y</m2>
+                    <m3>Y</m3>
+                    <m4>Y</m4>
+                    <m5>Y</m5>
+                    <m6>Y</m6>
+                    <m7>Y</m7>
+                    <m8>Y</m8>
+                    <m9>Y</m9>
+                    <m10>Y</m10>
+                    <m11>Y</m11>
+                </months>
+                <start>
+                    <!--year: year for this time-->
+                    <year>2026</year>
+                    <!--month: month for this time-->
+                    <month>4</month>
+                    <!--day: day for this time-->
+                    <day>28</day>
+                    <!--hour: hour that the schedule will begin (24 hour clock)-->
+                    <hour>9</hour>
+                    <!--minute: minute within the hour-->
+                    <minute>0</minute>
+                    <!--second: second for this time-->
+                    <second>0</second>
+                </start>
+            </monthly>
+        </schedule>
+        <!--frequency: 0 = Monthly, 1 = Weekly, 2 = Daily, 3 = Intra-Daily, 4 = On Event-->
+        <!--type: 0 = Full, 1 = Diff, 2 = Inc-->
+        <!--run_if_missed: Y = run at next start-up if this schedule missed, N = Do not run at next start-up-->
+        <schedule frequency="2" type="1" run_if_missed="Y" run_if_ac_power="N" stop_if_battery_power="N" wake_computer_to_run="N" run_if_network_available="N" network_name="" network_name_guid="">
+            <daily>
+                <!--type: 0 = selected days of the week, 1 = an interval period of days-->
+                <type>1</type>
+                <!--days: days that are selected for the daily schedule-->
+                <days>
+                    <Monday>Y</Monday>
+                    <Tuesday>Y</Tuesday>
+                    <Wednesday>Y</Wednesday>
+                    <Thursday>Y</Thursday>
+                    <Friday>Y</Friday>
+                    <Saturday>N</Saturday>
+                    <Sunday>N</Sunday>
+                </days>
+                <!--interval: the interval in days that this schedule will be run-->
+                <interval>1</interval>
+                <!--start: the start time of this schedule-->
+                <start>
+                    <!--year: year for this time-->
+                    <year>2026</year>
+                    <!--month: month for this time-->
+                    <month>4</month>
+                    <!--day: day for this time-->
+                    <day>28</day>
+                    <!--hour: hour that the schedule will begin (24 hour clock)-->
+                    <hour>9</hour>
+                    <!--minute: minute within the hour-->
+                    <minute>0</minute>
+                    <!--second: second for this time-->
+                    <second>0</second>
+                </start>
+            </daily>
+        </schedule>
+        <!--retention: retain = Y to keep files, N to remove files-->
+        <retention>
+            <full retain="y">
+                <!--type: 0 = retain count files, 1 = retain by days, 2 = retain by weeks-->
+                <period>2</period>
+                <!--interval: retention type interval-->
+                <interval>26</interval>
+            </full>
+            <diff retain="y">
+                <!--type: 0 = retain count files, 1 = retain by days, 2 = retain by weeks-->
+                <period>1</period>
+                <!--interval: retention type interval-->
+                <interval>30</interval>
+            </diff>
+            <inc retain="n">
+                <!--type: 0 = retain count files, 1 = retain by days, 2 = retain by weeks-->
+                <period>0</period>
+                <!--interval: retention type interval-->
+                <interval>7</interval>
+            </inc>
+            <!--flags:-->
+            <!--synth: Y/N - incremental forever retention rules-->
+            <!--applyto: 0 - similar backup sets only in the target folder, 1 - to the entire target folder-->
+            <!--before: Y/N - run retention rules before the backup-->
+            <flags synthetic_full="N" applyto="0" before="Y"/>
+        </retention>
+    </template>
+    <template>
+        <name id="IDS_ILIB_INCREMENTAL_BACKUP_SET" hash="d2df53a21fa525d6b6754201bd0012d0">Incremental Backup Set</name>
+        <description id="IDS_ILIB_INCREMENTAL_BACKUP_SET_DESCRIPTION" hash="c968cc492010cd779c8f955217b62ed9">A Full backup is created periodically followed by daily Incremental backups.</description>
+        <clone>N</clone>
+        <!--frequency: 0 = Monthly, 1 = Weekly, 2 = Daily, 3 = Intra-Daily, 4 = On Event-->
+        <!--type: 0 = Full, 1 = Diff, 2 = Inc-->
+        <!--run_if_missed: Y = run at next start-up if this schedule missed, N = Do not run at next start-up-->
+        <schedule frequency="0" type="0" run_if_missed="Y" run_if_ac_power="N" stop_if_battery_power="N" wake_computer_to_run="N" run_if_network_available="N" network_name="" network_name_guid="">
+            <monthly>
+                <!--type: 0 = Periodic days of the month, 1 = Specific days in a month-->
+                <type>0</type>
+                <!--period: 0 = First, 1 = Second, 2 = Third, 3 = Fourth, 4 = Last-->
+                <period>0</period>
+                <!--weekday: 0 = Monday, 1 = Tuesday, 2 = Wednesday, 3 = Thursday, 4 = Friday, 5 = Saturday, 6 = Sunday-->
+                <weekday>0</weekday>
+                <!--day: specified day of the month that the schedule will run-->
+                <day>1</day>
+                <!--months: specified month that the schedule will be run on-->
+                <months>
+                    <m0>Y</m0>
+                    <m1>Y</m1>
+                    <m2>Y</m2>
+                    <m3>Y</m3>
+                    <m4>Y</m4>
+                    <m5>Y</m5>
+                    <m6>Y</m6>
+                    <m7>Y</m7>
+                    <m8>Y</m8>
+                    <m9>Y</m9>
+                    <m10>Y</m10>
+                    <m11>Y</m11>
+                </months>
+                <start>
+                    <!--year: year for this time-->
+                    <year>2026</year>
+                    <!--month: month for this time-->
+                    <month>4</month>
+                    <!--day: day for this time-->
+                    <day>28</day>
+                    <!--hour: hour that the schedule will begin (24 hour clock)-->
+                    <hour>9</hour>
+                    <!--minute: minute within the hour-->
+                    <minute>0</minute>
+                    <!--second: second for this time-->
+                    <second>0</second>
+                </start>
+            </monthly>
+        </schedule>
+        <!--frequency: 0 = Monthly, 1 = Weekly, 2 = Daily, 3 = Intra-Daily, 4 = On Event-->
+        <!--type: 0 = Full, 1 = Diff, 2 = Inc-->
+        <!--run_if_missed: Y = run at next start-up if this schedule missed, N = Do not run at next start-up-->
+        <schedule frequency="2" type="2" run_if_missed="Y" run_if_ac_power="N" stop_if_battery_power="N" wake_computer_to_run="N" run_if_network_available="N" network_name="" network_name_guid="">
+            <daily>
+                <!--type: 0 = selected days of the week, 1 = an interval period of days-->
+                <type>1</type>
+                <!--days: days that are selected for the daily schedule-->
+                <days>
+                    <Monday>Y</Monday>
+                    <Tuesday>Y</Tuesday>
+                    <Wednesday>Y</Wednesday>
+                    <Thursday>Y</Thursday>
+                    <Friday>Y</Friday>
+                    <Saturday>N</Saturday>
+                    <Sunday>N</Sunday>
+                </days>
+                <!--interval: the interval in days that this schedule will be run-->
+                <interval>1</interval>
+                <!--start: the start time of this schedule-->
+                <start>
+                    <!--year: year for this time-->
+                    <year>2026</year>
+                    <!--month: month for this time-->
+                    <month>4</month>
+                    <!--day: day for this time-->
+                    <day>28</day>
+                    <!--hour: hour that the schedule will begin (24 hour clock)-->
+                    <hour>9</hour>
+                    <!--minute: minute within the hour-->
+                    <minute>0</minute>
+                    <!--second: second for this time-->
+                    <second>0</second>
+                </start>
+            </daily>
+        </schedule>
+        <!--retention: retain = Y to keep files, N to remove files-->
+        <retention>
+            <full retain="y">
+                <!--type: 0 = retain count files, 1 = retain by days, 2 = retain by weeks-->
+                <period>2</period>
+                <!--interval: retention type interval-->
+                <interval>26</interval>
+            </full>
+            <diff retain="n">
+                <!--type: 0 = retain count files, 1 = retain by days, 2 = retain by weeks-->
+                <period>0</period>
+                <!--interval: retention type interval-->
+                <interval>4</interval>
+            </diff>
+            <inc retain="y">
+                <!--type: 0 = retain count files, 1 = retain by days, 2 = retain by weeks-->
+                <period>1</period>
+                <!--interval: retention type interval-->
+                <interval>30</interval>
+            </inc>
+            <!--flags:-->
+            <!--synth: Y/N - incremental forever retention rules-->
+            <!--applyto: 0 - similar backup sets only in the target folder, 1 - to the entire target folder-->
+            <!--before: Y/N - run retention rules before the backup-->
+            <flags synthetic_full="N" applyto="0" before="Y"/>
+        </retention>
+    </template>
+    <template>
+        <name id="IDS_ILIB_INTRADAILY_BACKUP_SET" hash="5cbc20115a589c69aed7e3ce80203d32">Intra-Daily Backup Set</name>
+        <description id="IDS_ILIB_INTRADAILY_BACKUP_SET_DESCRIPTION" hash="cd23d94d6d0f1963d620a1a9483d32d5">A Full backup is created monthly, then daily Differentials followed by Incremental backups every 15 minutes during the day.</description>
+        <clone>N</clone>
+        <!--frequency: 0 = Monthly, 1 = Weekly, 2 = Daily, 3 = Intra-Daily, 4 = On Event-->
+        <!--type: 0 = Full, 1 = Diff, 2 = Inc-->
+        <!--run_if_missed: Y = run at next start-up if this schedule missed, N = Do not run at next start-up-->
+        <schedule frequency="0" type="0" run_if_missed="Y" run_if_ac_power="N" stop_if_battery_power="N" wake_computer_to_run="Y" run_if_network_available="N" network_name="" network_name_guid="">
+            <monthly>
+                <!--type: 0 = Periodic days of the month, 1 = Specific days in a month-->
+                <type>0</type>
+                <!--period: 0 = First, 1 = Second, 2 = Third, 3 = Fourth, 4 = Last-->
+                <period>0</period>
+                <!--weekday: 0 = Monday, 1 = Tuesday, 2 = Wednesday, 3 = Thursday, 4 = Friday, 5 = Saturday, 6 = Sunday-->
+                <weekday>0</weekday>
+                <!--day: specified day of the month that the schedule will run-->
+                <day>1</day>
+                <!--months: specified month that the schedule will be run on-->
+                <months>
+                    <m0>Y</m0>
+                    <m1>Y</m1>
+                    <m2>Y</m2>
+                    <m3>Y</m3>
+                    <m4>Y</m4>
+                    <m5>Y</m5>
+                    <m6>Y</m6>
+                    <m7>Y</m7>
+                    <m8>Y</m8>
+                    <m9>Y</m9>
+                    <m10>Y</m10>
+                    <m11>Y</m11>
+                </months>
+                <start>
+                    <!--year: year for this time-->
+                    <year>2026</year>
+                    <!--month: month for this time-->
+                    <month>4</month>
+                    <!--day: day for this time-->
+                    <day>28</day>
+                    <!--hour: hour that the schedule will begin (24 hour clock)-->
+                    <hour>9</hour>
+                    <!--minute: minute within the hour-->
+                    <minute>0</minute>
+                    <!--second: second for this time-->
+                    <second>0</second>
+                </start>
+            </monthly>
+        </schedule>
+        <!--frequency: 0 = Monthly, 1 = Weekly, 2 = Daily, 3 = Intra-Daily, 4 = On Event-->
+        <!--type: 0 = Full, 1 = Diff, 2 = Inc-->
+        <!--run_if_missed: Y = run at next start-up if this schedule missed, N = Do not run at next start-up-->
+        <schedule frequency="2" type="1" run_if_missed="Y" run_if_ac_power="N" stop_if_battery_power="N" wake_computer_to_run="Y" run_if_network_available="N" network_name="" network_name_guid="">
+            <daily>
+                <!--type: 0 = selected days of the week, 1 = an interval period of days-->
+                <type>1</type>
+                <!--days: days that are selected for the daily schedule-->
+                <days>
+                    <Monday>Y</Monday>
+                    <Tuesday>Y</Tuesday>
+                    <Wednesday>Y</Wednesday>
+                    <Thursday>Y</Thursday>
+                    <Friday>Y</Friday>
+                    <Saturday>Y</Saturday>
+                    <Sunday>Y</Sunday>
+                </days>
+                <!--interval: the interval in days that this schedule will be run-->
+                <interval>1</interval>
+                <!--start: the start time of this schedule-->
+                <start>
+                    <!--year: year for this time-->
+                    <year>2026</year>
+                    <!--month: month for this time-->
+                    <month>4</month>
+                    <!--day: day for this time-->
+                    <day>28</day>
+                    <!--hour: hour that the schedule will begin (24 hour clock)-->
+                    <hour>9</hour>
+                    <!--minute: minute within the hour-->
+                    <minute>0</minute>
+                    <!--second: second for this time-->
+                    <second>0</second>
+                </start>
+            </daily>
+        </schedule>
+        <!--frequency: 0 = Monthly, 1 = Weekly, 2 = Daily, 3 = Intra-Daily, 4 = On Event-->
+        <!--type: 0 = Full, 1 = Diff, 2 = Inc-->
+        <!--run_if_missed: Y = run at next start-up if this schedule missed, N = Do not run at next start-up-->
+        <schedule frequency="5" type="2" run_if_missed="Y" run_if_ac_power="N" stop_if_battery_power="N" wake_computer_to_run="Y" run_if_network_available="N" network_name="" network_name_guid="">
+            <intradaily>
+                <!--interval: run the backup every <n> minutes-->
+                <interval>15</interval>
+                <!--days: days that the backup will be run-->
+                <days>
+                    <Monday>Y</Monday>
+                    <Tuesday>Y</Tuesday>
+                    <Wednesday>Y</Wednesday>
+                    <Thursday>Y</Thursday>
+                    <Friday>Y</Friday>
+                    <Saturday>Y</Saturday>
+                    <Sunday>Y</Sunday>
+                </days>
+                <!--start: the start time of this schedule-->
+                <start>
+                    <!--year: year for this time-->
+                    <year>2026</year>
+                    <!--month: month for this time-->
+                    <month>4</month>
+                    <!--day: day for this time-->
+                    <day>28</day>
+                    <!--hour: hour that the schedule will begin (24 hour clock)-->
+                    <hour>9</hour>
+                    <!--minute: minute within the hour-->
+                    <minute>0</minute>
+                    <!--second: second for this time-->
+                    <second>0</second>
+                </start>
+                <!--end: the end time of this schedule-->
+                <end>
+                    <!--year: year for this time-->
+                    <year>2026</year>
+                    <!--month: month for this time-->
+                    <month>4</month>
+                    <!--day: day for this time-->
+                    <day>28</day>
+                    <!--hour: hour that the schedule will begin (24 hour clock)-->
+                    <hour>17</hour>
+                    <!--minute: minute within the hour-->
+                    <minute>30</minute>
+                    <!--second: second for this time-->
+                    <second>0</second>
+                </end>
+            </intradaily>
+        </schedule>
+        <!--retention: retain = Y to keep files, N to remove files-->
+        <retention>
+            <full retain="y">
+                <!--type: 0 = retain count files, 1 = retain by days, 2 = retain by weeks-->
+                <period>0</period>
+                <!--interval: retention type interval-->
+                <interval>6</interval>
+            </full>
+            <diff retain="y">
+                <!--type: 0 = retain count files, 1 = retain by days, 2 = retain by weeks-->
+                <period>0</period>
+                <!--interval: retention type interval-->
+                <interval>30</interval>
+            </diff>
+            <inc retain="n">
+                <!--type: 0 = retain count files, 1 = retain by days, 2 = retain by weeks-->
+                <period>0</period>
+                <!--interval: retention type interval-->
+                <interval>10</interval>
+            </inc>
+            <!--flags:-->
+            <!--synth: Y/N - incremental forever retention rules-->
+            <!--applyto: 0 - similar backup sets only in the target folder, 1 - to the entire target folder-->
+            <!--before: Y/N - run retention rules before the backup-->
+            <flags synthetic_full="N" applyto="0" before="Y"/>
+        </retention>
+    </template>
+    <template>
+        <name id="IDS_ILIB_INCREMENTALS_FOREVER_SET" hash="7fa0e9c5130e03a79d6200716157da19">Incrementals Forever</name>
+        <description id="IDS_ILIB_INCREMENTALS_FOREVER_SET_DESCRIPTION" hash="5e2a32aa7e6f03d1498465b095ecc8fe">Incrementals Forever optimizes backup space and time by only ever creating a single Full backup.&amp;#10;&amp;#10;After this, Incremental backups are created ad infinitum. The Full backup is consolidated with subsequent Incremental backups once the specified number of Incremental backups is reached.&amp;#10;&amp;#10;This is also known as a Synthetic Full backup.</description>
+        <clone>N</clone>
+        <!--frequency: 0 = Monthly, 1 = Weekly, 2 = Daily, 3 = Intra-Daily, 4 = On Event-->
+        <!--type: 0 = Full, 1 = Diff, 2 = Inc-->
+        <!--run_if_missed: Y = run at next start-up if this schedule missed, N = Do not run at next start-up-->
+        <schedule frequency="2" type="2" run_if_missed="Y" run_if_ac_power="N" stop_if_battery_power="N" wake_computer_to_run="N" run_if_network_available="N" network_name="" network_name_guid="">
+            <daily>
+                <!--type: 0 = selected days of the week, 1 = an interval period of days-->
+                <type>1</type>
+                <!--days: days that are selected for the daily schedule-->
+                <days>
+                    <Monday>Y</Monday>
+                    <Tuesday>Y</Tuesday>
+                    <Wednesday>Y</Wednesday>
+                    <Thursday>Y</Thursday>
+                    <Friday>Y</Friday>
+                    <Saturday>N</Saturday>
+                    <Sunday>N</Sunday>
+                </days>
+                <!--interval: the interval in days that this schedule will be run-->
+                <interval>1</interval>
+                <!--start: the start time of this schedule-->
+                <start>
+                    <!--year: year for this time-->
+                    <year>2026</year>
+                    <!--month: month for this time-->
+                    <month>4</month>
+                    <!--day: day for this time-->
+                    <day>28</day>
+                    <!--hour: hour that the schedule will begin (24 hour clock)-->
+                    <hour>9</hour>
+                    <!--minute: minute within the hour-->
+                    <minute>0</minute>
+                    <!--second: second for this time-->
+                    <second>0</second>
+                </start>
+            </daily>
+        </schedule>
+        <!--retention: retain = Y to keep files, N to remove files-->
+        <retention>
+            <full retain="n">
+                <!--type: 0 = retain count files, 1 = retain by days, 2 = retain by weeks-->
+                <period>0</period>
+                <!--interval: retention type interval-->
+                <interval>1</interval>
+            </full>
+            <diff retain="n">
+                <!--type: 0 = retain count files, 1 = retain by days, 2 = retain by weeks-->
+                <period>0</period>
+                <!--interval: retention type interval-->
+                <interval>4</interval>
+            </diff>
+            <inc retain="y">
+                <!--type: 0 = retain count files, 1 = retain by days, 2 = retain by weeks-->
+                <period>0</period>
+                <!--interval: retention type interval-->
+                <interval>30</interval>
+            </inc>
+            <!--flags:-->
+            <!--synth: Y/N - incremental forever retention rules-->
+            <!--applyto: 0 - similar backup sets only in the target folder, 1 - to the entire target folder-->
+            <!--before: Y/N - run retention rules before the backup-->
+            <flags synthetic_full="Y" applyto="0" before="Y"/>
+        </retention>
+    </template>
+</templates>

@@ -1,0 +1,133 @@
+//=======================================================================
+//================ Lex class support ====================================
+//=======================================================================
+// 	lexClass:
+//		name       = c_CPPString
+//		parent     = c_CPP
+//		parent:dyn = c_CPP
+//
+//		children = 0
+//		children = class1, class2, ...
+//
+//		previous:class          =	
+//		previous:tag            =	
+//		previous:tag:separators =	
+//
+//		start:class = 
+//		start:Tag   = '"'
+//
+//		skip:Tag = '\"'
+//
+//		end:class      = //
+//		end:Tag        = '"'
+//		end:separators = ' '
+//
+//		Token:tag              = 'if', 'for', 'while', 'do'
+//		Token:start:separators = 
+//		Token:end:separators   = 
+//-----------------------------------------------------------------------
+//---------------- Attributes -------------------------------------------
+//-----------------------------------------------------------------------
+//	txt:colorFG = 0xffc0c0 // color value in hex format. default: black
+//	txt:colorBK = 0xffc0c0 // color value in hex format. default: white
+//
+//	txt:colorSelFG = 0xffc0c0 // color value in hex format. default: white
+//	txt:colorSelBK = 0xffc0c0 // color value in hex format. default: black
+//
+//	txt:Bold      = 1 // {1,0} default: 0
+//	txt:italic    = 0 // {1,0} default: 0
+//	txt:Underline = 1 // {1,0} default: 0
+//
+//	caseSensitive = 1 // {1,0} default: 0
+//
+//	Collapsable   = 1 // {1,0} default: 0
+//	CollapsedText = '/*...*/' // quoted string value. default: '[..]'
+//
+//	ParseOnScreen = 0 // {1,0} default: 0
+//-----------------------------------------------------------------------
+//* Global attributes ***************************************************
+//-----------------------------------------------------------------------
+// 	global:FirstParseInSeparateThread	          = 0   // {0,1} default=1
+// 	global:EditReparceInSeparateThread	        = 0   // {0,1} default=1
+//	global:ConfigChangedReparceInSeparateThread = 0   // {0,1} default=1
+// 	global:EditReparceTimeout_ms                = 500 // default= 500 ms; time out for start reparse after last key was pressed.
+// 	global:MaxBackParseOffset                   = 100 // default= 100 chars; maximum back buffer size. Some times parser look back for the text from current position.
+// 	global:OnScreenSchCacheLifeTime_sec         = 180 // default= 180 sec; -1 and 0 means infinite; time out for on screen parsed pices of text. for memory using optimization.
+// 	global:ParserThreadIdleLifeTime_sec         = 60  // default=60 sec; -1 and 0 means infinite; time out for existing of parser thread when parser idle (no parse requests).
+/////////////////////////////////////////////////////////////////////////
+//=======================================================================
+//================ Variables support ====================================
+//=======================================================================
+// NON operation - example:   @alpha:not
+//
+// @alpha	= a-z, A-Z
+// @digit	= 0-9
+// @HexDdigit	= 0-9, a-f, A-F
+// @specs	= "~`!@#$%^&*()_-+=\\|{}[];:'\",.<>/?"
+// @EOL		= End Of Line
+//---------------------------------------------
+// special tags:  '\\', '\'', '\t', '\r', '\n'
+/////////////////////////////////////////////////////////////////////////
+
+/// XML ///
+lexClass:
+	parent:file   = <*.xml>
+	name          = c_XMLScript
+	caseSensitive	= 0
+	txt:colorFG   = 0xFFFFFF
+	txt:bold	= 1
+
+	global:EditReparceTimeout_ms                = 15000
+	global:OnScreenSchcacheLifeTime_sec         = 0
+	global:ParserThreadIdleLifeTime_sec         = 300
+ 	global:FirstParseInSeparateThread           = 1 // {0,1} default=1
+ 	global:EditReparceInSeparateThread          = 1 // {0,1} default=1
+	global:ConfigChangedReparceInSeparateThread = 1 // {0,1} default=1
+
+lexClass: 	
+	name          = c_XMLString_char
+	parent:dyn    = c_XMLScript
+	children		  = 0
+	start:Tag		  = '"',  
+	end:Tag			  = '"', @eol
+	txt:colorFG		= 0xE00000
+	txt:bold	= 0
+  
+lexClass:
+	name           = c_XMLComment
+	parent         = c_XMLScript
+	DisplayName    = 'XML Comment'
+	ParseOnScreen  = 0
+	txt:colorFG	   = 0x76F773
+	txt:Italic	= 1
+	end:separators = @EOL
+	start:tag	     = '<!--'
+	txt:bold	= 0
+
+lexClass:
+	name           = c_XMLNode
+	parent         = c_XMLScript
+	DisplayName    = 'XML Node'
+	ParseOnScreen  = 0
+	txt:colorfg   = 0x808080
+	txt:Italic	= 0
+	token:end:separators   = ' ', '\t', ':', ';', '!', '(', ')', '{', '}', @eol, ','
+	start:tag	     = '<'
+	end:tag	     = '>', ' '
+	txt:bold	= 1
+
+lexClass:
+	name           = c_XMLNodeClose
+	parent         = c_XMLScript
+	DisplayName    = 'XML Node Close'
+	ParseOnScreen  = 0
+	txt:colorfg   = 0x808080
+	txt:Italic	= 0
+	start:tag	     = '>', '/>'
+	end:tag	     = '>', '/>'
+	txt:bold	= 0
+	txt:bold	= 1
+
+
+
+

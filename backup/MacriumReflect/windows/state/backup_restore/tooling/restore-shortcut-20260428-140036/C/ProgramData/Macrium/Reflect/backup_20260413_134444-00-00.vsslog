@@ -1,0 +1,81 @@
+(Gathering writer metadata...)
+(Waiting for the asynchronous operation to finish...)
+Initialize writer metadata ...
+- Get exclude files
+- Enumerate components
+- Get file list descriptors
+- Get database descriptors
+- Get log descriptors
+- Get exclude files
+- Enumerate components
+- Get file list descriptors
+- Get database descriptors
+- Get log descriptors
+- Get exclude files
+- Enumerate components
+- Get file list descriptors
+- Get database descriptors
+- Get log descriptors
+- Get exclude files
+- Enumerate components
+- Get file list descriptors
+- Get database descriptors
+- Get log descriptors
+- Get exclude files
+- Enumerate components
+- Get exclude files
+- Enumerate components
+- Get file list descriptors
+- Get database descriptors
+- Get log descriptors
+- Get exclude files
+- Enumerate components
+Discover directly excluded components ...
+- Excluding writer '' since it has no selected components for restore.
+- Excluding writer '' since it has no selected components for restore.
+- Excluding writer 'Shadow Copy Optimization Writer' since it has no selected components for restore.
+- Excluding writer 'BITS Writer' since it has no selected components for restore.
+Discover components that reside outside the shadow set ...
+Discover all excluded components ...
+Discover excluded writers ...
+Discover explicitly included components ...
+Verifying explicitly specified writers/components ...
+Select explicitly included components ...
+ * Writer 'Task Scheduler Writer':
+   - Add component \TasksStore
+ * Writer 'VSS Metadata Store Writer':
+   - Add component \WriterMetadataStore
+ * Writer 'Performance Counters Writer':
+   - Add component \PerformanceCounters
+ * Writer 'Registry Writer':
+   - Add component \Registry
+ * Writer 'COM+ REGDB Writer':
+   - Add component \COM+ REGDB
+Creating shadow set {a5a6b02d-dd57-4903-8789-b14417201c52} ...
+- Adding volume \\?\Volume{55cfa735-ac3f-4c8b-beef-b3b8c2f92e89}\ [C:\] to the shadow set...
+Preparing for backup ... 
+(Waiting for the asynchronous operation to finish...)
+(Waiting for the asynchronous operation to finish...)
+Creating the shadow (DoSnapshotSet) ... 
+(Waiting for the asynchronous operation to finish...)
+(Waiting for the asynchronous operation to finish...)
+Shadow copy set successfully created.
+Saving the backup components document ... 
+
+List of created shadow copies: 
+
+
+Querying all shadow copies with the SnapshotSetID {a5a6b02d-dd57-4903-8789-b14417201c52} ...
+
+* SNAPSHOT ID = {f368ad7a-fbed-4427-9c50-0e878926923b} ...
+   - Shadow copy Set: {a5a6b02d-dd57-4903-8789-b14417201c52}
+   - Original count of shadow copies = 1
+   - Original Volume name: \\?\Volume{55cfa735-ac3f-4c8b-beef-b3b8c2f92e89}\ [C:\]
+   - Creation Time: 13/04/2026 13:44:55
+   - Shadow copy device name: \\?\GLOBALROOT\Device\HarddiskVolumeShadowCopy1
+   - Originating machine: user
+   - Service machine: user
+   - Not Exposed
+   - Provider id: {b5946137-7b9f-4925-af80-51abd60b20d5}
+   - Attributes:  Auto_Release Differential
+
